@@ -1,3 +1,4 @@
+/* Component for top bar visuals */
 
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
@@ -10,14 +11,7 @@ function Header() {
     <div className={s.root}>
       <div className={s.container}>
         <Navigation className={s.nav} />
-        <Link className={s.brand} to="/">
-          <img src={require('./logo-small.png')} width="38" height="38" alt="React" />
-          <span className={s.brandTxt}>Artisans</span>
-        </Link>
-        <div className={s.banner}>
-          <h1 className={s.bannerTitle}>Artisans</h1>
-          <p className={s.bannerDesc}>Facilitating a better contractor experience.</p>
-        </div>
+        
       </div>
     </div>
   );

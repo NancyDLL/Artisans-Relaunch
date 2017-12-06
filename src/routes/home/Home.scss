@@ -1,38 +1,67 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 @import '../../components/variables.scss';
 
+/* GRID DEFINITION x */
 .root {
-  padding-left: 20px;
-  padding-right: 20px;
+
 }
 
+/* STYLING */
 .container {
-  margin: 0 auto;
-  padding: 0 0 40px;
-  max-width: $max-content-width;
+  width: 100%;
+  height: 200px;
+  background-image: url("./theArtisan.jpeg");
+  background-size: cover;
 }
 
-.news {
-  padding: 0;
+h1 {
+  font-family: $font-family-base;
+  margin: 0px;
+  font-weight: 100;
+  font-size: 4rem;
 }
 
-.newsItem {
-  list-style-type: none;
-  padding-bottom: 6px;
+.banner {
+  padding: 30px 0px;
+  text-align: center;
+  background: #954627; /* Warm Brown */
 }
 
-.newsTitle {
-  font-size: 1.125em;
+.bannerTitle {
+  color: #FFF;
+
 }
 
-.newsTitle, .newsDesc {
-  display: block;
+.bannerDesc {
+  color: rgba(255, 255, 255, .5);
+  font-size: 1.25em;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+/* LINK STYLING */
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(255, 255, 255, .6);
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.highlight {
+  padding: 5px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+
+  &:hover{
+    background: darken($baseColor, 5%);
+  }
+}
+
+.spacer {
+  color: rgba(255, 255, 255, .3);
 }

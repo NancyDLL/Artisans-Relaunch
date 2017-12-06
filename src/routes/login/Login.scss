@@ -1,21 +1,88 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 @import '../../components/variables.scss';
 
-.root {
-  padding-left: 20px;
-  padding-right: 20px;
+/* GRID DEFINITION x */
+.root{
 }
+.container{
+  min-height: 50rem; 
+}
+.title{
+  padding: 15px;
+  text-align: center;
+}
+.loginForm{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.usrname{
+  grid-column: 2 / span 1;
+  grid-row: 1;
+}
+.usrnameBox{
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  margin-bottom: 20px;
+}
+.pssword{
+  grid-column: 2 / span 1;
+  grid-row: 3;
+}
+.psswordBox{
+  grid-column: 2 / span 1;
+  grid-row: 4;
+  margin-bottom: 20px;
+}
+.sbmit{
+  grid-column: 2 / span 1;
+  grid-row: 5;
+}
+.psw{
+  grid-column: 2 / span 1;
+  grid-row: 6s;
+}
+/* LOGIN STYLING */
+.container{
+  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.loginForm{
 
-.container {
-  margin: 0 auto;
-  padding: 0 0 40px;
-  max-width: $max-content-width;
+}
+h1{
+  margin: 0px;
+  color: #954627; /* Warm Brown */
+  font-weight: normal;
+  font-size: 2em;
+}
+label{
+  color: #484848; /* Grey */
+}
+input{
+  padding: 10px;
+  font-size: .75em;
+  border-radius: 7px;
+  border-color: #808080;  /* Light Grey */
+  border-style: solid;
+  border-width: 0.5px;
+}
+button{
+  width: 100%;
+  background-color: #954627; /* Warm Brown */
+  color: #FFF;  /* White */
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 7px;
+  border-color: #808080;  /* Light Grey */
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+.psw{
+  padding: 20px;
+  text-align: center;
 }

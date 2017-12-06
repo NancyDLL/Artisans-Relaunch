@@ -56,57 +56,57 @@ module.exports =
   
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
   
-  __webpack_require__(92);
+  __webpack_require__(101);
   
-  var _path = __webpack_require__(25);
+  var _path = __webpack_require__(26);
   
   var _path2 = _interopRequireDefault(_path);
   
-  var _express = __webpack_require__(109);
+  var _express = __webpack_require__(117);
   
   var _express2 = _interopRequireDefault(_express);
   
-  var _cookieParser = __webpack_require__(106);
+  var _cookieParser = __webpack_require__(114);
   
   var _cookieParser2 = _interopRequireDefault(_cookieParser);
   
-  var _bodyParser = __webpack_require__(104);
+  var _bodyParser = __webpack_require__(113);
   
   var _bodyParser2 = _interopRequireDefault(_bodyParser);
   
-  var _expressJwt = __webpack_require__(111);
+  var _expressJwt = __webpack_require__(119);
   
   var _expressJwt2 = _interopRequireDefault(_expressJwt);
   
-  var _expressGraphql = __webpack_require__(110);
+  var _expressGraphql = __webpack_require__(118);
   
   var _expressGraphql2 = _interopRequireDefault(_expressGraphql);
   
-  var _jsonwebtoken = __webpack_require__(118);
+  var _jsonwebtoken = __webpack_require__(126);
   
   var _jsonwebtoken2 = _interopRequireDefault(_jsonwebtoken);
   
-  var _server = __webpack_require__(125);
+  var _server = __webpack_require__(133);
   
   var _server2 = _interopRequireDefault(_server);
   
-  var _prettyError = __webpack_require__(124);
+  var _prettyError = __webpack_require__(132);
   
   var _prettyError2 = _interopRequireDefault(_prettyError);
   
-  var _passport = __webpack_require__(39);
+  var _passport = __webpack_require__(41);
   
   var _passport2 = _interopRequireDefault(_passport);
   
-  var _schema = __webpack_require__(43);
+  var _schema = __webpack_require__(45);
   
   var _schema2 = _interopRequireDefault(_schema);
   
-  var _routes = __webpack_require__(47);
+  var _routes = __webpack_require__(49);
   
   var _routes2 = _interopRequireDefault(_routes);
   
-  var _assets = __webpack_require__(91);
+  var _assets = __webpack_require__(100);
   
   var _assets2 = _interopRequireDefault(_assets);
   
@@ -121,12 +121,7 @@ module.exports =
   // user agent is not known.
   // -----------------------------------------------------------------------------
   /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
+   * Note
    */
   
   global.navigator = global.navigator || {};
@@ -186,7 +181,7 @@ module.exports =
             case 0:
               _context.prev = 0;
               statusCode = 200;
-              template = __webpack_require__(86);
+              template = __webpack_require__(94);
               data = { title: '', description: '', css: '', body: '', entry: _assets2.default.main.js };
   
   
@@ -251,7 +246,7 @@ module.exports =
   server.use(function (err, req, res, next) {
     // eslint-disable-line no-unused-vars
     console.log(pe.render(err)); // eslint-disable-line no-console
-    var template = __webpack_require__(85);
+    var template = __webpack_require__(93);
     var statusCode = err.status || 500;
     res.status(statusCode);
     res.send(template({
@@ -340,11 +335,11 @@ module.exports =
   
   var _assign2 = _interopRequireDefault(_assign);
   
-  var _stringify = __webpack_require__(94);
+  var _stringify = __webpack_require__(103);
   
   var _stringify2 = _interopRequireDefault(_stringify);
   
-  var _slicedToArray2 = __webpack_require__(102);
+  var _slicedToArray2 = __webpack_require__(111);
   
   var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
   
@@ -513,37 +508,37 @@ module.exports =
 /* 7 */
 /***/ (function(module, exports) {
 
-  module.exports = require("graphql");
+  module.exports = require("babel-runtime/core-js/object/get-prototype-of");
 
 /***/ }),
 /* 8 */
 /***/ (function(module, exports) {
 
-  module.exports = require("babel-runtime/core-js/object/get-prototype-of");
+  module.exports = require("babel-runtime/helpers/classCallCheck");
 
 /***/ }),
 /* 9 */
 /***/ (function(module, exports) {
 
-  module.exports = require("babel-runtime/helpers/classCallCheck");
+  module.exports = require("babel-runtime/helpers/createClass");
 
 /***/ }),
 /* 10 */
 /***/ (function(module, exports) {
 
-  module.exports = require("babel-runtime/helpers/createClass");
+  module.exports = require("babel-runtime/helpers/inherits");
 
 /***/ }),
 /* 11 */
 /***/ (function(module, exports) {
 
-  module.exports = require("babel-runtime/helpers/inherits");
+  module.exports = require("babel-runtime/helpers/possibleConstructorReturn");
 
 /***/ }),
 /* 12 */
 /***/ (function(module, exports) {
 
-  module.exports = require("babel-runtime/helpers/possibleConstructorReturn");
+  module.exports = require("graphql");
 
 /***/ }),
 /* 13 */
@@ -612,31 +607,31 @@ module.exports =
     value: true
   });
   
-  var _extends2 = __webpack_require__(100);
+  var _extends2 = __webpack_require__(109);
   
   var _extends3 = _interopRequireDefault(_extends2);
   
-  var _objectWithoutProperties2 = __webpack_require__(101);
+  var _objectWithoutProperties2 = __webpack_require__(110);
   
   var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
   
-  var _getPrototypeOf = __webpack_require__(8);
+  var _getPrototypeOf = __webpack_require__(7);
   
   var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
   
-  var _classCallCheck2 = __webpack_require__(9);
+  var _classCallCheck2 = __webpack_require__(8);
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(10);
+  var _createClass2 = __webpack_require__(9);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
-  var _possibleConstructorReturn2 = __webpack_require__(12);
+  var _possibleConstructorReturn2 = __webpack_require__(11);
   
   var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
   
-  var _inherits2 = __webpack_require__(11);
+  var _inherits2 = __webpack_require__(10);
   
   var _inherits3 = _interopRequireDefault(_inherits2);
   
@@ -644,19 +639,14 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Location = __webpack_require__(37);
+  var _Location = __webpack_require__(39);
   
   var _Location2 = _interopRequireDefault(_Location);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
+   * Notes
    */
   
   function isLeftClickEvent(event) {
@@ -692,7 +682,7 @@ module.exports =
           return;
         }
   
-        if (event.defaultPrevented === true) {
+        if (event.defaultPrevented) {
           allowTransition = false;
         }
   
@@ -745,7 +735,7 @@ module.exports =
   
   var _bluebird2 = _interopRequireDefault(_bluebird);
   
-  var _nodeFetch = __webpack_require__(120);
+  var _nodeFetch = __webpack_require__(128);
   
   var _nodeFetch2 = _interopRequireDefault(_nodeFetch);
   
@@ -815,7 +805,7 @@ module.exports =
 /* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = { "default": __webpack_require__(108), __esModule: true };
+  module.exports = { "default": __webpack_require__(116), __esModule: true };
 
 /***/ }),
 /* 20 */
@@ -825,7 +815,7 @@ module.exports =
   
   exports.__esModule = true;
   
-  var _defineProperty = __webpack_require__(96);
+  var _defineProperty = __webpack_require__(105);
   
   var _defineProperty2 = _interopRequireDefault(_defineProperty);
   
@@ -1070,7 +1060,7 @@ module.exports =
       throw err;
     }
     try {
-      str = str || __webpack_require__(24).readFileSync(filename, 'utf8')
+      str = str || __webpack_require__(25).readFileSync(filename, 'utf8')
     } catch (ex) {
       rethrow(err, null, lineno)
     }
@@ -1117,16 +1107,22 @@ module.exports =
 /* 24 */
 /***/ (function(module, exports) {
 
-  module.exports = require("fs");
+  module.exports = require("classnames");
 
 /***/ }),
 /* 25 */
 /***/ (function(module, exports) {
 
-  module.exports = require("path");
+  module.exports = require("fs");
 
 /***/ }),
 /* 26 */
+/***/ (function(module, exports) {
+
+  module.exports = require("path");
+
+/***/ }),
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1178,7 +1174,7 @@ module.exports =
   exports.default = Match;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1195,11 +1191,11 @@ module.exports =
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
-  var _pathToRegexp = __webpack_require__(88);
+  var _pathToRegexp = __webpack_require__(96);
   
   var _pathToRegexp2 = _interopRequireDefault(_pathToRegexp);
   
-  var _Match = __webpack_require__(26);
+  var _Match = __webpack_require__(27);
   
   var _Match2 = _interopRequireDefault(_Match);
   
@@ -1232,7 +1228,7 @@ module.exports =
   exports.default = Route;
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1241,19 +1237,19 @@ module.exports =
     value: true
   });
   
-  var _slicedToArray2 = __webpack_require__(58);
+  var _slicedToArray2 = __webpack_require__(62);
   
   var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
   
-  var _regenerator = __webpack_require__(59);
+  var _regenerator = __webpack_require__(63);
   
   var _regenerator2 = _interopRequireDefault(_regenerator);
   
-  var _getIterator2 = __webpack_require__(56);
+  var _getIterator2 = __webpack_require__(60);
   
   var _getIterator3 = _interopRequireDefault(_getIterator2);
   
-  var _asyncToGenerator2 = __webpack_require__(57);
+  var _asyncToGenerator2 = __webpack_require__(61);
   
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
   
@@ -1269,7 +1265,7 @@ module.exports =
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
-  var _Route = __webpack_require__(27);
+  var _Route = __webpack_require__(28);
   
   var _Route2 = _interopRequireDefault(_Route);
   
@@ -1594,7 +1590,7 @@ module.exports =
   exports.default = Router;
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1603,23 +1599,23 @@ module.exports =
     value: true
   });
   
-  var _getPrototypeOf = __webpack_require__(8);
+  var _getPrototypeOf = __webpack_require__(7);
   
   var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
   
-  var _classCallCheck2 = __webpack_require__(9);
+  var _classCallCheck2 = __webpack_require__(8);
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(10);
+  var _createClass2 = __webpack_require__(9);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
-  var _possibleConstructorReturn2 = __webpack_require__(12);
+  var _possibleConstructorReturn2 = __webpack_require__(11);
   
   var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
   
-  var _inherits2 = __webpack_require__(11);
+  var _inherits2 = __webpack_require__(10);
   
   var _inherits3 = _interopRequireDefault(_inherits2);
   
@@ -1627,36 +1623,23 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _emptyFunction = __webpack_require__(112);
+  var _emptyFunction = __webpack_require__(120);
   
   var _emptyFunction2 = _interopRequireDefault(_emptyFunction);
   
-  var _App = __webpack_require__(73);
+  var _App = __webpack_require__(79);
   
   var _App2 = _interopRequireDefault(_App);
   
-  var _Header = __webpack_require__(34);
+  var _Header = __webpack_require__(35);
   
   var _Header2 = _interopRequireDefault(_Header);
   
-  var _Feedback = __webpack_require__(32);
-  
-  var _Feedback2 = _interopRequireDefault(_Feedback);
-  
-  var _Footer = __webpack_require__(33);
+  var _Footer = __webpack_require__(34);
   
   var _Footer2 = _interopRequireDefault(_Footer);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
-   */
   
   var App = function (_Component) {
     (0, _inherits3.default)(App, _Component);
@@ -1697,13 +1680,12 @@ module.exports =
           null,
           _react2.default.createElement(_Header2.default, null),
           this.props.children,
-          _react2.default.createElement(_Feedback2.default, null),
           _react2.default.createElement(_Footer2.default, null)
         ) : this.props.children;
       }
     }]);
     return App;
-  }(_react.Component);
+  }(_react.Component); /* Notes */
   
   App.propTypes = {
     context: _react.PropTypes.shape({
@@ -1724,7 +1706,7 @@ module.exports =
   exports.default = App;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1733,23 +1715,101 @@ module.exports =
     value: true
   });
   
-  var _getPrototypeOf = __webpack_require__(8);
+  var _getPrototypeOf = __webpack_require__(7);
   
   var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
   
-  var _classCallCheck2 = __webpack_require__(9);
+  var _classCallCheck2 = __webpack_require__(8);
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(10);
+  var _createClass2 = __webpack_require__(9);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
-  var _possibleConstructorReturn2 = __webpack_require__(12);
+  var _possibleConstructorReturn2 = __webpack_require__(11);
   
   var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
   
-  var _inherits2 = __webpack_require__(11);
+  var _inherits2 = __webpack_require__(10);
+  
+  var _inherits3 = _interopRequireDefault(_inherits2);
+  
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _Button = __webpack_require__(80);
+  
+  var _Button2 = _interopRequireDefault(_Button);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  /** Notes */
+  
+  var Button = function (_Component) {
+    (0, _inherits3.default)(Button, _Component);
+  
+    function Button() {
+      var _ref;
+  
+      var _temp, _this, _ret;
+  
+      (0, _classCallCheck3.default)(this, Button);
+  
+      for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+  
+      return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Button.__proto__ || (0, _getPrototypeOf2.default)(Button)).call.apply(_ref, [this].concat(args))), _this), _this.handleClick = function (event) {}, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
+    } // eslint-disable-line react/prefer-stateless-function
+  
+    (0, _createClass3.default)(Button, [{
+      key: 'render',
+      value: function render() {
+        return _react2.default.createElement(
+          'button',
+          { type: 'button', className: _Button2.default.button, onClick: this.handleClick },
+          this.props.buttonLabel
+        );
+      }
+    }]);
+    return Button;
+  }(_react.Component);
+  
+  Button.propTypes = {
+    buttonLabel: _react.PropTypes.string.isRequired,
+    onClick: _react.PropTypes.func
+  };
+  exports.default = Button;
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _getPrototypeOf = __webpack_require__(7);
+  
+  var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+  
+  var _classCallCheck2 = __webpack_require__(8);
+  
+  var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+  
+  var _createClass2 = __webpack_require__(9);
+  
+  var _createClass3 = _interopRequireDefault(_createClass2);
+  
+  var _possibleConstructorReturn2 = __webpack_require__(11);
+  
+  var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+  
+  var _inherits2 = __webpack_require__(10);
   
   var _inherits3 = _interopRequireDefault(_inherits2);
   
@@ -1761,7 +1821,7 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _ContentPage = __webpack_require__(74);
+  var _ContentPage = __webpack_require__(81);
   
   var _ContentPage2 = _interopRequireDefault(_ContentPage);
   
@@ -1801,12 +1861,7 @@ module.exports =
     }]);
     return ContentPage;
   }(_react.Component); /**
-                        * React Starter Kit (https://www.reactstarterkit.com/)
-                        *
-                        * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                        *
-                        * This source code is licensed under the MIT license found in the
-                        * LICENSE.txt file in the root directory of this source tree.
+                        * Notes
                         */
   
   ContentPage.propTypes = {
@@ -1820,7 +1875,7 @@ module.exports =
   exports.default = (0, _withStyles2.default)(ContentPage, _ContentPage2.default);
 
 /***/ }),
-/* 31 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1829,23 +1884,23 @@ module.exports =
     value: true
   });
   
-  var _getPrototypeOf = __webpack_require__(8);
+  var _getPrototypeOf = __webpack_require__(7);
   
   var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
   
-  var _classCallCheck2 = __webpack_require__(9);
+  var _classCallCheck2 = __webpack_require__(8);
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(10);
+  var _createClass2 = __webpack_require__(9);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
-  var _possibleConstructorReturn2 = __webpack_require__(12);
+  var _possibleConstructorReturn2 = __webpack_require__(11);
   
   var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
   
-  var _inherits2 = __webpack_require__(11);
+  var _inherits2 = __webpack_require__(10);
   
   var _inherits3 = _interopRequireDefault(_inherits2);
   
@@ -1857,19 +1912,14 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _ErrorPage = __webpack_require__(75);
+  var _ErrorPage = __webpack_require__(82);
   
   var _ErrorPage2 = _interopRequireDefault(_ErrorPage);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   var title = 'Error'; /**
-                        * React Starter Kit (https://www.reactstarterkit.com/)
-                        *
-                        * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                        *
-                        * This source code is licensed under the MIT license found in the
-                        * LICENSE.txt file in the root directory of this source tree.
+                        * Notes
                         */
   
   var ErrorPage = function (_Component) {
@@ -1914,156 +1964,6 @@ module.exports =
   exports.default = (0, _withStyles2.default)(ErrorPage, _ErrorPage2.default);
 
 /***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _react = __webpack_require__(1);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _withStyles = __webpack_require__(4);
-  
-  var _withStyles2 = _interopRequireDefault(_withStyles);
-  
-  var _Feedback = __webpack_require__(76);
-  
-  var _Feedback2 = _interopRequireDefault(_Feedback);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  function Feedback() {
-    return _react2.default.createElement(
-      'div',
-      { className: _Feedback2.default.root },
-      _react2.default.createElement(
-        'div',
-        { className: _Feedback2.default.container },
-        _react2.default.createElement(
-          'a',
-          {
-            className: _Feedback2.default.link,
-            href: 'https://gitter.im/kriasoft/react-starter-kit'
-          },
-          'Ask a question'
-        ),
-        _react2.default.createElement(
-          'span',
-          { className: _Feedback2.default.spacer },
-          '|'
-        ),
-        _react2.default.createElement(
-          'a',
-          {
-            className: _Feedback2.default.link,
-            href: 'https://github.com/kriasoft/react-starter-kit/issues/new'
-          },
-          'Report an issue'
-        )
-      )
-    );
-  } /**
-     * React Starter Kit (https://www.reactstarterkit.com/)
-     *
-     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-     *
-     * This source code is licensed under the MIT license found in the
-     * LICENSE.txt file in the root directory of this source tree.
-     */
-  
-  exports.default = (0, _withStyles2.default)(Feedback, _Feedback2.default);
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _react = __webpack_require__(1);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _withStyles = __webpack_require__(4);
-  
-  var _withStyles2 = _interopRequireDefault(_withStyles);
-  
-  var _Footer = __webpack_require__(77);
-  
-  var _Footer2 = _interopRequireDefault(_Footer);
-  
-  var _Link = __webpack_require__(14);
-  
-  var _Link2 = _interopRequireDefault(_Link);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
-   */
-  
-  function Footer() {
-    return _react2.default.createElement(
-      'div',
-      { className: _Footer2.default.root },
-      _react2.default.createElement(
-        'div',
-        { className: _Footer2.default.container },
-        _react2.default.createElement(
-          'span',
-          { className: _Footer2.default.text },
-          '\xA9 Artisans'
-        ),
-        _react2.default.createElement(
-          'span',
-          { className: _Footer2.default.spacer },
-          '\xB7'
-        ),
-        _react2.default.createElement(
-          _Link2.default,
-          { className: _Footer2.default.link, to: '/' },
-          'Home'
-        ),
-        _react2.default.createElement(
-          'span',
-          { className: _Footer2.default.spacer },
-          '\xB7'
-        ),
-        _react2.default.createElement(
-          _Link2.default,
-          { className: _Footer2.default.link, to: '/privacy' },
-          'Privacy'
-        ),
-        _react2.default.createElement(
-          'span',
-          { className: _Footer2.default.spacer },
-          '\xB7'
-        ),
-        _react2.default.createElement(
-          _Link2.default,
-          { className: _Footer2.default.link, to: '/not-found' },
-          'Not Found'
-        )
-      )
-    );
-  }
-  
-  exports.default = (0, _withStyles2.default)(Footer, _Footer2.default);
-
-/***/ }),
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2073,6 +1973,26 @@ module.exports =
     value: true
   });
   
+  var _getPrototypeOf = __webpack_require__(7);
+  
+  var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+  
+  var _classCallCheck2 = __webpack_require__(8);
+  
+  var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+  
+  var _createClass2 = __webpack_require__(9);
+  
+  var _createClass3 = _interopRequireDefault(_createClass2);
+  
+  var _possibleConstructorReturn2 = __webpack_require__(11);
+  
+  var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+  
+  var _inherits2 = __webpack_require__(10);
+  
+  var _inherits3 = _interopRequireDefault(_inherits2);
+  
   var _react = __webpack_require__(1);
   
   var _react2 = _interopRequireDefault(_react);
@@ -2081,57 +2001,56 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _Header = __webpack_require__(78);
+  var _Footer = __webpack_require__(83);
   
-  var _Header2 = _interopRequireDefault(_Header);
+  var _Footer2 = _interopRequireDefault(_Footer);
   
   var _Link = __webpack_require__(14);
   
   var _Link2 = _interopRequireDefault(_Link);
   
-  var _Navigation = __webpack_require__(35);
-  
-  var _Navigation2 = _interopRequireDefault(_Navigation);
-  
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  function Header() {
-    return _react2.default.createElement(
-      'div',
-      { className: _Header2.default.root },
-      _react2.default.createElement(
-        'div',
-        { className: _Header2.default.container },
-        _react2.default.createElement(_Navigation2.default, { className: _Header2.default.nav }),
-        _react2.default.createElement(
-          _Link2.default,
-          { className: _Header2.default.brand, to: '/' },
-          _react2.default.createElement('img', { src: __webpack_require__(89), width: '38', height: '38', alt: 'React' }),
-          _react2.default.createElement(
-            'span',
-            { className: _Header2.default.brandTxt },
-            'Artisans'
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: _Header2.default.banner },
-          _react2.default.createElement(
-            'h1',
-            { className: _Header2.default.bannerTitle },
-            'Artisans'
-          ),
-          _react2.default.createElement(
-            'p',
-            { className: _Header2.default.bannerDesc },
-            'Facilitating a better contractor experience.'
-          )
-        )
-      )
-    );
-  }
+  /* Notes x */
   
-  exports.default = (0, _withStyles2.default)(Header, _Header2.default);
+  var Footer = function (_React$Component) {
+    (0, _inherits3.default)(Footer, _React$Component);
+  
+    function Footer() {
+      (0, _classCallCheck3.default)(this, Footer);
+      return (0, _possibleConstructorReturn3.default)(this, (Footer.__proto__ || (0, _getPrototypeOf2.default)(Footer)).apply(this, arguments));
+    }
+  
+    (0, _createClass3.default)(Footer, [{
+      key: 'getFullYear',
+      value: function getFullYear() {
+        return new Date().getFullYear();
+      }
+    }, {
+      key: 'render',
+      value: function render() {
+        var fullYear = this.getFullYear();
+        return _react2.default.createElement(
+          'div',
+          { className: _Footer2.default.root },
+          _react2.default.createElement(
+            'div',
+            { className: _Footer2.default.container },
+            _react2.default.createElement(
+              'span',
+              { className: _Footer2.default.text },
+              '\xA9 ',
+              fullYear,
+              ' Artisans'
+            )
+          )
+        );
+      }
+    }]);
+    return Footer;
+  }(_react2.default.Component);
+  
+  exports.default = (0, _withStyles2.default)(Footer, _Footer2.default);
 
 /***/ }),
 /* 35 */
@@ -2147,7 +2066,53 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _classnames = __webpack_require__(105);
+  var _withStyles = __webpack_require__(4);
+  
+  var _withStyles2 = _interopRequireDefault(_withStyles);
+  
+  var _Header = __webpack_require__(84);
+  
+  var _Header2 = _interopRequireDefault(_Header);
+  
+  var _Link = __webpack_require__(14);
+  
+  var _Link2 = _interopRequireDefault(_Link);
+  
+  var _Navigation = __webpack_require__(36);
+  
+  var _Navigation2 = _interopRequireDefault(_Navigation);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  function Header() {
+    return _react2.default.createElement(
+      'div',
+      { className: _Header2.default.root },
+      _react2.default.createElement(
+        'div',
+        { className: _Header2.default.container },
+        _react2.default.createElement(_Navigation2.default, { className: _Header2.default.nav })
+      )
+    );
+  } /* Component for top bar visuals */
+  
+  exports.default = (0, _withStyles2.default)(Header, _Header2.default);
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _classnames = __webpack_require__(24);
   
   var _classnames2 = _interopRequireDefault(_classnames);
   
@@ -2155,7 +2120,7 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _Navigation = __webpack_require__(79);
+  var _Navigation = __webpack_require__(85);
   
   var _Navigation2 = _interopRequireDefault(_Navigation);
   
@@ -2172,49 +2137,59 @@ module.exports =
       'div',
       { className: (0, _classnames2.default)(_Navigation2.default.root, className), role: 'navigation' },
       _react2.default.createElement(
-        _Link2.default,
-        { className: _Navigation2.default.link, to: '/about' },
-        'Find an Artisan'
+        'div',
+        { className: _Navigation2.default.homeNav },
+        _react2.default.createElement('img', { src: __webpack_require__(97), width: '30', height: '30', alt: 'Artisan logo' }),
+        _react2.default.createElement(
+          _Link2.default,
+          { className: _Navigation2.default.brand, to: '/' },
+          _react2.default.createElement(
+            'span',
+            { className: _Navigation2.default.brandTxt },
+            'Artisans'
+          )
+        )
       ),
       _react2.default.createElement(
-        _Link2.default,
-        { className: _Navigation2.default.link, to: '/contact' },
-        'Review an Artisan'
+        'div',
+        { className: _Navigation2.default.findReview },
+        _react2.default.createElement(
+          _Link2.default,
+          { className: _Navigation2.default.link, to: '/find-artisan' },
+          'Find an Artisan'
+        ),
+        _react2.default.createElement(
+          'span',
+          { className: _Navigation2.default.spacer },
+          ' or '
+        ),
+        _react2.default.createElement(
+          _Link2.default,
+          { className: _Navigation2.default.link, to: '/review-artisan' },
+          'Review an Artisan'
+        )
       ),
       _react2.default.createElement(
-        'span',
-        { className: _Navigation2.default.spacer },
-        ' | '
-      ),
-      _react2.default.createElement(
-        _Link2.default,
-        { className: _Navigation2.default.link, to: '/login' },
-        'Log in'
-      ),
-      _react2.default.createElement(
-        'span',
-        { className: _Navigation2.default.spacer },
-        'or'
-      ),
-      _react2.default.createElement(
-        _Link2.default,
-        { className: (0, _classnames2.default)(_Navigation2.default.link, _Navigation2.default.highlight), to: '/register' },
-        'Sign up'
+        'div',
+        { className: _Navigation2.default.logInSignIn },
+        _react2.default.createElement(
+          _Link2.default,
+          { className: _Navigation2.default.link, to: '/login' },
+          'Log in'
+        ),
+        _react2.default.createElement(
+          'span',
+          { className: _Navigation2.default.spacer },
+          ' or '
+        ),
+        _react2.default.createElement(
+          _Link2.default,
+          { className: (0, _classnames2.default)(_Navigation2.default.link, _Navigation2.default.highlight), to: '/register' },
+          'Sign up'
+        )
       )
     );
-  }
-  /**
-  Questions for Stephen
-  Where is the best place to start?
-  1. html - components: navigation, login, footer, header, business panel, panel transition trigger
-  2. css
-  3. Data
-  4. Content - Lorem Ipsum
-  5. Clean up  License
-  How does the MIT license work? - All can delete all and is -searchability
-  Revise the file name? How to make sure it gets changed in all locations?
-  Feedback is not needed, how do I delete it?
-  **/
+  } /* x */
   
   Navigation.propTypes = {
     className: _react.PropTypes.string
@@ -2223,7 +2198,7 @@ module.exports =
   exports.default = (0, _withStyles2.default)(Navigation, _Navigation2.default);
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -2232,23 +2207,23 @@ module.exports =
     value: true
   });
   
-  var _getPrototypeOf = __webpack_require__(8);
+  var _getPrototypeOf = __webpack_require__(7);
   
   var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
   
-  var _classCallCheck2 = __webpack_require__(9);
+  var _classCallCheck2 = __webpack_require__(8);
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(10);
+  var _createClass2 = __webpack_require__(9);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
-  var _possibleConstructorReturn2 = __webpack_require__(12);
+  var _possibleConstructorReturn2 = __webpack_require__(11);
   
   var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
   
-  var _inherits2 = __webpack_require__(11);
+  var _inherits2 = __webpack_require__(10);
   
   var _inherits3 = _interopRequireDefault(_inherits2);
   
@@ -2260,19 +2235,14 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _NotFoundPage = __webpack_require__(80);
+  var _NotFoundPage = __webpack_require__(86);
   
   var _NotFoundPage2 = _interopRequireDefault(_NotFoundPage);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   var title = 'Page Not Found'; /**
-                                 * React Starter Kit (https://www.reactstarterkit.com/)
-                                 *
-                                 * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                 *
-                                 * This source code is licensed under the MIT license found in the
-                                 * LICENSE.txt file in the root directory of this source tree.
+                                 * Notes
                                  */
   
   var NotFoundPage = function (_Component) {
@@ -2318,7 +2288,7 @@ module.exports =
   exports.default = (0, _withStyles2.default)(NotFoundPage, _NotFoundPage2.default);
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -2327,15 +2297,61 @@ module.exports =
     value: true
   });
   
-  var _createBrowserHistory = __webpack_require__(114);
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _classnames = __webpack_require__(24);
+  
+  var _classnames2 = _interopRequireDefault(_classnames);
+  
+  var _withStyles = __webpack_require__(4);
+  
+  var _withStyles2 = _interopRequireDefault(_withStyles);
+  
+  var _PanelTransTrigger = __webpack_require__(87);
+  
+  var _PanelTransTrigger2 = _interopRequireDefault(_PanelTransTrigger);
+  
+  var _Button = __webpack_require__(31);
+  
+  var _Button2 = _interopRequireDefault(_Button);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  function PanelTransTrigger(_ref) {
+    var className = _ref.className;
+  
+    return _react2.default.createElement(_Button2.default, { buttonLabel: 'test' });
+  } /* Component of buttons that trigger the biz panels.
+    var categories = ["All", "Caterers & Cooks", "Hair Stylist & Sellers", "Tailors", "Housekeepers", "Electricians"];
+     */
+  
+  PanelTransTrigger.propTypes = {
+    className: _react.PropTypes.string
+  };
+  
+  exports.default = (0, _withStyles2.default)(PanelTransTrigger, _PanelTransTrigger2.default);
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _createBrowserHistory = __webpack_require__(122);
   
   var _createBrowserHistory2 = _interopRequireDefault(_createBrowserHistory);
   
-  var _createMemoryHistory = __webpack_require__(115);
+  var _createMemoryHistory = __webpack_require__(123);
   
   var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
   
-  var _useQueries = __webpack_require__(116);
+  var _useQueries = __webpack_require__(124);
   
   var _useQueries2 = _interopRequireDefault(_useQueries);
   
@@ -2353,7 +2369,7 @@ module.exports =
   exports.default = location;
 
 /***/ }),
-/* 38 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -2362,7 +2378,7 @@ module.exports =
     value: true
   });
   
-  var _pg = __webpack_require__(123);
+  var _pg = __webpack_require__(131);
   
   var _pg2 = _interopRequireDefault(_pg);
   
@@ -2462,7 +2478,7 @@ module.exports =
   exports.default = _pg2.default;
 
 /***/ }),
-/* 39 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -2479,13 +2495,13 @@ module.exports =
   
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
   
-  var _passport = __webpack_require__(121);
+  var _passport = __webpack_require__(129);
   
   var _passport2 = _interopRequireDefault(_passport);
   
-  var _passportFacebook = __webpack_require__(122);
+  var _passportFacebook = __webpack_require__(130);
   
-  var _db = __webpack_require__(38);
+  var _db = __webpack_require__(40);
   
   var _db2 = _interopRequireDefault(_db);
   
@@ -2662,7 +2678,7 @@ module.exports =
   exports.default = _passport2.default;
 
 /***/ }),
-/* 40 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -2832,43 +2848,38 @@ module.exports =
     };
   }();
   
-  var _fs = __webpack_require__(24);
+  var _fs = __webpack_require__(25);
   
   var _fs2 = _interopRequireDefault(_fs);
   
-  var _path = __webpack_require__(25);
+  var _path = __webpack_require__(26);
   
   var _bluebird = __webpack_require__(18);
   
   var _bluebird2 = _interopRequireDefault(_bluebird);
   
-  var _jade = __webpack_require__(117);
+  var _jade = __webpack_require__(125);
   
   var _jade2 = _interopRequireDefault(_jade);
   
-  var _frontMatter = __webpack_require__(113);
+  var _frontMatter = __webpack_require__(121);
   
   var _frontMatter2 = _interopRequireDefault(_frontMatter);
   
-  var _markdownIt = __webpack_require__(119);
+  var _markdownIt = __webpack_require__(127);
   
   var _markdownIt2 = _interopRequireDefault(_markdownIt);
   
-  var _graphql = __webpack_require__(7);
+  var _graphql = __webpack_require__(12);
   
-  var _ContentType = __webpack_require__(44);
+  var _ContentType = __webpack_require__(46);
   
   var _ContentType2 = _interopRequireDefault(_ContentType);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
+   * Notes
    */
   
   var md = new _markdownIt2.default();
@@ -2958,7 +2969,7 @@ module.exports =
   exports.default = content;
 
 /***/ }),
-/* 41 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -2967,7 +2978,7 @@ module.exports =
     value: true
   });
   
-  var _UserType = __webpack_require__(46);
+  var _UserType = __webpack_require__(48);
   
   var _UserType2 = _interopRequireDefault(_UserType);
   
@@ -2984,18 +2995,13 @@ module.exports =
       };
     }
   }; /**
-      * React Starter Kit (https://www.reactstarterkit.com/)
-      *
-      * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-      *
-      * This source code is licensed under the MIT license found in the
-      * LICENSE.txt file in the root directory of this source tree.
+      * Notes
       */
   
   exports.default = me;
 
 /***/ }),
-/* 42 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -3004,13 +3010,13 @@ module.exports =
     value: true
   });
   
-  var _graphql = __webpack_require__(7);
+  var _graphql = __webpack_require__(12);
   
   var _fetch = __webpack_require__(15);
   
   var _fetch2 = _interopRequireDefault(_fetch);
   
-  var _NewsItemType = __webpack_require__(45);
+  var _NewsItemType = __webpack_require__(47);
   
   var _NewsItemType2 = _interopRequireDefault(_NewsItemType);
   
@@ -3018,12 +3024,7 @@ module.exports =
   
   // React.js News Feed (RSS)
   var url = 'http://ajax.googleapis.com/ajax/services/feed/load' + '?v=1.0&num=10&q=https://reactjsnews.com/feed.xml'; /**
-                                                                                                                        * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                                        *
-                                                                                                                        * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                                        *
-                                                                                                                        * This source code is licensed under the MIT license found in the
-                                                                                                                        * LICENSE.txt file in the root directory of this source tree.
+                                                                                                                        * Notes
                                                                                                                         */
   
   var items = [];
@@ -3065,7 +3066,7 @@ module.exports =
   exports.default = news;
 
 /***/ }),
-/* 43 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -3074,17 +3075,17 @@ module.exports =
     value: true
   });
   
-  var _graphql = __webpack_require__(7);
+  var _graphql = __webpack_require__(12);
   
-  var _me = __webpack_require__(41);
+  var _me = __webpack_require__(43);
   
   var _me2 = _interopRequireDefault(_me);
   
-  var _content = __webpack_require__(40);
+  var _content = __webpack_require__(42);
   
   var _content2 = _interopRequireDefault(_content);
   
-  var _news = __webpack_require__(42);
+  var _news = __webpack_require__(44);
   
   var _news2 = _interopRequireDefault(_news);
   
@@ -3113,7 +3114,7 @@ module.exports =
   exports.default = schema;
 
 /***/ }),
-/* 44 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -3122,7 +3123,7 @@ module.exports =
     value: true
   });
   
-  var _graphql = __webpack_require__(7);
+  var _graphql = __webpack_require__(12);
   
   var ContentType = new _graphql.GraphQLObjectType({
     name: 'Content',
@@ -3144,7 +3145,7 @@ module.exports =
   exports.default = ContentType;
 
 /***/ }),
-/* 45 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -3153,7 +3154,7 @@ module.exports =
     value: true
   });
   
-  var _graphql = __webpack_require__(7);
+  var _graphql = __webpack_require__(12);
   
   var NewsItemType = new _graphql.GraphQLObjectType({
     name: 'NewsItem',
@@ -3176,7 +3177,7 @@ module.exports =
   exports.default = NewsItemType;
 
 /***/ }),
-/* 46 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -3185,7 +3186,7 @@ module.exports =
     value: true
   });
   
-  var _graphql = __webpack_require__(7);
+  var _graphql = __webpack_require__(12);
   
   var UserType = new _graphql.GraphQLObjectType({
     name: 'User',
@@ -3205,7 +3206,7 @@ module.exports =
   exports.default = UserType;
 
 /***/ }),
-/* 47 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -3226,7 +3227,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Router = __webpack_require__(28);
+  var _Router = __webpack_require__(29);
   
   var _Router2 = _interopRequireDefault(_Router);
   
@@ -3234,32 +3235,27 @@ module.exports =
   
   var _fetch2 = _interopRequireDefault(_fetch);
   
-  var _App = __webpack_require__(29);
+  var _App = __webpack_require__(30);
   
   var _App2 = _interopRequireDefault(_App);
   
-  var _ContentPage = __webpack_require__(30);
+  var _ContentPage = __webpack_require__(32);
   
   var _ContentPage2 = _interopRequireDefault(_ContentPage);
   
-  var _NotFoundPage = __webpack_require__(36);
+  var _NotFoundPage = __webpack_require__(37);
   
   var _NotFoundPage2 = _interopRequireDefault(_NotFoundPage);
   
-  var _ErrorPage = __webpack_require__(31);
+  var _ErrorPage = __webpack_require__(33);
   
   var _ErrorPage2 = _interopRequireDefault(_ErrorPage);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  var routes = [__webpack_require__(51), __webpack_require__(49), __webpack_require__(53), __webpack_require__(55)]; /**
-                                                                                                                                  * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                                                  *
-                                                                                                                                  * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                                                  *
-                                                                                                                                  * This source code is licensed under the MIT license found in the
-                                                                                                                                  * LICENSE.txt file in the root directory of this source tree.
-                                                                                                                                  */
+  var routes = [__webpack_require__(53), __webpack_require__(58), __webpack_require__(51), __webpack_require__(55), __webpack_require__(57)]; /**
+                                                                                                                                                                           * Notes
+                                                                                                                                                                           */
   
   var router = new _Router2.default(function (on) {
     on('*', function () {
@@ -3350,128 +3346,6 @@ module.exports =
   exports.default = router;
 
 /***/ }),
-/* 48 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _react = __webpack_require__(1);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _withStyles = __webpack_require__(4);
-  
-  var _withStyles2 = _interopRequireDefault(_withStyles);
-  
-  var _Contact = __webpack_require__(81);
-  
-  var _Contact2 = _interopRequireDefault(_Contact);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  function Contact(_ref) {
-    var title = _ref.title;
-  
-    return _react2.default.createElement(
-      'div',
-      { className: _Contact2.default.root },
-      _react2.default.createElement(
-        'div',
-        { className: _Contact2.default.container },
-        _react2.default.createElement(
-          'h1',
-          null,
-          title
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          '...'
-        )
-      )
-    );
-  } /**
-     * React Starter Kit (https://www.reactstarterkit.com/)
-     *
-     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-     *
-     * This source code is licensed under the MIT license found in the
-     * LICENSE.txt file in the root directory of this source tree.
-     */
-  
-  Contact.propTypes = { title: _react.PropTypes.string.isRequired };
-  
-  exports.default = (0, _withStyles2.default)(Contact, _Contact2.default);
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.action = exports.path = undefined;
-  
-  var _regenerator = __webpack_require__(6);
-  
-  var _regenerator2 = _interopRequireDefault(_regenerator);
-  
-  var _asyncToGenerator2 = __webpack_require__(5);
-  
-  var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
-  
-  var _react = __webpack_require__(1);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _Contact = __webpack_require__(48);
-  
-  var _Contact2 = _interopRequireDefault(_Contact);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
-   */
-  
-  var path = exports.path = '/contact';
-  var action = exports.action = function () {
-    var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(state) {
-      var title;
-      return _regenerator2.default.wrap(function _callee$(_context) {
-        while (1) {
-          switch (_context.prev = _context.next) {
-            case 0:
-              title = 'Contact Us';
-  
-              state.context.onSetTitle(title);
-              return _context.abrupt('return', _react2.default.createElement(_Contact2.default, { title: title }));
-  
-            case 3:
-            case 'end':
-              return _context.stop();
-          }
-        }
-      }, _callee, undefined);
-    }));
-  
-    return function action(_x) {
-      return _ref.apply(this, arguments);
-    };
-  }();
-
-/***/ }),
 /* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3489,65 +3363,139 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _Home = __webpack_require__(82);
+  var _findArtisan = __webpack_require__(88);
   
-  var _Home2 = _interopRequireDefault(_Home);
+  var _findArtisan2 = _interopRequireDefault(_findArtisan);
+  
+  var _PanelTransTrigger = __webpack_require__(38);
+  
+  var _PanelTransTrigger2 = _interopRequireDefault(_PanelTransTrigger);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  function Home(_ref) {
-    var news = _ref.news;
+  /* Notes */
+  
+  function FindArtisan(_ref) {
+    var title = _ref.title;
   
     return _react2.default.createElement(
       'div',
-      { className: _Home2.default.root },
+      { className: _findArtisan2.default.root },
       _react2.default.createElement(
         'div',
-        { className: _Home2.default.container },
+        { className: _findArtisan2.default.container },
         _react2.default.createElement(
           'h1',
-          { className: _Home2.default.title },
-          'React.js News'
+          null,
+          title
         ),
         _react2.default.createElement(
-          'ul',
-          { className: _Home2.default.news },
-          news.map(function (item, index) {
-            return _react2.default.createElement(
-              'li',
-              { key: index, className: _Home2.default.newsItem },
-              _react2.default.createElement(
-                'a',
-                { href: item.link, className: _Home2.default.newsTitle },
-                item.title
-              ),
-              _react2.default.createElement('span', {
-                className: _Home2.default.newsDesc,
-                dangerouslySetInnerHTML: { __html: item.contentSnippet }
-              })
-            );
-          })
+          'div',
+          { className: _findArtisan2.default.btnBar },
+          _react2.default.createElement(
+            'button',
+            { className: (_findArtisan2.default.btn1, _findArtisan2.default.btnText), type: 'button' },
+            'All'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: (_findArtisan2.default.btn2, _findArtisan2.default.btnText), type: 'button' },
+            'Caterers & Cooks'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: (_findArtisan2.default.btn3, _findArtisan2.default.btnText), type: 'button' },
+            'Hair Stylist & Sellers'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: (_findArtisan2.default.btn4, _findArtisan2.default.btnText), type: 'button' },
+            'Tailors'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: (_findArtisan2.default.btn5, _findArtisan2.default.btnText), type: 'button' },
+            'Housekeepers'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: (_findArtisan2.default.btn6, _findArtisan2.default.btnText), type: 'button' },
+            'Electricians'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: _findArtisan2.default.bizCatTitle },
+          _react2.default.createElement(
+            'h2',
+            null,
+            'Business Category Title'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: _findArtisan2.default.bizPanel },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'Company Name'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Description'
+          ),
+          _react2.default.createElement(
+            'h5',
+            null,
+            'Address'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: _findArtisan2.default.bizPanel },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'Company Name'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Description'
+          ),
+          _react2.default.createElement(
+            'h5',
+            null,
+            'Address'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: _findArtisan2.default.bizPanel },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'Company Name'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Description'
+          ),
+          _react2.default.createElement(
+            'h5',
+            null,
+            'Address'
+          )
         )
       )
     );
-  } /**
-     * React Starter Kit (https://www.reactstarterkit.com/)
-     *
-     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-     *
-     * This source code is licensed under the MIT license found in the
-     * LICENSE.txt file in the root directory of this source tree.
-     */
+  }
   
-  Home.propTypes = {
-    news: _react.PropTypes.arrayOf(_react.PropTypes.shape({
-      title: _react.PropTypes.string.isRequired,
-      link: _react.PropTypes.string.isRequired,
-      contentSnippet: _react.PropTypes.string
-    })).isRequired
-  };
+  FindArtisan.propTypes = { title: _react.PropTypes.string.isRequired };
   
-  exports.default = (0, _withStyles2.default)(Home, _Home2.default);
+  exports.default = (0, _withStyles2.default)(FindArtisan, _findArtisan2.default);
 
 /***/ }),
 /* 51 */
@@ -3572,49 +3520,30 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Home = __webpack_require__(50);
+  var _findArtisan = __webpack_require__(50);
   
-  var _Home2 = _interopRequireDefault(_Home);
-  
-  var _fetch = __webpack_require__(15);
-  
-  var _fetch2 = _interopRequireDefault(_fetch);
+  var _findArtisan2 = _interopRequireDefault(_findArtisan);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  var path = exports.path = '/'; /**
-                                  * React Starter Kit (https://www.reactstarterkit.com/)
-                                  *
-                                  * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                  *
-                                  * This source code is licensed under the MIT license found in the
-                                  * LICENSE.txt file in the root directory of this source tree.
-                                  */
+  /**
+   * Notes
+   */
   
+  var path = exports.path = '/find-artisan';
   var action = exports.action = function () {
     var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(state) {
-      var response, _ref2, data;
-  
+      var title;
       return _regenerator2.default.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              _context.next = 2;
-              return (0, _fetch2.default)('/graphql?query={news{title,link,contentSnippet}}');
+              title = 'Find an Artisan';
   
-            case 2:
-              response = _context.sent;
-              _context.next = 5;
-              return response.json();
+              state.context.onSetTitle(title);
+              return _context.abrupt('return', _react2.default.createElement(_findArtisan2.default, { title: title }));
   
-            case 5:
-              _ref2 = _context.sent;
-              data = _ref2.data;
-  
-              state.context.onSetTitle('React.js Starter Kit');
-              return _context.abrupt('return', _react2.default.createElement(_Home2.default, { news: data.news }));
-  
-            case 9:
+            case 3:
             case 'end':
               return _context.stop();
           }
@@ -3645,45 +3574,45 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _Login = __webpack_require__(83);
+  var _Home = __webpack_require__(89);
   
-  var _Login2 = _interopRequireDefault(_Login);
+  var _Home2 = _interopRequireDefault(_Home);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  function Login(_ref) {
-    var title = _ref.title;
+  function Home(_ref) {
+    var news = _ref.news;
   
     return _react2.default.createElement(
       'div',
-      { className: _Login2.default.root },
+      { className: _Home2.default.root },
       _react2.default.createElement(
         'div',
-        { className: _Login2.default.container },
+        { className: _Home2.default.banner },
         _react2.default.createElement(
           'h1',
-          null,
-          title
+          { className: _Home2.default.bannerTitle },
+          'Artisans x2'
         ),
         _react2.default.createElement(
           'p',
-          null,
-          '...'
+          { className: _Home2.default.bannerDesc },
+          'Facilitating a better contractor experience.'
         )
-      )
+      ),
+      _react2.default.createElement('div', { className: _Home2.default.container })
     );
-  } /**
-     * React Starter Kit (https://www.reactstarterkit.com/)
-     *
-     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-     *
-     * This source code is licensed under the MIT license found in the
-     * LICENSE.txt file in the root directory of this source tree.
-     */
+  } /* small change */
   
-  Login.propTypes = { title: _react.PropTypes.string.isRequired };
+  Home.propTypes = {
+    news: _react.PropTypes.arrayOf(_react.PropTypes.shape({
+      title: _react.PropTypes.string.isRequired,
+      link: _react.PropTypes.string.isRequired,
+      contentSnippet: _react.PropTypes.string
+    })).isRequired
+  };
   
-  exports.default = (0, _withStyles2.default)(Login, _Login2.default);
+  exports.default = (0, _withStyles2.default)(Home, _Home2.default);
 
 /***/ }),
 /* 53 */
@@ -3708,35 +3637,44 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Login = __webpack_require__(52);
+  var _Home = __webpack_require__(52);
   
-  var _Login2 = _interopRequireDefault(_Login);
+  var _Home2 = _interopRequireDefault(_Home);
+  
+  var _fetch = __webpack_require__(15);
+  
+  var _fetch2 = _interopRequireDefault(_fetch);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
-   */
+  var path = exports.path = '/'; /**
+                                  * Notes
+                                  */
   
-  var path = exports.path = '/login';
   var action = exports.action = function () {
     var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(state) {
-      var title;
+      var response, _ref2, data;
+  
       return _regenerator2.default.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              title = 'Log In';
+              _context.next = 2;
+              return (0, _fetch2.default)('/graphql?query={news{title,link,contentSnippet}}');
   
-              state.context.onSetTitle(title);
-              return _context.abrupt('return', _react2.default.createElement(_Login2.default, { title: title }));
+            case 2:
+              response = _context.sent;
+              _context.next = 5;
+              return response.json();
   
-            case 3:
+            case 5:
+              _ref2 = _context.sent;
+              data = _ref2.data;
+  
+              state.context.onSetTitle('ARTISANS');
+              return _context.abrupt('return', _react2.default.createElement(_Home2.default, { news: data.news }));
+  
+            case 9:
             case 'end':
               return _context.stop();
           }
@@ -3767,7 +3705,143 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _Register = __webpack_require__(84);
+  var _Login = __webpack_require__(90);
+  
+  var _Login2 = _interopRequireDefault(_Login);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  function Login(_ref) {
+    var title = _ref.title;
+  
+    return _react2.default.createElement(
+      'div',
+      { className: _Login2.default.root },
+      _react2.default.createElement(
+        'div',
+        { className: _Login2.default.container },
+        _react2.default.createElement(
+          'h1',
+          { className: _Login2.default.title },
+          'Welcome Back!'
+        ),
+        _react2.default.createElement(
+          'form',
+          { className: _Login2.default.loginForm },
+          _react2.default.createElement(
+            'label',
+            { className: _Login2.default.usrname },
+            'Username'
+          ),
+          _react2.default.createElement('input', { className: _Login2.default.usrnameBox, type: 'text', placeholder: 'Enter Username', name: 'username', required: true }),
+          _react2.default.createElement(
+            'label',
+            { className: _Login2.default.pssword },
+            'Password'
+          ),
+          _react2.default.createElement('input', { className: _Login2.default.psswordBox, type: 'password', placeholder: 'Enter Password', name: 'password', required: true }),
+          _react2.default.createElement(
+            'button',
+            { className: _Login2.default.sbmit, type: 'submit' },
+            'Login'
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: _Login2.default.psw },
+            'Forgot ',
+            _react2.default.createElement(
+              'a',
+              { href: '#' },
+              'password?'
+            )
+          )
+        )
+      )
+    );
+  } /* this is a change */
+  
+  Login.propTypes = { title: _react.PropTypes.string.isRequired };
+  
+  exports.default = (0, _withStyles2.default)(Login, _Login2.default);
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.action = exports.path = undefined;
+  
+  var _regenerator = __webpack_require__(6);
+  
+  var _regenerator2 = _interopRequireDefault(_regenerator);
+  
+  var _asyncToGenerator2 = __webpack_require__(5);
+  
+  var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
+  
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _Login = __webpack_require__(54);
+  
+  var _Login2 = _interopRequireDefault(_Login);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  /**
+   * Notes
+   */
+  
+  var path = exports.path = '/login';
+  var action = exports.action = function () {
+    var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(state) {
+      var title;
+      return _regenerator2.default.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              title = 'Log In';
+  
+              state.context.onSetTitle(title);
+              return _context.abrupt('return', _react2.default.createElement(_Login2.default, { title: title }));
+  
+            case 3:
+            case 'end':
+              return _context.stop();
+          }
+        }
+      }, _callee, undefined);
+    }));
+  
+    return function action(_x) {
+      return _ref.apply(this, arguments);
+    };
+  }();
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _withStyles = __webpack_require__(4);
+  
+  var _withStyles2 = _interopRequireDefault(_withStyles);
+  
+  var _Register = __webpack_require__(91);
   
   var _Register2 = _interopRequireDefault(_Register);
   
@@ -3795,12 +3869,7 @@ module.exports =
       )
     );
   } /**
-     * React Starter Kit (https://www.reactstarterkit.com/)
-     *
-     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-     *
-     * This source code is licensed under the MIT license found in the
-     * LICENSE.txt file in the root directory of this source tree.
+     * Notes
      */
   
   Register.propTypes = { title: _react.PropTypes.string.isRequired };
@@ -3808,7 +3877,7 @@ module.exports =
   exports.default = (0, _withStyles2.default)(Register, _Register2.default);
 
 /***/ }),
-/* 55 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -3830,19 +3899,14 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Register = __webpack_require__(54);
+  var _Register = __webpack_require__(56);
   
   var _Register2 = _interopRequireDefault(_Register);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
+   * Notes
    */
   
   var path = exports.path = '/register';
@@ -3872,13 +3936,123 @@ module.exports =
   }();
 
 /***/ }),
-/* 56 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = { "default": __webpack_require__(107), __esModule: true };
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.action = exports.path = undefined;
+  
+  var _regenerator = __webpack_require__(6);
+  
+  var _regenerator2 = _interopRequireDefault(_regenerator);
+  
+  var _asyncToGenerator2 = __webpack_require__(5);
+  
+  var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
+  
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _reviewArtisan = __webpack_require__(59);
+  
+  var _reviewArtisan2 = _interopRequireDefault(_reviewArtisan);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  /**
+   * Notes
+   */
+  
+  var path = exports.path = '/review-artisan';
+  var action = exports.action = function () {
+    var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(state) {
+      var title;
+      return _regenerator2.default.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              title = 'Review an Artisan';
+  
+              state.context.onSetTitle(title);
+              return _context.abrupt('return', _react2.default.createElement(_reviewArtisan2.default, { title: title }));
+  
+            case 3:
+            case 'end':
+              return _context.stop();
+          }
+        }
+      }, _callee, undefined);
+    }));
+  
+    return function action(_x) {
+      return _ref.apply(this, arguments);
+    };
+  }();
 
 /***/ }),
-/* 57 */
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _withStyles = __webpack_require__(4);
+  
+  var _withStyles2 = _interopRequireDefault(_withStyles);
+  
+  var _reviewArtisan = __webpack_require__(92);
+  
+  var _reviewArtisan2 = _interopRequireDefault(_reviewArtisan);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  function ReviewArtisan(_ref) {
+    var title = _ref.title;
+  
+    return _react2.default.createElement(
+      'div',
+      { className: _reviewArtisan2.default.root },
+      _react2.default.createElement(
+        'div',
+        { className: _reviewArtisan2.default.container },
+        _react2.default.createElement(
+          'h1',
+          null,
+          title
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Body copy of review an artisan content is at routes/review-artisan.js'
+        )
+      )
+    );
+  } /* Notes */
+  
+  ReviewArtisan.propTypes = { title: _react.PropTypes.string.isRequired };
+  
+  exports.default = (0, _withStyles2.default)(ReviewArtisan, _reviewArtisan2.default);
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = { "default": __webpack_require__(115), __esModule: true };
+
+/***/ }),
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
   "use strict";
@@ -3921,14 +4095,14 @@ module.exports =
   };
 
 /***/ }),
-/* 58 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
   "use strict";
   
   exports.__esModule = true;
   
-  var _isIterable2 = __webpack_require__(93);
+  var _isIterable2 = __webpack_require__(102);
   
   var _isIterable3 = _interopRequireDefault(_isIterable2);
   
@@ -3977,7 +4151,7 @@ module.exports =
   }();
 
 /***/ }),
-/* 59 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
   // This method of obtaining a reference to the global object needs to be
@@ -3998,7 +4172,7 @@ module.exports =
   // Force reevalutation of runtime.js.
   g.regeneratorRuntime = undefined;
   
-  module.exports = __webpack_require__(60);
+  module.exports = __webpack_require__(64);
   
   if (hadRuntime) {
     // Restore the original runtime.
@@ -4016,7 +4190,7 @@ module.exports =
 
 
 /***/ }),
-/* 60 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
   /* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -4025,23 +4199,23 @@ module.exports =
   
   var _promise2 = _interopRequireDefault(_promise);
   
-  var _setPrototypeOf = __webpack_require__(97);
+  var _setPrototypeOf = __webpack_require__(106);
   
   var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
   
-  var _create = __webpack_require__(95);
+  var _create = __webpack_require__(104);
   
   var _create2 = _interopRequireDefault(_create);
   
-  var _typeof2 = __webpack_require__(103);
+  var _typeof2 = __webpack_require__(112);
   
   var _typeof3 = _interopRequireDefault(_typeof2);
   
-  var _iterator = __webpack_require__(99);
+  var _iterator = __webpack_require__(108);
   
   var _iterator2 = _interopRequireDefault(_iterator);
   
-  var _symbol = __webpack_require__(98);
+  var _symbol = __webpack_require__(107);
   
   var _symbol2 = _interopRequireDefault(_symbol);
   
@@ -4671,71 +4845,7 @@ module.exports =
   // object, this seems to be the most reliable technique that does not
   // use indirect eval (which violates Content Security Policy).
   (typeof global === "undefined" ? "undefined" : (0, _typeof3.default)(global)) === "object" ? global : (typeof window === "undefined" ? "undefined" : (0, _typeof3.default)(window)) === "object" ? window : (typeof self === "undefined" ? "undefined" : (0, _typeof3.default)(self)) === "object" ? self : undefined);
-  /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(90)(module)))
-
-/***/ }),
-/* 61 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  exports = module.exports = __webpack_require__(2)();
-  // imports
-  
-  
-  // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\n\n/**\n * 1. Set default font family to sans-serif.\n * 2. Prevent iOS and IE text size adjust after device orientation change,\n *    without disabling user zoom.\n */\n\nhtml {\n  font-family: sans-serif; /* 1 */\n  -ms-text-size-adjust: 100%; /* 2 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/**\n * Remove default margin.\n */\n\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\n   ========================================================================== */\n\n/**\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\n * and Firefox.\n * Correct `block` display not defined for `main` in IE 11.\n */\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {\n  display: block;\n}\n\n/**\n * 1. Correct `inline-block` display not defined in IE 8/9.\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\n */\n\naudio, canvas, progress, video {\n  display: inline-block; /* 1 */\n  vertical-align: baseline; /* 2 */\n}\n\n/**\n * Prevent modern browsers from displaying `audio` without controls.\n * Remove excess height in iOS 5 devices.\n */\n\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Address `[hidden]` styling not present in IE 8/9/10.\n * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.\n */\n\n[hidden], template {\n  display: none;\n}\n\n/* Links\n   ========================================================================== */\n\n/**\n * Remove the gray background color from active links in IE 10.\n */\n\na {\n  background-color: transparent;\n}\n\n/**\n * Improve readability of focused elements when they are also in an\n * active/hover state.\n */\n\na:active, a:hover {\n  outline: 0;\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\n */\n\nabbr[title] {\n  border-bottom: 1px dotted;\n}\n\n/**\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\n */\n\nb, strong {\n  font-weight: bold;\n}\n\n/**\n * Address styling not present in Safari and Chrome.\n */\n\ndfn {\n  font-style: italic;\n}\n\n/**\n * Address variable `h1` font-size and margin within `section` and `article`\n * contexts in Firefox 4+, Safari, and Chrome.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/**\n * Address styling not present in IE 8/9.\n */\n\nmark {\n  background: #ff0;\n  color: #000;\n}\n\n/**\n * Address inconsistent and variable font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\n */\n\nsub, sup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsup {\n  top: -0.5em;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove border when inside `a` element in IE 8/9/10.\n */\n\nimg {\n  border: 0;\n}\n\n/**\n * Correct overflow not hidden in IE 9/10/11.\n */\n\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * Address margin not present in IE 8/9 and Safari.\n */\n\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * Address differences between Firefox and other browsers.\n */\n\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box;\n  height: 0;\n}\n\n/**\n * Contain overflow in all browsers.\n */\n\npre {\n  overflow: auto;\n}\n\n/**\n * Address odd `em`-unit font size rendering in all browsers.\n */\n\ncode, kbd, pre, samp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\n * styling of `select`, unless a `border` property is set.\n */\n\n/**\n * 1. Correct color not being inherited.\n *    Known issue: affects color of disabled elements.\n * 2. Correct font properties not being inherited.\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\n */\n\nbutton, input, optgroup, select, textarea {\n  color: inherit; /* 1 */\n  font: inherit; /* 2 */\n  margin: 0; /* 3 */\n}\n\n/**\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\n */\n\nbutton {\n  overflow: visible;\n}\n\n/**\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\n * All other form control elements do not inherit `text-transform` values.\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\n * Correct `select` style inheritance in Firefox.\n */\n\nbutton, select {\n  text-transform: none;\n}\n\n/**\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\n *    and `video` controls.\n * 2. Correct inability to style clickable `input` types in iOS.\n * 3. Improve usability and consistency of cursor style between image-type\n *    `input` and others.\n */\n\nbutton, html input[type=\"button\"], input[type=\"reset\"], input[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n  cursor: pointer; /* 3 */\n}\n\n/**\n * Re-set default cursor for disabled elements.\n */\n\nbutton[disabled], html input[disabled] {\n  cursor: default;\n}\n\n/**\n * Remove inner padding and border in Firefox 4+.\n */\n\nbutton::-moz-focus-inner, input::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n\n/**\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\n * the UA stylesheet.\n */\n\ninput {\n  line-height: normal;\n}\n\n/**\n * It's recommended that you don't attempt to style these elements.\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\n *\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\n * 2. Remove excess padding in IE 8/9/10.\n */\n\ninput[type=\"checkbox\"], input[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\n * `font-size` values of the `input`, it causes the cursor style of the\n * decrement button to change from `default` to `text`.\n */\n\ninput[type=\"number\"]::-webkit-inner-spin-button, input[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Address `appearance` set to `searchfield` in Safari and Chrome.\n * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.\n */\n\ninput[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box; /* 2 */\n}\n\n/**\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\n * Safari (but not Chrome) clips the cancel button when the search input has\n * padding (and `textfield` appearance).\n */\n\ninput[type=\"search\"]::-webkit-search-cancel-button, input[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * Define consistent border, margin, and padding.\n */\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n\n/**\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\n */\n\nlegend {\n  border: 0; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Remove default vertical scrollbar in IE 8/9/10/11.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * Don't inherit the `font-weight` (applied by a rule above).\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\n */\n\noptgroup {\n  font-weight: bold;\n}\n\n/* Tables\n   ========================================================================== */\n\n/**\n * Remove most spacing between table cells.\n */\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\ntd, th {\n  padding: 0;\n}\n\n/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */\n\n/*\r\n * Colors\r\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\r\n * Typography\r\n * ========================================================================== */\n\n/*\r\n * Layout\r\n * ========================================================================== */\n\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\r\n * Animations\r\n * ========================================================================== */\n\n/*\n * Base styles\n * ========================================================================== */\n\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  line-height: 1.375; /* ~22px */\n}\n\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n/*\n * A better looking default horizontal rule\n */\n\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n\naudio, canvas, iframe, img, svg, video {\n  vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n\n.browserupgrade {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n\n@media print {\n  *, *:before, *:after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a, a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]:after {\n    content: \" (\" attr(href) \")\";\n  }\n\n  abbr[title]:after {\n    content: \" (\" attr(title) \")\";\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n\n  a[href^=\"#\"]:after, a[href^=\"javascript:\"]:after {\n    content: \"\";\n  }\n\n  pre, blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n\n  thead {\n    display: table-header-group;\n  }\n\n  tr, img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p, h2, h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2, h3 {\n    page-break-after: avoid;\n  }\n}\n", "", {"version":3,"sources":["/./src/components/App/App.scss","/./node_modules/normalize.css/normalize.css","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH,4EAA4E;;AAE5E;;;;GAIG;;AAEH;EACE,wBAAwB,CAAC,OAAO;EAChC,2BAA2B,CAAC,OAAO;EACnC,+BAA+B,CAAC,OAAO;CACxC;;AAED;;GAEG;;AAEH;EACE,UAAU;CACX;;AAED;gFACgF;;AAEhF;;;;;GAKG;;AAEH;EAaE,eAAe;CAChB;;AAED;;;GAGG;;AAEH;EAIE,sBAAsB,CAAC,OAAO;EAC9B,yBAAyB,CAAC,OAAO;CAClC;;AAED;;;GAGG;;AAEH;EACE,cAAc;EACd,UAAU;CACX;;AAED;;;GAGG;;AAEH;EAEE,cAAc;CACf;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,8BAA8B;CAC/B;;AAED;;;GAGG;;AAEH;EAEE,WAAW;CACZ;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,0BAA0B;CAC3B;;AAED;;GAEG;;AAEH;EAEE,kBAAkB;CACnB;;AAED;;GAEG;;AAEH;EACE,mBAAmB;CACpB;;AAED;;;GAGG;;AAEH;EACE,eAAe;EACf,iBAAiB;CAClB;;AAED;;GAEG;;AAEH;EACE,iBAAiB;EACjB,YAAY;CACb;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;GAEG;;AAEH;EAEE,eAAe;EACf,eAAe;EACf,mBAAmB;EACnB,yBAAyB;CAC1B;;AAED;EACE,YAAY;CACb;;AAED;EACE,gBAAgB;CACjB;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,UAAU;CACX;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;GAEG;;AAEH;EACE,gCAAwB;UAAxB,wBAAwB;EACxB,UAAU;CACX;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;GAEG;;AAEH;EAIE,kCAAkC;EAClC,eAAe;CAChB;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;;;;;GAKG;;AAEH;EAKE,eAAe,CAAC,OAAO;EACvB,cAAc,CAAC,OAAO;EACtB,UAAU,CAAC,OAAO;CACnB;;AAED;;GAEG;;AAEH;EACE,kBAAkB;CACnB;;AAED;;;;;GAKG;;AAEH;EAEE,qBAAqB;CACtB;;AAED;;;;;;GAMG;;AAEH;EAIE,2BAA2B,CAAC,OAAO;EACnC,gBAAgB,CAAC,OAAO;CACzB;;AAED;;GAEG;;AAEH;EAEE,gBAAgB;CACjB;;AAED;;GAEG;;AAEH;EAEE,UAAU;EACV,WAAW;CACZ;;AAED;;;GAGG;;AAEH;EACE,oBAAoB;CACrB;;AAED;;;;;;GAMG;;AAEH;EAEE,+BAAuB;UAAvB,uBAAuB,CAAC,OAAO;EAC/B,WAAW,CAAC,OAAO;CACpB;;AAED;;;;GAIG;;AAEH;EAEE,aAAa;CACd;;AAED;;;GAGG;;AAEH;EACE,8BAA8B,CAAC,OAAO;EACtC,gCAAwB;UAAxB,wBAAwB,CAAC,OAAO;CACjC;;AAED;;;;GAIG;;AAEH;EAEE,yBAAyB;CAC1B;;AAED;;GAEG;;AAEH;EACE,0BAA0B;EAC1B,cAAc;EACd,+BAA+B;CAChC;;AAED;;;GAGG;;AAEH;EACE,UAAU,CAAC,OAAO;EAClB,WAAW,CAAC,OAAO;CACpB;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;;GAGG;;AAEH;EACE,kBAAkB;CACnB;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,0BAA0B;EAC1B,kBAAkB;CACnB;;AAED;EAEE,WAAW;CACZ;;AD5ZD,yEAAyE;;AEXzE;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AFnBhF;;gFAEgF;;AAEhF;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe,CAAC,YAAY;EAC5B,yDAA+B;EAC/B,mBAAmB,CAAC,WAAW;CAChC;;AAED;;;;;;GAMG;;AAEH;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;;GAEG;;AAEH;EACE,eAAe;EACf,YAAY;EACZ,UAAU;EACV,2BAA2B;EAC3B,cAAc;EACd,WAAW;CACZ;;AAED;;;;GAIG;;AAEH;EAME,uBAAuB;CACxB;;AAED;;GAEG;;AAEH;EACE,UAAU;EACV,UAAU;EACV,WAAW;CACZ;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;gFAEgF;;AAEhF;EACE,gBAAgB;EAChB,iBAAiB;EACjB,YAAY;EACZ,iBAAiB;CAClB;;AAED;;;;gFAIgF;;AAEhF;EACE;IAGE,mCAAmC;IACnC,uBAAuB,CAAC,+DAA+D;IACvF,oCAA4B;YAA5B,4BAA4B;IAC5B,6BAA6B;GAC9B;;EAED;IAEE,2BAA2B;GAC5B;;EAED;IACE,6BAA6B;GAC9B;;EAED;IACE,8BAA8B;GAC/B;;EAED;;;KAGG;;EAEH;IAEE,YAAY;GACb;;EAED;IAEE,uBAAuB;IACvB,yBAAyB;GAC1B;;EAED;;;KAGG;;EAEH;IACE,4BAA4B;GAC7B;;EAED;IAEE,yBAAyB;GAC1B;;EAED;IACE,2BAA2B;GAC5B;;EAED;IAGE,WAAW;IACX,UAAU;GACX;;EAED;IAEE,wBAAwB;GACzB;CACF","file":"App.scss","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../../node_modules/normalize.css/normalize.css';\n\n/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */\n\n@import '../variables.scss';\n\n/*\n * Base styles\n * ========================================================================== */\n\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: $font-family-base;\n  line-height: 1.375; /* ~22px */\n}\n\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n/*\n * A better looking default horizontal rule\n */\n\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n\n:global(.browserupgrade) {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n\n@media print {\n  *,\n  *:before,\n  *:after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]:after {\n    content: \" (\" attr(href) \")\";\n  }\n\n  abbr[title]:after {\n    content: \" (\" attr(title) \")\";\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n\n  a[href^=\"#\"]:after,\n  a[href^=\"javascript:\"]:after {\n    content: \"\";\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n","/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\n\n/**\n * 1. Set default font family to sans-serif.\n * 2. Prevent iOS and IE text size adjust after device orientation change,\n *    without disabling user zoom.\n */\n\nhtml {\n  font-family: sans-serif; /* 1 */\n  -ms-text-size-adjust: 100%; /* 2 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/**\n * Remove default margin.\n */\n\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\n   ========================================================================== */\n\n/**\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\n * and Firefox.\n * Correct `block` display not defined for `main` in IE 11.\n */\n\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block;\n}\n\n/**\n * 1. Correct `inline-block` display not defined in IE 8/9.\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\n */\n\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block; /* 1 */\n  vertical-align: baseline; /* 2 */\n}\n\n/**\n * Prevent modern browsers from displaying `audio` without controls.\n * Remove excess height in iOS 5 devices.\n */\n\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Address `[hidden]` styling not present in IE 8/9/10.\n * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.\n */\n\n[hidden],\ntemplate {\n  display: none;\n}\n\n/* Links\n   ========================================================================== */\n\n/**\n * Remove the gray background color from active links in IE 10.\n */\n\na {\n  background-color: transparent;\n}\n\n/**\n * Improve readability of focused elements when they are also in an\n * active/hover state.\n */\n\na:active,\na:hover {\n  outline: 0;\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\n */\n\nabbr[title] {\n  border-bottom: 1px dotted;\n}\n\n/**\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\n */\n\nb,\nstrong {\n  font-weight: bold;\n}\n\n/**\n * Address styling not present in Safari and Chrome.\n */\n\ndfn {\n  font-style: italic;\n}\n\n/**\n * Address variable `h1` font-size and margin within `section` and `article`\n * contexts in Firefox 4+, Safari, and Chrome.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/**\n * Address styling not present in IE 8/9.\n */\n\nmark {\n  background: #ff0;\n  color: #000;\n}\n\n/**\n * Address inconsistent and variable font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\n */\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsup {\n  top: -0.5em;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove border when inside `a` element in IE 8/9/10.\n */\n\nimg {\n  border: 0;\n}\n\n/**\n * Correct overflow not hidden in IE 9/10/11.\n */\n\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * Address margin not present in IE 8/9 and Safari.\n */\n\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * Address differences between Firefox and other browsers.\n */\n\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\n\n/**\n * Contain overflow in all browsers.\n */\n\npre {\n  overflow: auto;\n}\n\n/**\n * Address odd `em`-unit font size rendering in all browsers.\n */\n\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\n * styling of `select`, unless a `border` property is set.\n */\n\n/**\n * 1. Correct color not being inherited.\n *    Known issue: affects color of disabled elements.\n * 2. Correct font properties not being inherited.\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit; /* 1 */\n  font: inherit; /* 2 */\n  margin: 0; /* 3 */\n}\n\n/**\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\n */\n\nbutton {\n  overflow: visible;\n}\n\n/**\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\n * All other form control elements do not inherit `text-transform` values.\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\n * Correct `select` style inheritance in Firefox.\n */\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/**\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\n *    and `video` controls.\n * 2. Correct inability to style clickable `input` types in iOS.\n * 3. Improve usability and consistency of cursor style between image-type\n *    `input` and others.\n */\n\nbutton,\nhtml input[type=\"button\"], /* 1 */\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n  cursor: pointer; /* 3 */\n}\n\n/**\n * Re-set default cursor for disabled elements.\n */\n\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\n\n/**\n * Remove inner padding and border in Firefox 4+.\n */\n\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n\n/**\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\n * the UA stylesheet.\n */\n\ninput {\n  line-height: normal;\n}\n\n/**\n * It's recommended that you don't attempt to style these elements.\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\n *\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\n * 2. Remove excess padding in IE 8/9/10.\n */\n\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\n * `font-size` values of the `input`, it causes the cursor style of the\n * decrement button to change from `default` to `text`.\n */\n\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Address `appearance` set to `searchfield` in Safari and Chrome.\n * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.\n */\n\ninput[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  box-sizing: content-box; /* 2 */\n}\n\n/**\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\n * Safari (but not Chrome) clips the cancel button when the search input has\n * padding (and `textfield` appearance).\n */\n\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * Define consistent border, margin, and padding.\n */\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n\n/**\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\n */\n\nlegend {\n  border: 0; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Remove default vertical scrollbar in IE 8/9/10/11.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * Don't inherit the `font-weight` (applied by a rule above).\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\n */\n\noptgroup {\n  font-weight: bold;\n}\n\n/* Tables\n   ========================================================================== */\n\n/**\n * Remove most spacing between table cells.\n */\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\ntd,\nth {\n  padding: 0;\n}\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
-  
-  // exports
-
-
-/***/ }),
-/* 62 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  exports = module.exports = __webpack_require__(2)();
-  // imports
-  
-  
-  // module
-  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n/* #222 */\r\n\r\n/* #404040 */\r\n\r\n/* #555 */\r\n\r\n/* #777 */\r\n\r\n/* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n/* Extra small screen / phone */\r\n\r\n/* Small screen / tablet */\r\n\r\n/* Medium screen / desktop */\r\n\r\n/* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n.ContentPage_root_1Kg {\r\n\r\n}\r\n\r\n.ContentPage_container_1JT {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: 1000px;\r\n}\r\n", "", {"version":3,"sources":["/./src/components/ContentPage/ContentPage.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;ADvBhF;;CAEC;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"ContentPage.scss","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n@import '../variables.scss';\r\n\r\n.root {\r\n\r\n}\r\n\r\n.container {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: $max-content-width;\r\n}\r\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
-  
-  // exports
-  exports.locals = {
-  	"root": "ContentPage_root_1Kg",
-  	"container": "ContentPage_container_1JT"
-  };
-
-/***/ }),
-/* 63 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  exports = module.exports = __webpack_require__(2)();
-  // imports
-  
-  
-  // module
-  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n* {\r\n  margin: 0;\r\n  line-height: 1.2;\r\n}\r\n\r\nhtml {\r\n  display: table;\r\n  width: 100%;\r\n  height: 100%;\r\n  color: #888;\r\n  text-align: center;\r\n  font-family: sans-serif;\r\n}\r\n\r\nbody {\r\n  display: table-cell;\r\n  margin: 2em auto;\r\n  vertical-align: middle;\r\n}\r\n\r\nh1 {\r\n  color: #555;\r\n  font-weight: 400;\r\n  font-size: 2em;\r\n}\r\n\r\np {\r\n  margin: 0 auto;\r\n  width: 280px;\r\n}\r\n\r\n@media only screen and (max-width: 280px) {\r\n\r\n  body, p {\r\n    width: 95%;\r\n  }\r\n\r\n  h1 {\r\n    font-size: 1.5em;\r\n    margin: 0 0 0.3em;\r\n\r\n  }\r\n\r\n}\r\n", "", {"version":3,"sources":["/./src/components/ErrorPage/ErrorPage.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE,UAAU;EACV,iBAAiB;CAClB;;AAED;EACE,eAAe;EACf,YAAY;EACZ,aAAa;EACb,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;CACzB;;AAED;EACE,oBAAoB;EACpB,iBAAiB;EACjB,uBAAuB;CACxB;;AAED;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe;CAChB;;AAED;EACE,eAAe;EACf,aAAa;CACd;;AAED;;EAEE;IACE,WAAW;GACZ;;EAED;IACE,iBAAiB;IACjB,kBAAkB;;GAEnB;;CAEF","file":"ErrorPage.scss","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n* {\r\n  margin: 0;\r\n  line-height: 1.2;\r\n}\r\n\r\nhtml {\r\n  display: table;\r\n  width: 100%;\r\n  height: 100%;\r\n  color: #888;\r\n  text-align: center;\r\n  font-family: sans-serif;\r\n}\r\n\r\nbody {\r\n  display: table-cell;\r\n  margin: 2em auto;\r\n  vertical-align: middle;\r\n}\r\n\r\nh1 {\r\n  color: #555;\r\n  font-weight: 400;\r\n  font-size: 2em;\r\n}\r\n\r\np {\r\n  margin: 0 auto;\r\n  width: 280px;\r\n}\r\n\r\n@media only screen and (max-width: 280px) {\r\n\r\n  body, p {\r\n    width: 95%;\r\n  }\r\n\r\n  h1 {\r\n    font-size: 1.5em;\r\n    margin: 0 0 0.3em;\r\n\r\n  }\r\n\r\n}\r\n"],"sourceRoot":"webpack://"}]);
-  
-  // exports
-
-
-/***/ }),
-/* 64 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  exports = module.exports = __webpack_require__(2)();
-  // imports
-  
-  
-  // module
-  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n/* #222 */\r\n\r\n/* #404040 */\r\n\r\n/* #555 */\r\n\r\n/* #777 */\r\n\r\n/* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n/* Extra small screen / phone */\r\n\r\n/* Small screen / tablet */\r\n\r\n/* Medium screen / desktop */\r\n\r\n/* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n.Feedback_root_LW7 {\r\n  background: #f5f5f5;\r\n  color: #333;\r\n}\r\n\r\n.Feedback_container_3dV {\r\n  margin: 0 auto;\r\n  padding: 20px 8px;\r\n  max-width: 1000px;\r\n  text-align: center;\r\n  font-size: 1.5em; /* ~24px */\r\n}\r\n\r\n.Feedback_link_17l, .Feedback_link_17l:active, .Feedback_link_17l:hover, .Feedback_link_17l:visited {\r\n  color: #333;\r\n  text-decoration: none;\r\n}\r\n\r\n.Feedback_link_17l:hover {\r\n  text-decoration: underline;\r\n}\r\n\r\n.Feedback_spacer_Iut {\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n}\r\n", "", {"version":3,"sources":["/./src/components/Feedback/Feedback.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;ADvBhF;EACE,oBAAoB;EACpB,YAAY;CACb;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;EAC9B,mBAAmB;EACnB,iBAAiB,CAAC,WAAW;CAC9B;;AAED;EAIE,YAAY;EACZ,sBAAsB;CACvB;;AAED;EACE,2BAA2B;CAC5B;;AAED;EACE,oBAAoB;EACpB,mBAAmB;CACpB","file":"Feedback.scss","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n@import '../variables.scss';\r\n\r\n.root {\r\n  background: #f5f5f5;\r\n  color: #333;\r\n}\r\n\r\n.container {\r\n  margin: 0 auto;\r\n  padding: 20px 8px;\r\n  max-width: $max-content-width;\r\n  text-align: center;\r\n  font-size: 1.5em; /* ~24px */\r\n}\r\n\r\n.link,\r\n.link:active,\r\n.link:hover,\r\n.link:visited {\r\n  color: #333;\r\n  text-decoration: none;\r\n}\r\n\r\n.link:hover {\r\n  text-decoration: underline;\r\n}\r\n\r\n.spacer {\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n}\r\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
-  
-  // exports
-  exports.locals = {
-  	"root": "Feedback_root_LW7",
-  	"container": "Feedback_container_3dV",
-  	"link": "Feedback_link_17l",
-  	"spacer": "Feedback_spacer_Iut"
-  };
+  /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(99)(module)))
 
 /***/ }),
 /* 65 */
@@ -4746,17 +4856,10 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n/* #222 */\r\n\r\n/* #404040 */\r\n\r\n/* #555 */\r\n\r\n/* #777 */\r\n\r\n/* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n/* Extra small screen / phone */\r\n\r\n/* Small screen / tablet */\r\n\r\n/* Medium screen / desktop */\r\n\r\n/* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n.Footer_root_3dP {\r\n  background: #333;\r\n  color: #fff;\r\n}\r\n\r\n.Footer_container_26p {\r\n  margin: 0 auto;\r\n  padding: 20px 15px;\r\n  max-width: 1000px;\r\n  text-align: center;\r\n}\r\n\r\n.Footer_text_tTp {\r\n  color: rgba(255, 255, 255, .5);\r\n}\r\n\r\n.Footer_textMuted_1h3 {\r\n  color: rgba(255, 255, 255, .3);\r\n}\r\n\r\n.Footer_spacer_3n7 {\r\n  color: rgba(255, 255, 255, .3);\r\n}\r\n\r\n.Footer_text_tTp, .Footer_link_NoJ {\r\n  padding: 2px 5px;\r\n  font-size: 1em;\r\n}\r\n\r\n.Footer_link_NoJ, .Footer_link_NoJ:active, .Footer_link_NoJ:visited {\r\n  color: rgba(255, 255, 255, .6);\r\n  text-decoration: none;\r\n}\r\n\r\n.Footer_link_NoJ:hover {\r\n  color: rgba(255, 255, 255, 1);\r\n}\r\n", "", {"version":3,"sources":["/./src/components/Footer/Footer.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;ADvBhF;EACE,iBAAiB;EACjB,YAAY;CACb;;AAED;EACE,eAAe;EACf,mBAAmB;EACnB,kBAA8B;EAC9B,mBAAmB;CACpB;;AAED;EACE,+BAA+B;CAChC;;AAED;EAEE,+BAA+B;CAChC;;AAED;EACE,+BAA+B;CAChC;;AAED;EAEE,iBAAiB;EACjB,eAAe;CAChB;;AAED;EAGE,+BAA+B;EAC/B,sBAAsB;CACvB;;AAED;EACE,8BAA8B;CAC/B","file":"Footer.scss","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n@import '../variables.scss';\r\n\r\n.root {\r\n  background: #333;\r\n  color: #fff;\r\n}\r\n\r\n.container {\r\n  margin: 0 auto;\r\n  padding: 20px 15px;\r\n  max-width: $max-content-width;\r\n  text-align: center;\r\n}\r\n\r\n.text {\r\n  color: rgba(255, 255, 255, .5);\r\n}\r\n\r\n.textMuted {\r\n  composes: text;\r\n  color: rgba(255, 255, 255, .3);\r\n}\r\n\r\n.spacer {\r\n  color: rgba(255, 255, 255, .3);\r\n}\r\n\r\n.text,\r\n.link {\r\n  padding: 2px 5px;\r\n  font-size: 1em;\r\n}\r\n\r\n.link,\r\n.link:active,\r\n.link:visited {\r\n  color: rgba(255, 255, 255, .6);\r\n  text-decoration: none;\r\n}\r\n\r\n.link:hover {\r\n  color: rgba(255, 255, 255, 1);\r\n}\r\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * Note\n */\n\n/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\n\n/**\n * 1. Set default font family to sans-serif.\n * 2. Prevent iOS and IE text size adjust after device orientation change,\n *    without disabling user zoom.\n */\n\nhtml {\n  font-family: sans-serif; /* 1 */\n  -ms-text-size-adjust: 100%; /* 2 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/**\n * Remove default margin.\n */\n\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\n   ========================================================================== */\n\n/**\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\n * and Firefox.\n * Correct `block` display not defined for `main` in IE 11.\n */\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {\n  display: block;\n}\n\n/**\n * 1. Correct `inline-block` display not defined in IE 8/9.\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\n */\n\naudio, canvas, progress, video {\n  display: inline-block; /* 1 */\n  vertical-align: baseline; /* 2 */\n}\n\n/**\n * Prevent modern browsers from displaying `audio` without controls.\n * Remove excess height in iOS 5 devices.\n */\n\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Address `[hidden]` styling not present in IE 8/9/10.\n * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.\n */\n\n[hidden], template {\n  display: none;\n}\n\n/* Links\n   ========================================================================== */\n\n/**\n * Remove the gray background color from active links in IE 10.\n */\n\na {\n  background-color: transparent;\n}\n\n/**\n * Improve readability of focused elements when they are also in an\n * active/hover state.\n */\n\na:active, a:hover {\n  outline: 0;\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\n */\n\nabbr[title] {\n  border-bottom: 1px dotted;\n}\n\n/**\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\n */\n\nb, strong {\n  font-weight: bold;\n}\n\n/**\n * Address styling not present in Safari and Chrome.\n */\n\ndfn {\n  font-style: italic;\n}\n\n/**\n * Address variable `h1` font-size and margin within `section` and `article`\n * contexts in Firefox 4+, Safari, and Chrome.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/**\n * Address styling not present in IE 8/9.\n */\n\nmark {\n  background: #ff0;\n  color: #000;\n}\n\n/**\n * Address inconsistent and variable font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\n */\n\nsub, sup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsup {\n  top: -0.5em;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove border when inside `a` element in IE 8/9/10.\n */\n\nimg {\n  border: 0;\n}\n\n/**\n * Correct overflow not hidden in IE 9/10/11.\n */\n\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * Address margin not present in IE 8/9 and Safari.\n */\n\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * Address differences between Firefox and other browsers.\n */\n\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box;\n  height: 0;\n}\n\n/**\n * Contain overflow in all browsers.\n */\n\npre {\n  overflow: auto;\n}\n\n/**\n * Address odd `em`-unit font size rendering in all browsers.\n */\n\ncode, kbd, pre, samp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\n * styling of `select`, unless a `border` property is set.\n */\n\n/**\n * 1. Correct color not being inherited.\n *    Known issue: affects color of disabled elements.\n * 2. Correct font properties not being inherited.\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\n */\n\nbutton, input, optgroup, select, textarea {\n  color: inherit; /* 1 */\n  font: inherit; /* 2 */\n  margin: 0; /* 3 */\n}\n\n/**\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\n */\n\nbutton {\n  overflow: visible;\n}\n\n/**\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\n * All other form control elements do not inherit `text-transform` values.\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\n * Correct `select` style inheritance in Firefox.\n */\n\nbutton, select {\n  text-transform: none;\n}\n\n/**\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\n *    and `video` controls.\n * 2. Correct inability to style clickable `input` types in iOS.\n * 3. Improve usability and consistency of cursor style between image-type\n *    `input` and others.\n */\n\nbutton, html input[type=\"button\"], input[type=\"reset\"], input[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n  cursor: pointer; /* 3 */\n}\n\n/**\n * Re-set default cursor for disabled elements.\n */\n\nbutton[disabled], html input[disabled] {\n  cursor: default;\n}\n\n/**\n * Remove inner padding and border in Firefox 4+.\n */\n\nbutton::-moz-focus-inner, input::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n\n/**\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\n * the UA stylesheet.\n */\n\ninput {\n  line-height: normal;\n}\n\n/**\n * It's recommended that you don't attempt to style these elements.\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\n *\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\n * 2. Remove excess padding in IE 8/9/10.\n */\n\ninput[type=\"checkbox\"], input[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\n * `font-size` values of the `input`, it causes the cursor style of the\n * decrement button to change from `default` to `text`.\n */\n\ninput[type=\"number\"]::-webkit-inner-spin-button, input[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Address `appearance` set to `searchfield` in Safari and Chrome.\n * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.\n */\n\ninput[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box; /* 2 */\n}\n\n/**\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\n * Safari (but not Chrome) clips the cancel button when the search input has\n * padding (and `textfield` appearance).\n */\n\ninput[type=\"search\"]::-webkit-search-cancel-button, input[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * Define consistent border, margin, and padding.\n */\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n\n/**\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\n */\n\nlegend {\n  border: 0; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Remove default vertical scrollbar in IE 8/9/10/11.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * Don't inherit the `font-weight` (applied by a rule above).\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\n */\n\noptgroup {\n  font-weight: bold;\n}\n\n/* Tables\n   ========================================================================== */\n\n/**\n * Remove most spacing between table cells.\n */\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\ntd, th {\n  padding: 0;\n}\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/*\n * Base styles\n * ========================================================================== */\n\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n}\n\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n  background: #03b102;\n  text-shadow: none;\n}\n\n::selection {\n  background: #03b102;\n  text-shadow: none;\n}\n\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n\naudio, canvas, iframe, img, svg, video {\n  vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n\n.browserupgrade {\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n\n@media print {\n  *, *:before, *:after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a, a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]:after {\n    content: \" (\" attr(href) \")\";\n  }\n\n  abbr[title]:after {\n    content: \" (\" attr(title) \")\";\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n\n  a[href^=\"#\"]:after, a[href^=\"javascript:\"]:after {\n    content: \"\";\n  }\n\n  pre, blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n\n  thead {\n    display: table-header-group;\n  }\n\n  tr, img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p, h2, h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2, h3 {\n    page-break-after: avoid;\n  }\n}\n", "", {"version":3,"sources":["/./src/components/App/App.scss","/./node_modules/normalize.css/normalize.css","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;GAEG;;ACFH,4EAA4E;;AAE5E;;;;GAIG;;AAEH;EACE,wBAAwB,CAAC,OAAO;EAChC,2BAA2B,CAAC,OAAO;EACnC,+BAA+B,CAAC,OAAO;CACxC;;AAED;;GAEG;;AAEH;EACE,UAAU;CACX;;AAED;gFACgF;;AAEhF;;;;;GAKG;;AAEH;EAaE,eAAe;CAChB;;AAED;;;GAGG;;AAEH;EAIE,sBAAsB,CAAC,OAAO;EAC9B,yBAAyB,CAAC,OAAO;CAClC;;AAED;;;GAGG;;AAEH;EACE,cAAc;EACd,UAAU;CACX;;AAED;;;GAGG;;AAEH;EAEE,cAAc;CACf;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,8BAA8B;CAC/B;;AAED;;;GAGG;;AAEH;EAEE,WAAW;CACZ;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,0BAA0B;CAC3B;;AAED;;GAEG;;AAEH;EAEE,kBAAkB;CACnB;;AAED;;GAEG;;AAEH;EACE,mBAAmB;CACpB;;AAED;;;GAGG;;AAEH;EACE,eAAe;EACf,iBAAiB;CAClB;;AAED;;GAEG;;AAEH;EACE,iBAAiB;EACjB,YAAY;CACb;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;GAEG;;AAEH;EAEE,eAAe;EACf,eAAe;EACf,mBAAmB;EACnB,yBAAyB;CAC1B;;AAED;EACE,YAAY;CACb;;AAED;EACE,gBAAgB;CACjB;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,UAAU;CACX;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;GAEG;;AAEH;EACE,gCAAwB;UAAxB,wBAAwB;EACxB,UAAU;CACX;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;GAEG;;AAEH;EAIE,kCAAkC;EAClC,eAAe;CAChB;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;;;;;GAKG;;AAEH;EAKE,eAAe,CAAC,OAAO;EACvB,cAAc,CAAC,OAAO;EACtB,UAAU,CAAC,OAAO;CACnB;;AAED;;GAEG;;AAEH;EACE,kBAAkB;CACnB;;AAED;;;;;GAKG;;AAEH;EAEE,qBAAqB;CACtB;;AAED;;;;;;GAMG;;AAEH;EAIE,2BAA2B,CAAC,OAAO;EACnC,gBAAgB,CAAC,OAAO;CACzB;;AAED;;GAEG;;AAEH;EAEE,gBAAgB;CACjB;;AAED;;GAEG;;AAEH;EAEE,UAAU;EACV,WAAW;CACZ;;AAED;;;GAGG;;AAEH;EACE,oBAAoB;CACrB;;AAED;;;;;;GAMG;;AAEH;EAEE,+BAAuB;UAAvB,uBAAuB,CAAC,OAAO;EAC/B,WAAW,CAAC,OAAO;CACpB;;AAED;;;;GAIG;;AAEH;EAEE,aAAa;CACd;;AAED;;;GAGG;;AAEH;EACE,8BAA8B,CAAC,OAAO;EACtC,gCAAwB;UAAxB,wBAAwB,CAAC,OAAO;CACjC;;AAED;;;;GAIG;;AAEH;EAEE,yBAAyB;CAC1B;;AAED;;GAEG;;AAEH;EACE,0BAA0B;EAC1B,cAAc;EACd,+BAA+B;CAChC;;AAED;;;GAGG;;AAEH;EACE,UAAU,CAAC,OAAO;EAClB,WAAW,CAAC,OAAO;CACpB;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;;GAGG;;AAEH;EACE,kBAAkB;CACnB;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,0BAA0B;EAC1B,kBAAkB;CACnB;;AAED;EAEE,WAAW;CACZ;;ACvaD;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AF3BhF;;gFAEgF;;AAEhF;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe,CAAC,YAAY;EAC5B,yDAA+B;CAChC;;AAED;;;;;;GAMG;;AAEH;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAGD;;;;GAIG;;AAEH;EAME,uBAAuB;CACxB;;AAED;;GAEG;;AAEH;EACE,UAAU;EACV,UAAU;EACV,WAAW;CACZ;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;gFAEgF;;AAEhF;EACE,iBAAiB;EACjB,YAAY;EACZ,iBAAiB;CAClB;;AAED;;;;gFAIgF;;AAEhF;EACE;IAGE,mCAAmC;IACnC,uBAAuB,CAAC,+DAA+D;IACvF,oCAA4B;YAA5B,4BAA4B;IAC5B,6BAA6B;GAC9B;;EAED;IAEE,2BAA2B;GAC5B;;EAED;IACE,6BAA6B;GAC9B;;EAED;IACE,8BAA8B;GAC/B;;EAED;;;KAGG;;EAEH;IAEE,YAAY;GACb;;EAED;IAEE,uBAAuB;IACvB,yBAAyB;GAC1B;;EAED;;;KAGG;;EAEH;IACE,4BAA4B;GAC7B;;EAED;IAEE,yBAAyB;GAC1B;;EAED;IACE,2BAA2B;GAC5B;;EAED;IAGE,WAAW;IACX,UAAU;GACX;;EAED;IAEE,wBAAwB;GACzB;CACF","file":"App.scss","sourcesContent":["/**\n * Note\n */\n\n@import '../../../node_modules/normalize.css/normalize.css';\n@import '../variables.scss';\n\n/*\n * Base styles\n * ========================================================================== */\n\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: $font-family-base;\n}\n\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n  background: #03b102;\n  text-shadow: none;\n}\n\n::selection {\n  background: #03b102;\n  text-shadow: none;\n}\n\n\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n\n:global(.browserupgrade) {\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n\n@media print {\n  *,\n  *:before,\n  *:after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]:after {\n    content: \" (\" attr(href) \")\";\n  }\n\n  abbr[title]:after {\n    content: \" (\" attr(title) \")\";\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n\n  a[href^=\"#\"]:after,\n  a[href^=\"javascript:\"]:after {\n    content: \"\";\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n","/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\n\n/**\n * 1. Set default font family to sans-serif.\n * 2. Prevent iOS and IE text size adjust after device orientation change,\n *    without disabling user zoom.\n */\n\nhtml {\n  font-family: sans-serif; /* 1 */\n  -ms-text-size-adjust: 100%; /* 2 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/**\n * Remove default margin.\n */\n\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\n   ========================================================================== */\n\n/**\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\n * and Firefox.\n * Correct `block` display not defined for `main` in IE 11.\n */\n\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block;\n}\n\n/**\n * 1. Correct `inline-block` display not defined in IE 8/9.\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\n */\n\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block; /* 1 */\n  vertical-align: baseline; /* 2 */\n}\n\n/**\n * Prevent modern browsers from displaying `audio` without controls.\n * Remove excess height in iOS 5 devices.\n */\n\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Address `[hidden]` styling not present in IE 8/9/10.\n * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.\n */\n\n[hidden],\ntemplate {\n  display: none;\n}\n\n/* Links\n   ========================================================================== */\n\n/**\n * Remove the gray background color from active links in IE 10.\n */\n\na {\n  background-color: transparent;\n}\n\n/**\n * Improve readability of focused elements when they are also in an\n * active/hover state.\n */\n\na:active,\na:hover {\n  outline: 0;\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\n */\n\nabbr[title] {\n  border-bottom: 1px dotted;\n}\n\n/**\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\n */\n\nb,\nstrong {\n  font-weight: bold;\n}\n\n/**\n * Address styling not present in Safari and Chrome.\n */\n\ndfn {\n  font-style: italic;\n}\n\n/**\n * Address variable `h1` font-size and margin within `section` and `article`\n * contexts in Firefox 4+, Safari, and Chrome.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/**\n * Address styling not present in IE 8/9.\n */\n\nmark {\n  background: #ff0;\n  color: #000;\n}\n\n/**\n * Address inconsistent and variable font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\n */\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsup {\n  top: -0.5em;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove border when inside `a` element in IE 8/9/10.\n */\n\nimg {\n  border: 0;\n}\n\n/**\n * Correct overflow not hidden in IE 9/10/11.\n */\n\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * Address margin not present in IE 8/9 and Safari.\n */\n\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * Address differences between Firefox and other browsers.\n */\n\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\n\n/**\n * Contain overflow in all browsers.\n */\n\npre {\n  overflow: auto;\n}\n\n/**\n * Address odd `em`-unit font size rendering in all browsers.\n */\n\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\n * styling of `select`, unless a `border` property is set.\n */\n\n/**\n * 1. Correct color not being inherited.\n *    Known issue: affects color of disabled elements.\n * 2. Correct font properties not being inherited.\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit; /* 1 */\n  font: inherit; /* 2 */\n  margin: 0; /* 3 */\n}\n\n/**\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\n */\n\nbutton {\n  overflow: visible;\n}\n\n/**\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\n * All other form control elements do not inherit `text-transform` values.\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\n * Correct `select` style inheritance in Firefox.\n */\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/**\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\n *    and `video` controls.\n * 2. Correct inability to style clickable `input` types in iOS.\n * 3. Improve usability and consistency of cursor style between image-type\n *    `input` and others.\n */\n\nbutton,\nhtml input[type=\"button\"], /* 1 */\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n  cursor: pointer; /* 3 */\n}\n\n/**\n * Re-set default cursor for disabled elements.\n */\n\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\n\n/**\n * Remove inner padding and border in Firefox 4+.\n */\n\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n\n/**\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\n * the UA stylesheet.\n */\n\ninput {\n  line-height: normal;\n}\n\n/**\n * It's recommended that you don't attempt to style these elements.\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\n *\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\n * 2. Remove excess padding in IE 8/9/10.\n */\n\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\n * `font-size` values of the `input`, it causes the cursor style of the\n * decrement button to change from `default` to `text`.\n */\n\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Address `appearance` set to `searchfield` in Safari and Chrome.\n * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.\n */\n\ninput[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  box-sizing: content-box; /* 2 */\n}\n\n/**\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\n * Safari (but not Chrome) clips the cancel button when the search input has\n * padding (and `textfield` appearance).\n */\n\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * Define consistent border, margin, and padding.\n */\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n\n/**\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\n */\n\nlegend {\n  border: 0; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Remove default vertical scrollbar in IE 8/9/10/11.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * Don't inherit the `font-weight` (applied by a rule above).\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\n */\n\noptgroup {\n  font-weight: bold;\n}\n\n/* Tables\n   ========================================================================== */\n\n/**\n * Remove most spacing between table cells.\n */\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\ntd,\nth {\n  padding: 0;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
   
   // exports
-  exports.locals = {
-  	"root": "Footer_root_3dP",
-  	"container": "Footer_container_26p",
-  	"text": "Footer_text_tTp",
-  	"textMuted": "Footer_textMuted_1h3 Footer_text_tTp",
-  	"spacer": "Footer_spacer_3n7",
-  	"link": "Footer_link_NoJ"
-  };
+
 
 /***/ }),
 /* 66 */
@@ -4767,18 +4870,12 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n/* #222 */\r\n\r\n/* #404040 */\r\n\r\n/* #555 */\r\n\r\n/* #777 */\r\n\r\n/* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n/* Extra small screen / phone */\r\n\r\n/* Small screen / tablet */\r\n\r\n/* Medium screen / desktop */\r\n\r\n/* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n.Header_root_14I {\r\n  background: #41b1e7;\r\n  color: #fff;\r\n}\r\n\r\n.Header_container_izf {\r\n  margin: 0 auto;\r\n  padding: 20px 0;\r\n  max-width: 1000px;\r\n}\r\n\r\n.Header_brand_1-T {\r\n  color: rgb(146, 229, 252);\r\n  text-decoration: none;\r\n  font-size: 1.75em; /* ~28px */\r\n}\r\n\r\n.Header_brandTxt_162 {\r\n  margin-left: 10px;\r\n}\r\n\r\n.Header_nav_3wx {\r\n  float: right;\r\n  margin-top: 6px;\r\n}\r\n\r\n.Header_banner_UgC {\r\n  text-align: center;\r\n}\r\n\r\n.Header_bannerTitle_3Qi {\r\n  margin: 0;\r\n  padding: 10px;\r\n  font-weight: normal;\r\n  font-size: 4em;\r\n  line-height: 1em;\r\n}\r\n\r\n.Header_bannerDesc_3Ow {\r\n  padding: 0;\r\n  color: rgba(255, 255, 255, .5);\r\n  font-size: 1.25em;\r\n  margin: 0;\r\n}\r\n", "", {"version":3,"sources":["/./src/components/Header/Header.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;ADrBhF;EACE,oBAAoB;EACpB,YAAY;CACb;;AAED;EACE,eAAe;EACf,gBAAgB;EAChB,kBAA8B;CAC/B;;AAED;EACE,0BAA2C;EAC3C,sBAAsB;EACtB,kBAAkB,CAAC,WAAW;CAC/B;;AAED;EACE,kBAAkB;CACnB;;AAED;EACE,aAAa;EACb,gBAAgB;CACjB;;AAED;EACE,mBAAmB;CACpB;;AAED;EACE,UAAU;EACV,cAAc;EACd,oBAAoB;EACpB,eAAe;EACf,iBAAiB;CAClB;;AAED;EACE,WAAW;EACX,+BAA+B;EAC/B,kBAAkB;EAClB,UAAU;CACX","file":"Header.scss","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n@import '../variables.scss';\r\n\r\n$brand-color: #61dafb;\r\n\r\n.root {\r\n  background: #41b1e7;\r\n  color: #fff;\r\n}\r\n\r\n.container {\r\n  margin: 0 auto;\r\n  padding: 20px 0;\r\n  max-width: $max-content-width;\r\n}\r\n\r\n.brand {\r\n  color: color($brand-color lightness(+10%));\r\n  text-decoration: none;\r\n  font-size: 1.75em; /* ~28px */\r\n}\r\n\r\n.brandTxt {\r\n  margin-left: 10px;\r\n}\r\n\r\n.nav {\r\n  float: right;\r\n  margin-top: 6px;\r\n}\r\n\r\n.banner {\r\n  text-align: center;\r\n}\r\n\r\n.bannerTitle {\r\n  margin: 0;\r\n  padding: 10px;\r\n  font-weight: normal;\r\n  font-size: 4em;\r\n  line-height: 1em;\r\n}\r\n\r\n.bannerDesc {\r\n  padding: 0;\r\n  color: rgba(255, 255, 255, .5);\r\n  font-size: 1.25em;\r\n  margin: 0;\r\n}\r\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * This is the styling for the buttons that trigger the biz panels.\n */\n\n.Button_root_3yh {\n\n}\n\n.Button_button_3_O{\n  color: red;\n}\n", "", {"version":3,"sources":["/./src/components/Button/Button.scss"],"names":[],"mappings":"AAAA;;GAEG;;AAEH;;CAEC;;AAED;EACE,WAAW;CACZ","file":"Button.scss","sourcesContent":["/**\n * This is the styling for the buttons that trigger the biz panels.\n */\n\n.root {\n\n}\n\n.button{\n  color: red;\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
-  	"root": "Header_root_14I",
-  	"container": "Header_container_izf",
-  	"brand": "Header_brand_1-T",
-  	"brandTxt": "Header_brandTxt_162",
-  	"nav": "Header_nav_3wx",
-  	"banner": "Header_banner_UgC",
-  	"bannerTitle": "Header_bannerTitle_3Qi",
-  	"bannerDesc": "Header_bannerDesc_3Ow"
+  	"root": "Button_root_3yh",
+  	"button": "Button_button_3_O"
   };
 
 /***/ }),
@@ -4790,14 +4887,12 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n.Navigation_root_2Gx {\r\n\r\n}\r\n\r\n.Navigation_link_12k {\r\n  display: inline-block;\r\n  padding: 3px 8px;\r\n  text-decoration: none;\r\n  font-size: 1.125em; /* ~18px */\r\n}\r\n\r\n.Navigation_link_12k, .Navigation_link_12k:active, .Navigation_link_12k:visited {\r\n  color: rgba(255, 255, 255, .6);\r\n}\r\n\r\n.Navigation_link_12k:hover {\r\n  color: rgba(255, 255, 255, 1);\r\n}\r\n\r\n.Navigation_highlight_2cu {\r\n  margin-right: 8px;\r\n  margin-left: 8px;\r\n  border-radius: 3px;\r\n  background: rgba(0, 0, 0, .15);\r\n  color: #fff;\r\n}\r\n\r\n.Navigation_highlight_2cu:hover {\r\n  background: rgba(0, 0, 0, .3);\r\n}\r\n\r\n.Navigation_spacer_2MV {\r\n  color: rgba(255, 255, 255, .3);\r\n}\r\n", "", {"version":3,"sources":["/./src/components/Navigation/Navigation.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;;CAEC;;AAED;EACE,sBAAsB;EACtB,iBAAiB;EACjB,sBAAsB;EACtB,mBAAmB,CAAC,WAAW;CAChC;;AAED;EAGE,+BAA+B;CAChC;;AAED;EACE,8BAA8B;CAC/B;;AAED;EACE,kBAAkB;EAClB,iBAAiB;EACjB,mBAAmB;EACnB,+BAA+B;EAC/B,YAAY;CACb;;AAED;EACE,8BAA8B;CAC/B;;AAED;EACE,+BAA+B;CAChC","file":"Navigation.scss","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n.root {\r\n\r\n}\r\n\r\n.link {\r\n  display: inline-block;\r\n  padding: 3px 8px;\r\n  text-decoration: none;\r\n  font-size: 1.125em; /* ~18px */\r\n}\r\n\r\n.link,\r\n.link:active,\r\n.link:visited {\r\n  color: rgba(255, 255, 255, .6);\r\n}\r\n\r\n.link:hover {\r\n  color: rgba(255, 255, 255, 1);\r\n}\r\n\r\n.highlight {\r\n  margin-right: 8px;\r\n  margin-left: 8px;\r\n  border-radius: 3px;\r\n  background: rgba(0, 0, 0, .15);\r\n  color: #fff;\r\n}\r\n\r\n.highlight:hover {\r\n  background: rgba(0, 0, 0, .3);\r\n}\r\n\r\n.spacer {\r\n  color: rgba(255, 255, 255, .3);\r\n}\r\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * Notes\n */\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n.ContentPage_root_1Kg {\n\n}\n\n.ContentPage_container_1JT {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/components/ContentPage/ContentPage.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;GAEG;;ACFH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AD5BhF;;CAEC;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"ContentPage.scss","sourcesContent":["/**\n * Notes\n */\n\n@import '../variables.scss';\n\n.root {\n\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
-  	"root": "Navigation_root_2Gx",
-  	"link": "Navigation_link_12k",
-  	"highlight": "Navigation_highlight_2cu",
-  	"spacer": "Navigation_spacer_2MV"
+  	"root": "ContentPage_root_1Kg",
+  	"container": "ContentPage_container_1JT"
   };
 
 /***/ }),
@@ -4809,7 +4904,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n* {\r\n  margin: 0;\r\n  line-height: 1.2;\r\n}\r\n\r\nhtml {\r\n  display: table;\r\n  width: 100%;\r\n  height: 100%;\r\n  color: #888;\r\n  text-align: center;\r\n  font-family: sans-serif;\r\n}\r\n\r\nbody {\r\n  display: table-cell;\r\n  margin: 2em auto;\r\n  vertical-align: middle;\r\n}\r\n\r\nh1 {\r\n  color: #555;\r\n  font-weight: 400;\r\n  font-size: 2em;\r\n}\r\n\r\np {\r\n  margin: 0 auto;\r\n  width: 280px;\r\n}\r\n\r\n@media only screen and (max-width: 280px) {\r\n\r\n  body, p {\r\n    width: 95%;\r\n  }\r\n\r\n  h1 {\r\n    font-size: 1.5em;\r\n    margin: 0 0 0.3em;\r\n  }\r\n\r\n}\r\n", "", {"version":3,"sources":["/./src/components/NotFoundPage/NotFoundPage.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE,UAAU;EACV,iBAAiB;CAClB;;AAED;EACE,eAAe;EACf,YAAY;EACZ,aAAa;EACb,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;CACzB;;AAED;EACE,oBAAoB;EACpB,iBAAiB;EACjB,uBAAuB;CACxB;;AAED;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe;CAChB;;AAED;EACE,eAAe;EACf,aAAa;CACd;;AAED;;EAEE;IACE,WAAW;GACZ;;EAED;IACE,iBAAiB;IACjB,kBAAkB;GACnB;;CAEF","file":"NotFoundPage.scss","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n* {\r\n  margin: 0;\r\n  line-height: 1.2;\r\n}\r\n\r\nhtml {\r\n  display: table;\r\n  width: 100%;\r\n  height: 100%;\r\n  color: #888;\r\n  text-align: center;\r\n  font-family: sans-serif;\r\n}\r\n\r\nbody {\r\n  display: table-cell;\r\n  margin: 2em auto;\r\n  vertical-align: middle;\r\n}\r\n\r\nh1 {\r\n  color: #555;\r\n  font-weight: 400;\r\n  font-size: 2em;\r\n}\r\n\r\np {\r\n  margin: 0 auto;\r\n  width: 280px;\r\n}\r\n\r\n@media only screen and (max-width: 280px) {\r\n\r\n  body, p {\r\n    width: 95%;\r\n  }\r\n\r\n  h1 {\r\n    font-size: 1.5em;\r\n    margin: 0 0 0.3em;\r\n  }\r\n\r\n}\r\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * Notes\n */\n\n* {\n  margin: 0;\n  line-height: 1.2;\n}\n\nhtml {\n  display: table;\n  width: 100%;\n  height: 100%;\n  color: #888;\n  text-align: center;\n  font-family: sans-serif;\n}\n\nbody {\n  display: table-cell;\n  margin: 2em auto;\n  vertical-align: middle;\n}\n\nh1 {\n  color: #555;\n  font-weight: 400;\n  font-size: 2em;\n}\n\np {\n  margin: 0 auto;\n  width: 280px;\n}\n\n@media only screen and (max-width: 280px) {\n\n  body, p {\n    width: 95%;\n  }\n\n  h1 {\n    font-size: 1.5em;\n    margin: 0 0 0.3em;\n\n  }\n\n}\n", "", {"version":3,"sources":["/./src/components/ErrorPage/ErrorPage.scss"],"names":[],"mappings":"AAAA;;GAEG;;AAEH;EACE,UAAU;EACV,iBAAiB;CAClB;;AAED;EACE,eAAe;EACf,YAAY;EACZ,aAAa;EACb,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;CACzB;;AAED;EACE,oBAAoB;EACpB,iBAAiB;EACjB,uBAAuB;CACxB;;AAED;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe;CAChB;;AAED;EACE,eAAe;EACf,aAAa;CACd;;AAED;;EAEE;IACE,WAAW;GACZ;;EAED;IACE,iBAAiB;IACjB,kBAAkB;;GAEnB;;CAEF","file":"ErrorPage.scss","sourcesContent":["/**\n * Notes\n */\n\n* {\n  margin: 0;\n  line-height: 1.2;\n}\n\nhtml {\n  display: table;\n  width: 100%;\n  height: 100%;\n  color: #888;\n  text-align: center;\n  font-family: sans-serif;\n}\n\nbody {\n  display: table-cell;\n  margin: 2em auto;\n  vertical-align: middle;\n}\n\nh1 {\n  color: #555;\n  font-weight: 400;\n  font-size: 2em;\n}\n\np {\n  margin: 0 auto;\n  width: 280px;\n}\n\n@media only screen and (max-width: 280px) {\n\n  body, p {\n    width: 95%;\n  }\n\n  h1 {\n    font-size: 1.5em;\n    margin: 0 0 0.3em;\n\n  }\n\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
 
@@ -4823,12 +4918,16 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/*\r\n * Colors\r\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\r\n * Typography\r\n * ========================================================================== */\n\n/*\r\n * Layout\r\n * ========================================================================== */\n\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\r\n * Animations\r\n * ========================================================================== */\n\n.Contact_root_dJi {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Contact_container_D8L {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/routes/contact/Contact.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;ADvBhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"Contact.scss","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION */\n\nhtml{\n}\n\n.Footer_root_3dP {\n  background: #481D0C;\n  color: #fff;\n  height:100%;\n}\n\n.Footer_container_26p {\n  padding: 20px 15px;\n  text-align: center;\n}\n\n.Footer_text_tTp {\n  color: #87CEFA;  /* Light Sky Blue */\n}\n\n.Footer_textMuted_1h3 {\n  color: rgba(255, 255, 255, .3);\n}\n\n.Footer_spacer_3n7 {\n  color: rgba(255, 255, 255, .3);\n}\n\n.Footer_text_tTp, .Footer_link_NoJ {\n  padding: 2px 5px;\n  font-size: 1em;\n}\n\n.Footer_link_NoJ, .Footer_link_NoJ:active, .Footer_link_NoJ:visited {\n  color: rgba(255, 255, 255, .6);\n  text-decoration: none;\n}\n\n.Footer_link_NoJ:hover {\n  color: rgba(255, 255, 255, 1);\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/components/Footer/Footer.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,qBAAqB;;AACrB;CACC;;AACD;EACE,oBAAoB;EACpB,YAAY;EACZ,YAAY;CACb;;AACD;EACE,mBAAmB;EACnB,mBAAmB;CACpB;;AAED;EACE,eAAe,EAAE,oBAAoB;CACtC;;AAED;EAEE,+BAA+B;CAChC;;AAED;EACE,+BAA+B;CAChC;;AAED;EAEE,iBAAiB;EACjB,eAAe;CAChB;;AAED;EAGE,+BAA+B;EAC/B,sBAAsB;CACvB;;AAED;EACE,8BAA8B;CAC/B","file":"Footer.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../variables.scss';\n\n/* GRID DEFINITION */\nhtml{\n}\n.root {\n  background: #481D0C;\n  color: #fff;\n  height:100%;\n}\n.container {\n  padding: 20px 15px;\n  text-align: center;\n}\n\n.text {\n  color: #87CEFA;  /* Light Sky Blue */\n}\n\n.textMuted {\n  composes: text;\n  color: rgba(255, 255, 255, .3);\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n\n.text,\n.link {\n  padding: 2px 5px;\n  font-size: 1em;\n}\n\n.link,\n.link:active,\n.link:visited {\n  color: rgba(255, 255, 255, .6);\n  text-decoration: none;\n}\n\n.link:hover {\n  color: rgba(255, 255, 255, 1);\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
-  	"root": "Contact_root_dJi",
-  	"container": "Contact_container_D8L"
+  	"root": "Footer_root_3dP",
+  	"container": "Footer_container_26p",
+  	"text": "Footer_text_tTp",
+  	"textMuted": "Footer_textMuted_1h3 Footer_text_tTp",
+  	"spacer": "Footer_spacer_3n7",
+  	"link": "Footer_link_NoJ"
   };
 
 /***/ }),
@@ -4840,16 +4939,12 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/*\r\n * Colors\r\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\r\n * Typography\r\n * ========================================================================== */\n\n/*\r\n * Layout\r\n * ========================================================================== */\n\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\r\n * Animations\r\n * ========================================================================== */\n\n.Home_root_qf4 {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Home_container_2AB {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n\n.Home_news_3cv {\n  padding: 0;\n}\n\n.Home_newsItem_2e0 {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.Home_newsTitle_1EI {\n  font-size: 1.125em;\n}\n\n.Home_newsTitle_1EI, .Home_newsDesc_58O {\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/routes/home/Home.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;ADvBhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B;;AAED;EACE,WAAW;CACZ;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CACrB;;AAED;EACE,mBAAmB;CACpB;;AAED;EACE,eAAe;CAChB","file":"Home.scss","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n\n.news {\n  padding: 0;\n}\n\n.newsItem {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.newsTitle {\n  font-size: 1.125em;\n}\n\n.newsTitle, .newsDesc {\n  display: block;\n}\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION */\n\n.Header_root_14I{\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n  background: #481D0C; /* Dark Brown */\n  color: #fff;\n}\n\n.Header_container_izf{\n  -ms-grid-column-span: 12;\n  -ms-grid-column: col-start;\n      grid-column: col-start / span 12;\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/components/Header/Header.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,qBAAqB;;AACrB;EACE,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;EACnD,oBAAoB,CAAC,gBAAgB;EACrC,YAAY;CACb;;AAED;EACE,yBAAiC;EAAjC,2BAAiC;MAAjC,iCAAiC;CAClC","file":"Header.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../variables.scss';\n\n/* GRID DEFINITION */\n.root{\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n  background: #481D0C; /* Dark Brown */\n  color: #fff;\n}\n\n.container{\n  grid-column: col-start / span 12;\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
-  	"root": "Home_root_qf4",
-  	"container": "Home_container_2AB",
-  	"news": "Home_news_3cv",
-  	"newsItem": "Home_newsItem_2e0",
-  	"newsTitle": "Home_newsTitle_1EI",
-  	"newsDesc": "Home_newsDesc_58O"
+  	"root": "Header_root_14I",
+  	"container": "Header_container_izf"
   };
 
 /***/ }),
@@ -4861,12 +4956,19 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/*\r\n * Colors\r\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\r\n * Typography\r\n * ========================================================================== */\n\n/*\r\n * Layout\r\n * ========================================================================== */\n\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\r\n * Animations\r\n * ========================================================================== */\n\n.Login_root_1Yv {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Login_container_dzJ {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/routes/login/Login.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;ADvBhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"Login.scss","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/* GRID DEFINITION */\n.Navigation_root_2Gx{\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n}\n.Navigation_homeNav_1a8{\n  padding-left: 5px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_findReview_L0-{\n  padding-top: 10px;\n  -ms-grid-column-span: 4;\n  -ms-grid-column: 5;\n      grid-column: 5 / span 4;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_logInSignIn_3Vv{\n  padding-top: 10px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 11;\n      grid-column: 11 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n/* BRAND STYLING */\na{\n  vertical-align: middle;\n}\n.Navigation_brand_2V6{\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n.Navigation_brandTxt_3ep{\n  padding-top: 10px;\n  padding-left: 5px;\n}\n/* LINK STYLING */\n.Navigation_link_12k{\n  text-decoration: none;\n  font-size: 18px;\n}\n.Navigation_link_12k, .Navigation_link_12k:active, .Navigation_link_12k:visited{\n  color: rgba(255, 255, 255, .6);\n}\n.Navigation_link_12k:hover{\n  color: rgba(255, 255, 255, 1);\n}\n.Navigation_highlight_2cu{\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n.Navigation_highlight_2cu:hover{\n  background: rgba(0, 0, 0, .3);\n}\n.Navigation_spacer_2MV{\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/Navigation/Navigation.scss"],"names":[],"mappings":"AAAA,qBAAqB;AACrB;EACE,kBAAkB;EAClB,qBAAqB;EACrB,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;CACpD;AACD;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AACD;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AACD;EACE,kBAAkB;EAClB,wBAAyB;EAAzB,oBAAyB;MAAzB,yBAAyB;EACzB,gBAAY;MAAZ,YAAY;CACb;AAED,mBAAmB;AACnB;EACE,uBAAuB;CACxB;AACD;EACE,eAAe,EAAE,oBAAoB;EACrC,sBAAsB;EACtB,gBAAgB;EAChB,iBAAiB;CAClB;AACD;EACE,kBAAkB;EAClB,kBAAkB;CACnB;AAED,kBAAkB;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EAGE,+BAA+B;CAChC;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,YAAY;CACb;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,+BAA+B;CAChC","file":"Navigation.scss","sourcesContent":["/* GRID DEFINITION */\n.root{\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n}\n.homeNav{\n  padding-left: 5px;\n  grid-column: 1 / span 2;\n  grid-row: 1;\n}\n.findReview{\n  padding-top: 10px;\n  grid-column: 5 / span 4;\n  grid-row: 1;\n}\n.logInSignIn{\n  padding-top: 10px;\n  grid-column: 11 / span 2;\n  grid-row: 1;\n}\n\n/* BRAND STYLING */\na{\n  vertical-align: middle;\n}\n.brand{\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n.brandTxt{\n  padding-top: 10px;\n  padding-left: 5px;\n}\n\n/* LINK STYLING */\n.link{\n  text-decoration: none;\n  font-size: 18px;\n}\n.link,\n.link:active,\n.link:visited{\n  color: rgba(255, 255, 255, .6);\n}\n.link:hover{\n  color: rgba(255, 255, 255, 1);\n}\n.highlight{\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n.highlight:hover{\n  background: rgba(0, 0, 0, .3);\n}\n.spacer{\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
-  	"root": "Login_root_1Yv",
-  	"container": "Login_container_dzJ"
+  	"root": "Navigation_root_2Gx",
+  	"homeNav": "Navigation_homeNav_1a8",
+  	"findReview": "Navigation_findReview_L0-",
+  	"logInSignIn": "Navigation_logInSignIn_3Vv",
+  	"brand": "Navigation_brand_2V6",
+  	"brandTxt": "Navigation_brandTxt_3ep",
+  	"link": "Navigation_link_12k",
+  	"highlight": "Navigation_highlight_2cu",
+  	"spacer": "Navigation_spacer_2MV"
   };
 
 /***/ }),
@@ -4878,7 +4980,115 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/*\r\n * Colors\r\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\r\n * Typography\r\n * ========================================================================== */\n\n/*\r\n * Layout\r\n * ========================================================================== */\n\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\r\n * Animations\r\n * ========================================================================== */\n\n.Register_root_154 {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Register_container_3Ea {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/routes/register/Register.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;ADvBhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"Register.scss","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\r\n * Colors\r\n * ========================================================================== */\r\n\r\n$white-base:            hsl(255, 255, 255);\r\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\r\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\r\n$gray:                  color(black lightness(+33.5%)); /* #555 */\r\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\r\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\r\n\r\n/*\r\n * Typography\r\n * ========================================================================== */\r\n\r\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n/*\r\n * Layout\r\n * ========================================================================== */\r\n\r\n$max-content-width:     1000px;\r\n\r\n/*\r\n * Media queries breakpoints\r\n * ========================================================================== */\r\n\r\n$screen-xs-min:         480px;  /* Extra small screen / phone */\r\n$screen-sm-min:         768px;  /* Small screen / tablet */\r\n$screen-md-min:         992px;  /* Medium screen / desktop */\r\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\r\n\r\n/*\r\n * Animations\r\n * ========================================================================== */\r\n\r\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\r\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * Note\n */\n\n* {\n  margin: 0;\n  line-height: 1.2;\n}\n\nhtml {\n  display: table;\n  width: 100%;\n  height: 100%;\n  color: #888;\n  text-align: center;\n  font-family: sans-serif;\n}\n\nbody {\n  display: table-cell;\n  margin: 2em auto;\n  vertical-align: middle;\n}\n\nh1 {\n  color: #555;\n  font-weight: 400;\n  font-size: 2em;\n}\n\np {\n  margin: 0 auto;\n  width: 280px;\n}\n\n@media only screen and (max-width: 280px) {\n\n  body, p {\n    width: 95%;\n  }\n\n  h1 {\n    font-size: 1.5em;\n    margin: 0 0 0.3em;\n  }\n\n}\n", "", {"version":3,"sources":["/./src/components/NotFoundPage/NotFoundPage.scss"],"names":[],"mappings":"AAAA;;GAEG;;AAEH;EACE,UAAU;EACV,iBAAiB;CAClB;;AAED;EACE,eAAe;EACf,YAAY;EACZ,aAAa;EACb,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;CACzB;;AAED;EACE,oBAAoB;EACpB,iBAAiB;EACjB,uBAAuB;CACxB;;AAED;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe;CAChB;;AAED;EACE,eAAe;EACf,aAAa;CACd;;AAED;;EAEE;IACE,WAAW;GACZ;;EAED;IACE,iBAAiB;IACjB,kBAAkB;GACnB;;CAEF","file":"NotFoundPage.scss","sourcesContent":["/**\n * Note\n */\n\n* {\n  margin: 0;\n  line-height: 1.2;\n}\n\nhtml {\n  display: table;\n  width: 100%;\n  height: 100%;\n  color: #888;\n  text-align: center;\n  font-family: sans-serif;\n}\n\nbody {\n  display: table-cell;\n  margin: 2em auto;\n  vertical-align: middle;\n}\n\nh1 {\n  color: #555;\n  font-weight: 400;\n  font-size: 2em;\n}\n\np {\n  margin: 0 auto;\n  width: 280px;\n}\n\n@media only screen and (max-width: 280px) {\n\n  body, p {\n    width: 95%;\n  }\n\n  h1 {\n    font-size: 1.5em;\n    margin: 0 0 0.3em;\n  }\n\n}\n"],"sourceRoot":"webpack://"}]);
+  
+  // exports
+
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+  
+  
+  // module
+  exports.push([module.id, "/**\n * This is the styling for the buttons that trigger the biz panels.\n */\n\n.PanelTransTrigger_root_1ho {\n\n}\n\n.PanelTransTrigger_link_2CH {\n  display: inline-block;\n  padding: 3px 8px;\n  text-decoration: none;\n  font-size: 1.125em; /* ~18px */\n}\n\n.PanelTransTrigger_link_2CH, .PanelTransTrigger_link_2CH:active, .PanelTransTrigger_link_2CH:visited {\n  color: rgba(255, 255, 255, .6);\n}\n\n.PanelTransTrigger_link_2CH:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.PanelTransTrigger_highlight_kZ- {\n  margin-right: 8px;\n  margin-left: 8px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .15);\n  color: #fff;\n}\n\n.PanelTransTrigger_highlight_kZ-:hover {\n  background: rgba(0, 0, 0, .3);\n}\n\n.PanelTransTrigger_spacer_2Nc {\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/PanelTransTrigger/PanelTransTrigger.scss"],"names":[],"mappings":"AAAA;;GAEG;;AAEH;;CAEC;;AAED;EACE,sBAAsB;EACtB,iBAAiB;EACjB,sBAAsB;EACtB,mBAAmB,CAAC,WAAW;CAChC;;AAED;EAGE,+BAA+B;CAChC;;AAED;EACE,8BAA8B;CAC/B;;AAED;EACE,kBAAkB;EAClB,iBAAiB;EACjB,mBAAmB;EACnB,+BAA+B;EAC/B,YAAY;CACb;;AAED;EACE,8BAA8B;CAC/B;;AAED;EACE,+BAA+B;CAChC","file":"PanelTransTrigger.scss","sourcesContent":["/**\n * This is the styling for the buttons that trigger the biz panels.\n */\n\n.root {\n\n}\n\n.link {\n  display: inline-block;\n  padding: 3px 8px;\n  text-decoration: none;\n  font-size: 1.125em; /* ~18px */\n}\n\n.link,\n.link:active,\n.link:visited {\n  color: rgba(255, 255, 255, .6);\n}\n\n.link:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.highlight {\n  margin-right: 8px;\n  margin-left: 8px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .15);\n  color: #fff;\n}\n\n.highlight:hover {\n  background: rgba(0, 0, 0, .3);\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
+  
+  // exports
+  exports.locals = {
+  	"root": "PanelTransTrigger_root_1ho",
+  	"link": "PanelTransTrigger_link_2CH",
+  	"highlight": "PanelTransTrigger_highlight_kZ-",
+  	"spacer": "PanelTransTrigger_spacer_2Nc"
+  };
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+  
+  
+  // module
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION */\n\n.find-artisan_root_a8o {\n}\n\n.find-artisan_container_3mQ{\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n}\n\nh1{\n  -ms-grid-column-span: 12;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 12;\n  -ms-grid-row: 1;\n      grid-row: 1;\n  height:100%;\n  text-align: center;\n  margin: 10px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2rem;\n}\n\n.find-artisan_btnBar_1TX {\n  -ms-grid-column-span: 8;\n  -ms-grid-column: col-start 3;\n      grid-column: col-start 3 / span 8;\n  grid-row: 2 / 3;\n  display: -ms-grid;\n  display: grid;\n  grid-gap: 10px;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  }\n\n.find-artisan_btn1_3ys{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 1;\n          grid-column: 1 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn2_1SK{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 3;\n          grid-column: 3 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn3_Brf{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 5;\n          grid-column: 5 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn4_Wj5{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 1;\n          grid-column: 1 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_btn5_3Cm{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 3;\n          grid-column: 3 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_btn6_1B5{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 5;\n          grid-column: 5 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_bizCatTitle_3pP{\n  -ms-grid-column-span: 12;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 12;\n}\n\n.find-artisan_bizPanel_1_5{\n\n}\n\n/* STYLING */\n\n.find-artisan_container_3mQ {\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\nh2{\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  font-weight: normal;\n  font-size: 1.5em;\n}\n\n.find-artisan_title_27e{\n  padding: 15px;\n  text-align: center;\n}\n\nbutton{\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #fff; /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n\n}\n\nbutton:hover{\n    opacity: 0.8;\n}\n\n.find-artisan_bizCatTitle_3pP{\n\n  text-align: center;\n  color: #87CEFA;  /* Light Sky Blue */\n\n}\n\n.find-artisan_bizPanel_1_5{\n\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/find-artisan/find-artisan.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,qBAAqB;;AACrB;CACC;;AACD;EACE,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;CACpD;;AACD;EACE,yBAAyB;EAAzB,mBAAyB;MAAzB,yBAAyB;EACzB,gBAAY;MAAZ,YAAY;EACZ,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,eAAe,CAAC,gBAAgB;EAChC,oBAAoB;EACpB,gBAAgB;CACjB;;AACD;EACE,wBAAkC;EAAlC,6BAAkC;MAAlC,kCAAkC;EAClC,gBAAgB;EAChB,kBAAc;EAAd,cAAc;EACd,eAAe;EACf,8BAAmC;MAAnC,mCAAmC;GAClC;;AACC;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AAEL;EACE,yBAAyB;EAAzB,mBAAyB;MAAzB,yBAAyB;CAC1B;;AACD;;CAEC;;AACD,aAAa;;AACb;EACE,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AAED;EACE,yDAA+B;EAC/B,oBAAoB;EACpB,iBAAiB;CAClB;;AACD;EACE,cAAc;EACd,mBAAmB;CACpB;;AACD;EACE,YAAY;EACZ,0BAA0B,CAAC,gBAAgB;EAC3C,YAAY,CAAC,WAAW;EACxB,mBAAmB;EACnB,cAAc;EACd,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,kBAAkB;EAClB,gBAAgB;;CAEjB;;AACD;IACI,aAAa;CAChB;;AACD;;EAEE,mBAAmB;EACnB,eAAe,EAAE,oBAAoB;;CAEtC;;AACD;;CAEC","file":"find-artisan.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION */\n.root {\n}\n.container{\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n}\nh1{\n  grid-column: 1 / span 12;\n  grid-row: 1;\n  height:100%;\n  text-align: center;\n  margin: 10px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2rem;\n}\n.btnBar {\n  grid-column: col-start 3 / span 8;\n  grid-row: 2 / 3;\n  display: grid;\n  grid-gap: 10px;\n  grid-template-columns: 1fr 1fr 1fr;\n  }\n    .btn1{\n      grid-column: 1 / span 2;\n      grid-row: 1;\n    }\n    .btn2{\n      grid-column: 3 / span 2;\n      grid-row: 1;\n    }\n    .btn3{\n      grid-column: 5 / span 2;\n      grid-row: 1;\n    }\n    .btn4{\n      grid-column: 1 / span 2;\n      grid-row: 2;\n    }\n    .btn5{\n      grid-column: 3 / span 2;\n      grid-row: 2;\n    }\n    .btn6{\n      grid-column: 5 / span 2;\n      grid-row: 2;\n    }\n\n.bizCatTitle{\n  grid-column: 1 / span 12;\n}\n.bizPanel{\n\n}\n/* STYLING */\n.container {\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\nh2{\n  font-family: $font-family-base;\n  font-weight: normal;\n  font-size: 1.5em;\n}\n.title{\n  padding: 15px;\n  text-align: center;\n}\nbutton{\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #fff; /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n\n}\nbutton:hover{\n    opacity: 0.8;\n}\n.bizCatTitle{\n\n  text-align: center;\n  color: #87CEFA;  /* Light Sky Blue */\n\n}\n.bizPanel{\n\n}\n"],"sourceRoot":"webpack://"}]);
+  
+  // exports
+  exports.locals = {
+  	"root": "find-artisan_root_a8o",
+  	"container": "find-artisan_container_3mQ",
+  	"btnBar": "find-artisan_btnBar_1TX",
+  	"btn1": "find-artisan_btn1_3ys",
+  	"btn2": "find-artisan_btn2_1SK",
+  	"btn3": "find-artisan_btn3_Brf",
+  	"btn4": "find-artisan_btn4_Wj5",
+  	"btn5": "find-artisan_btn5_3Cm",
+  	"btn6": "find-artisan_btn6_1B5",
+  	"bizCatTitle": "find-artisan_bizCatTitle_3pP",
+  	"bizPanel": "find-artisan_bizPanel_1_5",
+  	"title": "find-artisan_title_27e"
+  };
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+  
+  
+  // module
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Home_root_qf4 {\n\n}\n\n/* STYLING */\n\n.Home_container_2AB {\n  width: 100%;\n  height: 200px;\n  background-image: url(" + __webpack_require__(98) + ");\n  -webkit-background-size: cover;\n          background-size: cover;\n}\n\nh1 {\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.Home_banner_3pg {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.Home_bannerTitle_3Jg {\n  color: #FFF;\n\n}\n\n.Home_bannerDesc_xBe {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6)\n}\n\n.Home_link_RhC:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.Home_highlight_3Xr {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff\n}\n\n.Home_highlight_3Xr:hover {\n  background: darken($baseColor, 5%);\n}\n\n.Home_spacer_2ay {\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/home/Home.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;;CAEC;;AAED,aAAa;;AACb;EACE,YAAY;EACZ,cAAc;EACd,gDAA2C;EAC3C,+BAAuB;UAAvB,uBAAuB;CACxB;;AAED;EACE,yDAA+B;EAC/B,YAAY;EACZ,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB,CAAC,gBAAgB;CACtC;;AAED;EACE,YAAY;;CAEb;;AAED;EACE,+BAA+B;EAC/B,kBAAkB;CACnB;;AAED;IACI,aAAa;IACb,gBAAgB;CACnB;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;EAChB,8BAA+B;CAIhC;;AAHC;EACE,8BAA8B;CAC/B;;AAGH;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,WAAY;CAKb;;AAHC;EACE,mCAAmC;CACpC;;AAGH;EACE,+BAA+B;CAChC","file":"Home.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root {\n\n}\n\n/* STYLING */\n.container {\n  width: 100%;\n  height: 200px;\n  background-image: url(\"./theArtisan.jpeg\");\n  background-size: cover;\n}\n\nh1 {\n  font-family: $font-family-base;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.banner {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.bannerTitle {\n  color: #FFF;\n\n}\n\n.bannerDesc {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6);\n  &:hover {\n    color: rgba(255, 255, 255, 1);\n  }\n}\n\n.highlight {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n\n  &:hover{\n    background: darken($baseColor, 5%);\n  }\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
+  
+  // exports
+  exports.locals = {
+  	"root": "Home_root_qf4",
+  	"container": "Home_container_2AB",
+  	"banner": "Home_banner_3pg",
+  	"bannerTitle": "Home_bannerTitle_3Jg",
+  	"bannerDesc": "Home_bannerDesc_xBe",
+  	"link": "Home_link_RhC",
+  	"highlight": "Home_highlight_3Xr",
+  	"spacer": "Home_spacer_2ay"
+  };
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+  
+  
+  // module
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Login_root_1Yv{\n}\n\n.Login_container_dzJ{\n  min-height: 50rem; \n}\n\n.Login_title_2Pg{\n  padding: 15px;\n  text-align: center;\n}\n\n.Login_loginForm_QoK{\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  grid-gap: 5px;\n}\n\n.Login_usrname_3FC{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n\n.Login_usrnameBox_-MF{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 2;\n      grid-row: 2;\n  margin-bottom: 20px;\n}\n\n.Login_pssword_cb8{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 3;\n      grid-row: 3;\n}\n\n.Login_psswordBox_1sN{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 4;\n      grid-row: 4;\n  margin-bottom: 20px;\n}\n\n.Login_sbmit_1Eq{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 5;\n      grid-row: 5;\n}\n\n.Login_psw_Mpy{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 6s;\n      grid-row: 6s;\n}\n\n/* LOGIN STYLING */\n\n.Login_container_dzJ{\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.Login_loginForm_QoK{\n\n}\n\nh1{\n  margin: 0px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2em;\n}\n\nlabel{\n  color: #484848; /* Grey */\n}\n\ninput{\n  padding: 10px;\n  font-size: .75em;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0.5px;\n}\n\nbutton{\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #FFF;  /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n\n.Login_psw_Mpy{\n  padding: 20px;\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/login/Login.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;CACC;;AACD;EACE,kBAAkB;CACnB;;AACD;EACE,cAAc;EACd,mBAAmB;CACpB;;AACD;EACE,kBAAc;EAAd,cAAc;EACd,8BAAmC;MAAnC,mCAAmC;EACnC,cAAc;CACf;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;EACZ,oBAAoB;CACrB;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;EACZ,oBAAoB;CACrB;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,iBAAa;MAAb,aAAa;CACd;;AACD,mBAAmB;;AACnB;EACE,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AACD;;CAEC;;AACD;EACE,YAAY;EACZ,eAAe,CAAC,gBAAgB;EAChC,oBAAoB;EACpB,eAAe;CAChB;;AACD;EACE,eAAe,CAAC,UAAU;CAC3B;;AACD;EACE,cAAc;EACd,iBAAiB;EACjB,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,oBAAoB;CACrB;;AACD;EACE,YAAY;EACZ,0BAA0B,CAAC,gBAAgB;EAC3C,YAAY,EAAE,WAAW;EACzB,mBAAmB;EACnB,cAAc;EACd,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,kBAAkB;EAClB,gBAAgB;CACjB;;AACD;IACI,aAAa;CAChB;;AACD;EACE,cAAc;EACd,mBAAmB;CACpB","file":"Login.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root{\n}\n.container{\n  min-height: 50rem; \n}\n.title{\n  padding: 15px;\n  text-align: center;\n}\n.loginForm{\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  grid-gap: 5px;\n}\n.usrname{\n  grid-column: 2 / span 1;\n  grid-row: 1;\n}\n.usrnameBox{\n  grid-column: 2 / span 1;\n  grid-row: 2;\n  margin-bottom: 20px;\n}\n.pssword{\n  grid-column: 2 / span 1;\n  grid-row: 3;\n}\n.psswordBox{\n  grid-column: 2 / span 1;\n  grid-row: 4;\n  margin-bottom: 20px;\n}\n.sbmit{\n  grid-column: 2 / span 1;\n  grid-row: 5;\n}\n.psw{\n  grid-column: 2 / span 1;\n  grid-row: 6s;\n}\n/* LOGIN STYLING */\n.container{\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n.loginForm{\n\n}\nh1{\n  margin: 0px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2em;\n}\nlabel{\n  color: #484848; /* Grey */\n}\ninput{\n  padding: 10px;\n  font-size: .75em;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0.5px;\n}\nbutton{\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #FFF;  /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n}\nbutton:hover {\n    opacity: 0.8;\n}\n.psw{\n  padding: 20px;\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
+  
+  // exports
+  exports.locals = {
+  	"root": "Login_root_1Yv",
+  	"container": "Login_container_dzJ",
+  	"title": "Login_title_2Pg",
+  	"loginForm": "Login_loginForm_QoK",
+  	"usrname": "Login_usrname_3FC",
+  	"usrnameBox": "Login_usrnameBox_-MF",
+  	"pssword": "Login_pssword_cb8",
+  	"psswordBox": "Login_psswordBox_1sN",
+  	"sbmit": "Login_sbmit_1Eq",
+  	"psw": "Login_psw_Mpy"
+  };
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+  
+  
+  // module
+  exports.push([module.id, "/**\n * Notes\n */\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n.Register_root_154 {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Register_container_3Ea {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/routes/register/Register.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;GAEG;;ACFH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AD5BhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"Register.scss","sourcesContent":["/**\n * Notes\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -4887,11 +5097,28 @@ module.exports =
   };
 
 /***/ }),
-/* 73 */
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+  
+  
+  // module
+  exports.push([module.id, "/**\n * Notes\n */\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n.review-artisan_root_M9B {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.review-artisan_container_38x {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/routes/review-artisan/review-artisan.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;GAEG;;ACFH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AD5BhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"review-artisan.scss","sourcesContent":["/**\n * Notes\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
+  
+  // exports
+  exports.locals = {
+  	"root": "review-artisan_root_M9B",
+  	"container": "review-artisan_container_38x"
+  };
+
+/***/ }),
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(61);
+      var content = __webpack_require__(65);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -4920,11 +5147,44 @@ module.exports =
     
 
 /***/ }),
-/* 74 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(62);
+      var content = __webpack_require__(66);
+      var insertCss = __webpack_require__(3);
+  
+      if (typeof content === 'string') {
+        content = [[module.id, content, '']];
+      }
+  
+      module.exports = content.locals || {};
+      module.exports._getCss = function() { return content.toString(); };
+      module.exports._insertCss = insertCss.bind(null, content);
+    
+      var removeCss = function() {};
+  
+      // Hot Module Replacement
+      // https://webpack.github.io/docs/hot-module-replacement
+      // Only activated in browser context
+      if (false) {
+        module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./Button.scss", function() {
+          var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./Button.scss");
+          if (typeof newContent === 'string') {
+            newContent = [[module.id, content, '']];
+          }
+          removeCss = insertCss(newContent, { replace: true });
+        });
+        module.hot.dispose(function() { removeCss(); });
+      }
+    
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  
+      var content = __webpack_require__(67);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -4953,11 +5213,11 @@ module.exports =
     
 
 /***/ }),
-/* 75 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(63);
+      var content = __webpack_require__(68);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -4986,44 +5246,11 @@ module.exports =
     
 
 /***/ }),
-/* 76 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(64);
-      var insertCss = __webpack_require__(3);
-  
-      if (typeof content === 'string') {
-        content = [[module.id, content, '']];
-      }
-  
-      module.exports = content.locals || {};
-      module.exports._getCss = function() { return content.toString(); };
-      module.exports._insertCss = insertCss.bind(null, content);
-    
-      var removeCss = function() {};
-  
-      // Hot Module Replacement
-      // https://webpack.github.io/docs/hot-module-replacement
-      // Only activated in browser context
-      if (false) {
-        module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./Feedback.scss", function() {
-          var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./Feedback.scss");
-          if (typeof newContent === 'string') {
-            newContent = [[module.id, content, '']];
-          }
-          removeCss = insertCss(newContent, { replace: true });
-        });
-        module.hot.dispose(function() { removeCss(); });
-      }
-    
-
-/***/ }),
-/* 77 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  
-      var content = __webpack_require__(65);
+      var content = __webpack_require__(69);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -5052,11 +5279,11 @@ module.exports =
     
 
 /***/ }),
-/* 78 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(66);
+      var content = __webpack_require__(70);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -5085,11 +5312,11 @@ module.exports =
     
 
 /***/ }),
-/* 79 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(67);
+      var content = __webpack_require__(71);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -5118,11 +5345,11 @@ module.exports =
     
 
 /***/ }),
-/* 80 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(68);
+      var content = __webpack_require__(72);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -5151,11 +5378,11 @@ module.exports =
     
 
 /***/ }),
-/* 81 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(69);
+      var content = __webpack_require__(73);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -5172,8 +5399,8 @@ module.exports =
       // https://webpack.github.io/docs/hot-module-replacement
       // Only activated in browser context
       if (false) {
-        module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./Contact.scss", function() {
-          var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./Contact.scss");
+        module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./PanelTransTrigger.scss", function() {
+          var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./PanelTransTrigger.scss");
           if (typeof newContent === 'string') {
             newContent = [[module.id, content, '']];
           }
@@ -5184,11 +5411,44 @@ module.exports =
     
 
 /***/ }),
-/* 82 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(70);
+      var content = __webpack_require__(74);
+      var insertCss = __webpack_require__(3);
+  
+      if (typeof content === 'string') {
+        content = [[module.id, content, '']];
+      }
+  
+      module.exports = content.locals || {};
+      module.exports._getCss = function() { return content.toString(); };
+      module.exports._insertCss = insertCss.bind(null, content);
+    
+      var removeCss = function() {};
+  
+      // Hot Module Replacement
+      // https://webpack.github.io/docs/hot-module-replacement
+      // Only activated in browser context
+      if (false) {
+        module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./find-artisan.scss", function() {
+          var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./find-artisan.scss");
+          if (typeof newContent === 'string') {
+            newContent = [[module.id, content, '']];
+          }
+          removeCss = insertCss(newContent, { replace: true });
+        });
+        module.hot.dispose(function() { removeCss(); });
+      }
+    
+
+/***/ }),
+/* 89 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  
+      var content = __webpack_require__(75);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -5217,11 +5477,11 @@ module.exports =
     
 
 /***/ }),
-/* 83 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(71);
+      var content = __webpack_require__(76);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -5250,11 +5510,11 @@ module.exports =
     
 
 /***/ }),
-/* 84 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(72);
+      var content = __webpack_require__(77);
       var insertCss = __webpack_require__(3);
   
       if (typeof content === 'string') {
@@ -5283,7 +5543,40 @@ module.exports =
     
 
 /***/ }),
-/* 85 */
+/* 92 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  
+      var content = __webpack_require__(78);
+      var insertCss = __webpack_require__(3);
+  
+      if (typeof content === 'string') {
+        content = [[module.id, content, '']];
+      }
+  
+      module.exports = content.locals || {};
+      module.exports._getCss = function() { return content.toString(); };
+      module.exports._insertCss = insertCss.bind(null, content);
+    
+      var removeCss = function() {};
+  
+      // Hot Module Replacement
+      // https://webpack.github.io/docs/hot-module-replacement
+      // Only activated in browser context
+      if (false) {
+        module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./review-artisan.scss", function() {
+          var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap&modules&localIdentName=[name]_[local]_[hash:base64:3]!../../../node_modules/postcss-loader/index.js?parser=postcss-scss!./review-artisan.scss");
+          if (typeof newContent === 'string') {
+            newContent = [[module.id, content, '']];
+          }
+          removeCss = insertCss(newContent, { replace: true });
+        });
+        module.hot.dispose(function() { removeCss(); });
+      }
+    
+
+/***/ }),
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
   var jade = __webpack_require__(21);
@@ -5571,7 +5864,7 @@ module.exports =
   }
 
 /***/ }),
-/* 86 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
   var jade = __webpack_require__(21);
@@ -5677,7 +5970,7 @@ module.exports =
   }
 
 /***/ }),
-/* 87 */
+/* 95 */
 /***/ (function(module, exports) {
 
   module.exports = Array.isArray || function (arr) {
@@ -5686,10 +5979,10 @@ module.exports =
 
 
 /***/ }),
-/* 88 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  var isarray = __webpack_require__(87)
+  var isarray = __webpack_require__(95)
   
   /**
    * Expose `pathToRegexp`.
@@ -6118,13 +6411,19 @@ module.exports =
 
 
 /***/ }),
-/* 89 */
+/* 97 */
 /***/ (function(module, exports) {
 
-  module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAACrRJREFUeNqcWAlQlFcSnosBhmFmBAaVG0RAEBQVUUh2jRKjiKJGEfFE8YisGkw066rrmd2o5bWaaIyaQuMRo/EAiRG8SojxwAMFEQWEkUMYkBlmmHtmu//9f+rtXzhFQlXXPN7r192vX/fX/X4+x/4fF4gHxAcSADnQvwJ6jksThxhz6TU+zU/u4RH8dv/43TCKMUhIkyP9y2cZx+Z3ZPGTh/nThpFKGOFOBAlp5Xyaj+1Vht+Z4O/KMNu7DBPYMZoxDJU4i739xe/96+BIB1epXFtf+7p4x9p7quoKLayZgUxAFuKw1PVJA0NcBn+2JcbFy8/H1K5qLvzHwmuauhoNbRwaZaWpS8+8y5NC+rSiPhPSfOM2f3NY4OwSzjBYLea3bRWlh36dl3hc39JkJBTwnNw9hR8dyZshC4nI4PEFPZg9Zp227Pb6pRkvzx+rhX87gPRARuJQdq+SuUZHmkSjD+duAk9Flh/fn1mweNJ2LpdbiB6UBvSdEzZ94QhQ+Kz58V30mnP47L/1HbX/7D5xb9/xHU0N1yt+PPTV1cwp2/lCx0J59LCpntGx3qVHdl+ljbHSHrd1x2Nc2lsYHyJZnzC3iZce33n7/En2heQhh0nXx67dNThk6ryNPAcHSVn23i04Fz5n6VqryaSu+OnI+jtbsorJ0JiY82C+rG/EnPPjBsS2VZa30l7T0V6zsePILkyEpMwP4PJ4opbShw/p0xlpMoHikivzxy0ztLUqIuYu34iEY5zDNTr2GH4zePUhygpJyQgkEof7rgB/l2GUcc4ePakY0b6pa6dPxQQtrgve3C/Uvzjz/UUun++I9PzHQxdwjk4cLs1L7etobkQZHGcPTxlhFPePZGUnSJp1HdSEk8xdyuKnsi8wMcU/Iv3TJR3NDdU4GZnxWWbbizJFdd5pDWEcpctR5ib53yHr9SwctOsxNspT+NV4v7ANFx1lPXrDjwtJrj4BkrhNX6+2mk3G/PlJ+5BwjHO4xuIXOcncUAZHWXJPQwC2oKtr5XWB2gw4Ur/VOafUoKxd7BOIUOEKJIPrlQeNnx764eFLWUKJzKfl6YPf+89fEYWEY5zDNeRBXtwDJBF7B/RDWbX5Fzro5HJkVYZOe9i1jTmFC22EBLBLOqWgfJfAWSTVKZsUzp69Ah1EYo/ulhaMLVOHRqlraqyG2PKF0FCdSQjLAohRwZoaCONOSyQJwoiFSxRYIVFyRKGpC/qGz14629UvKAEwCE/M6XhT97JdUV1lUL1V+Y1Mmqypr31y64t5Bw1tLUZNvQKFc8Revi6OMnfh+1uPLBR7+UXWXsv92VHaQ+rqGxgk6ukdjDwWo6GtvbaqoOzo3qPPT333ggBbBnDNfFZtE/mOTPIceyx/U9C4aeuEUpl/e01lUX1RQUGP0MiYF2ezT9/4NC0/In35MGd5T+9bK9O3wVqzvqXZaDUarEgwNkHZ0amrKyoCk1ISTJr2lkupfzkFRurlA2OHVOWc3A8HbZcEBI/0Gzl+Zmhqhr/61csHwG8is55PFFrR8PV7Bw/+/MtsBxfXUOWT4oNXP5m85eGeDYU1V87VAKK/J5L3loC3GsJnZabX3bpy9uHeTQ/wSoOSUv1j1+xIDJ40K8pqNmveVjxVq2tedsijYmy9Y0ckqaqe3wtJmTcSMMycOyV+D1SQm4pruWfcw6PbwMBJAWM+ngSyH72++UszAUdUYHoHjJ0ydM4znXLmo7fPgifOGgtz0UCDEOCBRo0+fCl7brnBlHKzqhR4Wpzc5HNhPjV62fptc5/pTekVJhsSjqOXb9iOa3Clc4C3GffgXpSBsmiZKDsadaFO1I02oC1oUyc8DMxcm8Ll8lxv/zNzJRTZRhq19XTJ0BXvWJPDsdksLr19wxVXc87oW5sxLmxhMxanArB24huOw9IWTcM1iD0d8P6Me2CvtXjXulxGHi3bhLpQJ+pGGxj46ExPoavE12LQ11VePNFM9EpWJktayh6pda1NL9C4h3s3/8bUNiG0Qew0JOZsFC/swb0AJSpGHlEROKgTdYMNPky28xgDdMo3pQAJ/tA/hbDQn8pav4RkL5FHr36AMPyhq7ePZjBH19xYzTZM19TAzPEoXtgDe8NQRhetOQd1om6woYyJLx7T6EHanwVsqQSQ3Dl8w76BdLZSHQb+Ri74PBnA0QCB/ZtXfEKyrG84lihO8c51P9CYxPRcquLd64+hUuQB3gm4B/o3Q9SiVcmkTNSBulAn6kYb6BBCmygmdyC/kKnp8TOKlXcgiC0pNypz+s1ckobBCnGTjEE84dzdm5DyWRCohqSfin7FAEeC8jMfWqDdSDhm5pEHeXEP7gUZSpSFMlE26kBdoPMu6kYbaFtEXKIkUJABqC5KPHkjHU67gCdwkEJ3Wgqg+gqEJwF07Hz09ZdlCQfOjfX9YNzE2xuXris/8W0l09SS9RcayCDwxhYA2HMAO5cHZq4Jh2xd0fzoTi6AbQB0uRFwAyoo+N/lTR/xPVSHDrKr5RL3TT46RNKgUI+Yv2+b4B4RPQbioz/GCQjSQxzUAIi+cQ8fGG9QtdaVnzx4wmY2WyFLNVQX4iYXcwUCHhiW5ih184GkKXRyl/eEmukPB3XCROhQNj6F/u7yva9WXQCMayEMMjBlqat3oJC+XglNrqlFit0AjkLoOp9AS+0PWecpcBF7QD/vZK9IQlzpzVqN0tiuaoJqUAPdcKTNajWcivfNIuqkmjbMSDxqLAI6Ky2sVwuPKejQKTiBF/q8KS46/cvMUSfIKxtzND+t97ARsxQ38k7XFlwsx0m/hAlhviMSUxp+v3Hs8uwP/49/7PFr03sOipsGMk1GdZueqI962ihGv43HwiymdTYwG+CFJMPOFAp4BX06FU3qgkUTj2sbX5d4xyeMh67BZtJqbDjGufyMpB/Y/PDse46yoB6LCB3M9ZlJbOOxHp82AgApIz0iB1NdJ7Q8DTRiM0GqgxTXQWBvA3BUx23clxm/+ZtMHFNzRoOOza9vVaIMjnzAUAn76gj9dnv+TgO5PD715oOs0RKIbaGFmiCIW0sObj/gIJZ4IOEY51gPYWoPyNBRlUEs4bPRv7s9P7PBqm1QoBKOxC/Ig04Q8jFigRbIa8Anq5dY9DqKD8fQ/rx+emRXC6s75tEyOLRMK9lJdPeV1FknS77dVg3Z1SYfEBtHwgqkvhCCeVLMqq3/sVnM2qK1i1cUrlmUBWPNkJX/3oNryEO2zh5RQ4ejLJBZxbrCbnmMTASzSdtu0NYrzgMozgBlNVCIK9z6DQj2iBryMYBxCAR63lV4nQNeUc8pVeWz9FEHzq3sFfP+F2n3myYrS+6faX32+KV7/0Eh4LGp7a9fHQeZTLC/8zrtfbtwYL7YyIL7uY3JvrLVWd4rkfkgYlS9vVt/+9qh68tSi4iM6vwY88Gek3FecaMyhNIescweKPh5+YuSV8PhlGTr09W3C66ddyX5SYnqcqEI+8mCwz0V1/Nq4d3YQgS4mfW1h+kg8N3p7vPXj/wA4ZvgCmuJHs9A7LX9EcPYb0zyicUhIMXUlceIL4l8IqHITwx2r5LfnecXK+7I7xFGAo/MREBbWIaTfORB3gkX3THMShhFKjN1cWobq7SZCTLZA9Q/YxjbaxbWr81OZlu74LV2R+F/BRgA2E9xgXp3xzgAAAAASUVORK5CYII="
+  module.exports = "data:image/gif;base64,R0lGODlhQgBCAMQRAI6KkZB5dom94JNXQYjG7Y2Tnoybq5RPNJJgT4ukuJFxaYq10o+Cg4usxZJoXJVGJ4fO+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABEALAAAAABCAEIAAAX/YCSOZGmeaKqubBtBcCzLbm2Tc67Dd4/uQKDPFywKhy2j8oj8LZ+5pglK1UlFVIB2W6hKqY2HePwQeIfVAHnMqEKIVMJ6PHC/bW7DfJyw1+wIe2IKdncsbgtramRmbklui2IIAmsAhSuFB2RdDmR1lyl2eowQo2MNoCeFnWOEEHJkAYWGJXaUZAYxCmsEqTh2DGQHvTAJa12+WHYDsTOadLNTbsZkfTKRYgvJhbvQM2HNvrZrbTnMY8PibgVr2jnBuKmF55I7iWQI0S9u4GPIOoHIuHO0L82aRjrYkSlH0A2sVkFuoQOVZ02uIKzGXDzjJqCYdEFMiXHgp+CTe2Nk+BV5OAYhFGVQsD1QsKWmTQD0xFjiSOWZoJ9zPlGBuUQk0KNirL00qSQjUqSulkKR+PSpSyVEjcBLebNrzZwP/i3JWsSnGGJPFHp7MmIJtZRVqIpBNbatkm583OAVoxKr3SJyhVIx+gBtkVpFAJCzQ8BsWL+/goAdaBAf5L87+tUr9HYM5R2qgMgU6wZsX9ChdbA8OwvC1o+GozjJoXZQawgoNTJJPcNj0tsQfD/IhzrUjNwPDgCHUFvMVR6HZDSwqbS1gJt0aTxafvsPd33ev5+5IX4omvKX4aDfjWR98StM0cOXtn7+bO72MQHPH948/x51/ScgfyEAADs="
 
 /***/ }),
-/* 90 */
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  module.exports = __webpack_require__.p + "b3171239c5034edb072c20023f14038b.jpeg";
+
+/***/ }),
+/* 99 */
 /***/ (function(module, exports) {
 
   module.exports = function(module) {
@@ -6140,211 +6439,205 @@ module.exports =
 
 
 /***/ }),
-/* 91 */
+/* 100 */
 /***/ (function(module, exports) {
 
   module.exports = require("./assets");
 
 /***/ }),
-/* 92 */
+/* 101 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-polyfill");
 
 /***/ }),
-/* 93 */
+/* 102 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/is-iterable");
 
 /***/ }),
-/* 94 */
+/* 103 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/json/stringify");
 
 /***/ }),
-/* 95 */
+/* 104 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/object/create");
 
 /***/ }),
-/* 96 */
+/* 105 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/object/define-property");
 
 /***/ }),
-/* 97 */
+/* 106 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/object/set-prototype-of");
 
 /***/ }),
-/* 98 */
+/* 107 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/symbol");
 
 /***/ }),
-/* 99 */
+/* 108 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/symbol/iterator");
 
 /***/ }),
-/* 100 */
+/* 109 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/helpers/extends");
 
 /***/ }),
-/* 101 */
+/* 110 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 102 */
+/* 111 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/helpers/slicedToArray");
 
 /***/ }),
-/* 103 */
+/* 112 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/helpers/typeof");
 
 /***/ }),
-/* 104 */
+/* 113 */
 /***/ (function(module, exports) {
 
   module.exports = require("body-parser");
 
 /***/ }),
-/* 105 */
-/***/ (function(module, exports) {
-
-  module.exports = require("classnames");
-
-/***/ }),
-/* 106 */
+/* 114 */
 /***/ (function(module, exports) {
 
   module.exports = require("cookie-parser");
 
 /***/ }),
-/* 107 */
+/* 115 */
 /***/ (function(module, exports) {
 
   module.exports = require("core-js/library/fn/get-iterator");
 
 /***/ }),
-/* 108 */
+/* 116 */
 /***/ (function(module, exports) {
 
   module.exports = require("core-js/library/fn/object/create");
 
 /***/ }),
-/* 109 */
+/* 117 */
 /***/ (function(module, exports) {
 
   module.exports = require("express");
 
 /***/ }),
-/* 110 */
+/* 118 */
 /***/ (function(module, exports) {
 
   module.exports = require("express-graphql");
 
 /***/ }),
-/* 111 */
+/* 119 */
 /***/ (function(module, exports) {
 
   module.exports = require("express-jwt");
 
 /***/ }),
-/* 112 */
+/* 120 */
 /***/ (function(module, exports) {
 
   module.exports = require("fbjs/lib/emptyFunction");
 
 /***/ }),
-/* 113 */
+/* 121 */
 /***/ (function(module, exports) {
 
   module.exports = require("front-matter");
 
 /***/ }),
-/* 114 */
+/* 122 */
 /***/ (function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ }),
-/* 115 */
+/* 123 */
 /***/ (function(module, exports) {
 
   module.exports = require("history/lib/createMemoryHistory");
 
 /***/ }),
-/* 116 */
+/* 124 */
 /***/ (function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ }),
-/* 117 */
+/* 125 */
 /***/ (function(module, exports) {
 
   module.exports = require("jade");
 
 /***/ }),
-/* 118 */
+/* 126 */
 /***/ (function(module, exports) {
 
   module.exports = require("jsonwebtoken");
 
 /***/ }),
-/* 119 */
+/* 127 */
 /***/ (function(module, exports) {
 
   module.exports = require("markdown-it");
 
 /***/ }),
-/* 120 */
+/* 128 */
 /***/ (function(module, exports) {
 
   module.exports = require("node-fetch");
 
 /***/ }),
-/* 121 */
+/* 129 */
 /***/ (function(module, exports) {
 
   module.exports = require("passport");
 
 /***/ }),
-/* 122 */
+/* 130 */
 /***/ (function(module, exports) {
 
   module.exports = require("passport-facebook");
 
 /***/ }),
-/* 123 */
+/* 131 */
 /***/ (function(module, exports) {
 
   module.exports = require("pg");
 
 /***/ }),
-/* 124 */
+/* 132 */
 /***/ (function(module, exports) {
 
   module.exports = require("pretty-error");
 
 /***/ }),
-/* 125 */
+/* 133 */
 /***/ (function(module, exports) {
 
   module.exports = require("react-dom/server");

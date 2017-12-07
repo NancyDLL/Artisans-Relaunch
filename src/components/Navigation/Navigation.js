@@ -1,4 +1,4 @@
-/* x */
+/*  */
 
 import React, { PropTypes } from 'react';
 import cx from 'classnames';
@@ -14,11 +14,6 @@ function Navigation({ className }) {
         <Link className={s.brand} to="/">
           <span className={s.brandTxt}>Artisans</span>
         </Link>
-    </div>
-    <div className={s.findReview}>
-      <Link className={s.link} to="/find-artisan">Find an Artisan</Link>
-      <span className={s.spacer}> or </span>
-      <Link className={s.link} to="/review-artisan">Review an Artisan</Link>
     </div>
     <div className={s.logInSignIn}>
       <Link className={s.link} to="/login">Log in</Link>

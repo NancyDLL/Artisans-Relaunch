@@ -110,7 +110,7 @@ module.exports =
   
   var _assets2 = _interopRequireDefault(_assets);
   
-  var _config = __webpack_require__(13);
+  var _config = __webpack_require__(14);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -331,7 +331,7 @@ module.exports =
 
   'use strict';
   
-  var _assign = __webpack_require__(22);
+  var _assign = __webpack_require__(23);
   
   var _assign2 = _interopRequireDefault(_assign);
   
@@ -542,63 +542,6 @@ module.exports =
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
-   */
-  
-  /* eslint-disable max-len */
-  /* jscs:disable maximumLineLength */
-  
-  var port = exports.port = process.env.PORT || 3000;
-  var host = exports.host = process.env.WEBSITE_HOSTNAME || 'localhost:' + port;
-  
-  var databaseUrl = exports.databaseUrl = process.env.DATABASE_URL || 'postgresql://demo:Lqk62xg6TBm5UhfR@demo.ctbl5itzitm4.us-east-1.rds.amazonaws.com:5432/membership01';
-  
-  var analytics = exports.analytics = {
-  
-    // https://analytics.google.com/
-    google: { trackingId: process.env.GOOGLE_TRACKING_ID || 'UA-XXXXX-X' }
-  
-  };
-  
-  var auth = exports.auth = {
-  
-    jwt: { secret: process.env.JWT_SECRET || 'React Starter Kit' },
-  
-    // https://developers.facebook.com/
-    facebook: {
-      id: process.env.FACEBOOK_APP_ID || '186244551745631',
-      secret: process.env.FACEBOOK_APP_SECRET || 'a970ae3240ab4b9b8aae0f9f0661c6fc'
-    },
-  
-    // https://cloud.google.com/console/project
-    google: {
-      id: process.env.GOOGLE_CLIENT_ID || '251410730550-ahcg0ou5mgfhl8hlui1urru7jn5s12km.apps.googleusercontent.com',
-      secret: process.env.GOOGLE_CLIENT_SECRET || 'Y8yR9yZAhm9jQ8FKAL8QIEcd'
-    },
-  
-    // https://apps.twitter.com/
-    twitter: {
-      key: process.env.TWITTER_CONSUMER_KEY || 'Ie20AZvLJI2lQD5Dsgxgjauns',
-      secret: process.env.TWITTER_CONSUMER_SECRET || 'KTZ6cxoKnEakQCeSpZlaUCJWGAlTEBJj0y2EMkUBujA7zWSvaQ'
-    }
-  
-  };
-
-/***/ }),
-/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -645,9 +588,7 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  /**
-   * Notes
-   */
+  /* links component */
   
   function isLeftClickEvent(event) {
     return event.button === 0;
@@ -721,6 +662,63 @@ module.exports =
   exports.default = Link;
 
 /***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  /**
+   * React Starter Kit (https://www.reactstarterkit.com/)
+   *
+   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE.txt file in the root directory of this source tree.
+   */
+  
+  /* eslint-disable max-len */
+  /* jscs:disable maximumLineLength */
+  
+  var port = exports.port = process.env.PORT || 3000;
+  var host = exports.host = process.env.WEBSITE_HOSTNAME || 'localhost:' + port;
+  
+  var databaseUrl = exports.databaseUrl = process.env.DATABASE_URL || 'postgresql://demo:Lqk62xg6TBm5UhfR@demo.ctbl5itzitm4.us-east-1.rds.amazonaws.com:5432/membership01';
+  
+  var analytics = exports.analytics = {
+  
+    // https://analytics.google.com/
+    google: { trackingId: process.env.GOOGLE_TRACKING_ID || 'UA-XXXXX-X' }
+  
+  };
+  
+  var auth = exports.auth = {
+  
+    jwt: { secret: process.env.JWT_SECRET || 'React Starter Kit' },
+  
+    // https://developers.facebook.com/
+    facebook: {
+      id: process.env.FACEBOOK_APP_ID || '186244551745631',
+      secret: process.env.FACEBOOK_APP_SECRET || 'a970ae3240ab4b9b8aae0f9f0661c6fc'
+    },
+  
+    // https://cloud.google.com/console/project
+    google: {
+      id: process.env.GOOGLE_CLIENT_ID || '251410730550-ahcg0ou5mgfhl8hlui1urru7jn5s12km.apps.googleusercontent.com',
+      secret: process.env.GOOGLE_CLIENT_SECRET || 'Y8yR9yZAhm9jQ8FKAL8QIEcd'
+    },
+  
+    // https://apps.twitter.com/
+    twitter: {
+      key: process.env.TWITTER_CONSUMER_KEY || 'Ie20AZvLJI2lQD5Dsgxgjauns',
+      secret: process.env.TWITTER_CONSUMER_SECRET || 'KTZ6cxoKnEakQCeSpZlaUCJWGAlTEBJj0y2EMkUBujA7zWSvaQ'
+    }
+  
+  };
+
+/***/ }),
 /* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -739,7 +737,7 @@ module.exports =
   
   var _nodeFetch2 = _interopRequireDefault(_nodeFetch);
   
-  var _config = __webpack_require__(13);
+  var _config = __webpack_require__(14);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -803,12 +801,18 @@ module.exports =
 
 /***/ }),
 /* 19 */
+/***/ (function(module, exports) {
+
+  module.exports = require("classnames");
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
   module.exports = { "default": __webpack_require__(116), __esModule: true };
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
   "use strict";
@@ -840,7 +844,7 @@ module.exports =
   }();
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1092,22 +1096,16 @@ module.exports =
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/object/assign");
 
 /***/ }),
-/* 23 */
-/***/ (function(module, exports) {
-
-  module.exports = require("babel-runtime/core-js/promise");
-
-/***/ }),
 /* 24 */
 /***/ (function(module, exports) {
 
-  module.exports = require("classnames");
+  module.exports = require("babel-runtime/core-js/promise");
 
 /***/ }),
 /* 25 */
@@ -1131,7 +1129,7 @@ module.exports =
     value: true
   });
   
-  var _create = __webpack_require__(19);
+  var _create = __webpack_require__(20);
   
   var _create2 = _interopRequireDefault(_create);
   
@@ -1187,7 +1185,7 @@ module.exports =
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(20);
+  var _createClass2 = __webpack_require__(21);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
@@ -1253,7 +1251,7 @@ module.exports =
   
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
   
-  var _create = __webpack_require__(19);
+  var _create = __webpack_require__(20);
   
   var _create2 = _interopRequireDefault(_create);
   
@@ -1261,7 +1259,7 @@ module.exports =
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(20);
+  var _createClass2 = __webpack_require__(21);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
@@ -2005,7 +2003,7 @@ module.exports =
   
   var _Footer2 = _interopRequireDefault(_Footer);
   
-  var _Link = __webpack_require__(14);
+  var _Link = __webpack_require__(13);
   
   var _Link2 = _interopRequireDefault(_Link);
   
@@ -2074,7 +2072,7 @@ module.exports =
   
   var _Header2 = _interopRequireDefault(_Header);
   
-  var _Link = __webpack_require__(14);
+  var _Link = __webpack_require__(13);
   
   var _Link2 = _interopRequireDefault(_Link);
   
@@ -2094,7 +2092,7 @@ module.exports =
         _react2.default.createElement(_Navigation2.default, { className: _Header2.default.nav })
       )
     );
-  } /* Component for top bar visuals */
+  } /* Component for top bar visuals x*/
   
   exports.default = (0, _withStyles2.default)(Header, _Header2.default);
 
@@ -2112,7 +2110,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _classnames = __webpack_require__(24);
+  var _classnames = __webpack_require__(19);
   
   var _classnames2 = _interopRequireDefault(_classnames);
   
@@ -2124,7 +2122,7 @@ module.exports =
   
   var _Navigation2 = _interopRequireDefault(_Navigation);
   
-  var _Link = __webpack_require__(14);
+  var _Link = __webpack_require__(13);
   
   var _Link2 = _interopRequireDefault(_Link);
   
@@ -2152,25 +2150,6 @@ module.exports =
       ),
       _react2.default.createElement(
         'div',
-        { className: _Navigation2.default.findReview },
-        _react2.default.createElement(
-          _Link2.default,
-          { className: _Navigation2.default.link, to: '/find-artisan' },
-          'Find an Artisan'
-        ),
-        _react2.default.createElement(
-          'span',
-          { className: _Navigation2.default.spacer },
-          ' or '
-        ),
-        _react2.default.createElement(
-          _Link2.default,
-          { className: _Navigation2.default.link, to: '/review-artisan' },
-          'Review an Artisan'
-        )
-      ),
-      _react2.default.createElement(
-        'div',
         { className: _Navigation2.default.logInSignIn },
         _react2.default.createElement(
           _Link2.default,
@@ -2189,7 +2168,7 @@ module.exports =
         )
       )
     );
-  } /* x */
+  } /*  */
   
   Navigation.propTypes = {
     className: _react.PropTypes.string
@@ -2301,7 +2280,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _classnames = __webpack_require__(24);
+  var _classnames = __webpack_require__(19);
   
   var _classnames2 = _interopRequireDefault(_classnames);
   
@@ -2386,7 +2365,7 @@ module.exports =
   
   var _bluebird2 = _interopRequireDefault(_bluebird);
   
-  var _config = __webpack_require__(13);
+  var _config = __webpack_require__(14);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -2505,7 +2484,7 @@ module.exports =
   
   var _db2 = _interopRequireDefault(_db);
   
-  var _config = __webpack_require__(13);
+  var _config = __webpack_require__(14);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -2699,7 +2678,7 @@ module.exports =
   
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
   
-  var _assign = __webpack_require__(22);
+  var _assign = __webpack_require__(23);
   
   var _assign2 = _interopRequireDefault(_assign);
   
@@ -3578,6 +3557,14 @@ module.exports =
   
   var _Home2 = _interopRequireDefault(_Home);
   
+  var _classnames = __webpack_require__(19);
+  
+  var _classnames2 = _interopRequireDefault(_classnames);
+  
+  var _Link = __webpack_require__(13);
+  
+  var _Link2 = _interopRequireDefault(_Link);
+  
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   function Home(_ref) {
@@ -3592,7 +3579,7 @@ module.exports =
         _react2.default.createElement(
           'h1',
           { className: _Home2.default.bannerTitle },
-          'Artisans x2'
+          'Artisans'
         ),
         _react2.default.createElement(
           'p',
@@ -3600,7 +3587,19 @@ module.exports =
           'Facilitating a better contractor experience.'
         )
       ),
-      _react2.default.createElement('div', { className: _Home2.default.container })
+      _react2.default.createElement(
+        'div',
+        { className: _Home2.default.container },
+        _react2.default.createElement(
+          'div',
+          { className: _Home2.default.findButton },
+          _react2.default.createElement(
+            _Link2.default,
+            { className: (0, _classnames2.default)(_Home2.default.link, _Home2.default.highlight), to: '/find-artisan' },
+            'Find an Artisan'
+          )
+        )
+      )
     );
   } /* small change */
   
@@ -3868,9 +3867,7 @@ module.exports =
         )
       )
     );
-  } /**
-     * Notes
-     */
+  } /* Notes */
   
   Register.propTypes = { title: _react.PropTypes.string.isRequired };
   
@@ -4059,7 +4056,7 @@ module.exports =
   
   exports.__esModule = true;
   
-  var _promise = __webpack_require__(23);
+  var _promise = __webpack_require__(24);
   
   var _promise2 = _interopRequireDefault(_promise);
   
@@ -4195,7 +4192,7 @@ module.exports =
 
   /* WEBPACK VAR INJECTION */(function(module) {"use strict";
   
-  var _promise = __webpack_require__(23);
+  var _promise = __webpack_require__(24);
   
   var _promise2 = _interopRequireDefault(_promise);
   
@@ -4956,7 +4953,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/* GRID DEFINITION */\n.Navigation_root_2Gx{\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n}\n.Navigation_homeNav_1a8{\n  padding-left: 5px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_findReview_L0-{\n  padding-top: 10px;\n  -ms-grid-column-span: 4;\n  -ms-grid-column: 5;\n      grid-column: 5 / span 4;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_logInSignIn_3Vv{\n  padding-top: 10px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 11;\n      grid-column: 11 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n/* BRAND STYLING */\na{\n  vertical-align: middle;\n}\n.Navigation_brand_2V6{\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n.Navigation_brandTxt_3ep{\n  padding-top: 10px;\n  padding-left: 5px;\n}\n/* LINK STYLING */\n.Navigation_link_12k{\n  text-decoration: none;\n  font-size: 18px;\n}\n.Navigation_link_12k, .Navigation_link_12k:active, .Navigation_link_12k:visited{\n  color: rgba(255, 255, 255, .6);\n}\n.Navigation_link_12k:hover{\n  color: rgba(255, 255, 255, 1);\n}\n.Navigation_highlight_2cu{\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n.Navigation_highlight_2cu:hover{\n  background: rgba(0, 0, 0, .3);\n}\n.Navigation_spacer_2MV{\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/Navigation/Navigation.scss"],"names":[],"mappings":"AAAA,qBAAqB;AACrB;EACE,kBAAkB;EAClB,qBAAqB;EACrB,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;CACpD;AACD;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AACD;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AACD;EACE,kBAAkB;EAClB,wBAAyB;EAAzB,oBAAyB;MAAzB,yBAAyB;EACzB,gBAAY;MAAZ,YAAY;CACb;AAED,mBAAmB;AACnB;EACE,uBAAuB;CACxB;AACD;EACE,eAAe,EAAE,oBAAoB;EACrC,sBAAsB;EACtB,gBAAgB;EAChB,iBAAiB;CAClB;AACD;EACE,kBAAkB;EAClB,kBAAkB;CACnB;AAED,kBAAkB;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EAGE,+BAA+B;CAChC;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,YAAY;CACb;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,+BAA+B;CAChC","file":"Navigation.scss","sourcesContent":["/* GRID DEFINITION */\n.root{\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n}\n.homeNav{\n  padding-left: 5px;\n  grid-column: 1 / span 2;\n  grid-row: 1;\n}\n.findReview{\n  padding-top: 10px;\n  grid-column: 5 / span 4;\n  grid-row: 1;\n}\n.logInSignIn{\n  padding-top: 10px;\n  grid-column: 11 / span 2;\n  grid-row: 1;\n}\n\n/* BRAND STYLING */\na{\n  vertical-align: middle;\n}\n.brand{\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n.brandTxt{\n  padding-top: 10px;\n  padding-left: 5px;\n}\n\n/* LINK STYLING */\n.link{\n  text-decoration: none;\n  font-size: 18px;\n}\n.link,\n.link:active,\n.link:visited{\n  color: rgba(255, 255, 255, .6);\n}\n.link:hover{\n  color: rgba(255, 255, 255, 1);\n}\n.highlight{\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n.highlight:hover{\n  background: rgba(0, 0, 0, .3);\n}\n.spacer{\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/* GRID DEFINITION */\n.Navigation_root_2Gx {\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n}\n.Navigation_homeNav_1a8 {\n  padding-left: 5px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_findReview_L0- {\n  padding-top: 10px;\n  -ms-grid-column-span: 4;\n  -ms-grid-column: 5;\n      grid-column: 5 / span 4;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_logInSignIn_3Vv {\n  padding-top: 10px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 11;\n      grid-column: 11 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n/* BRAND STYLING */\na {\n  vertical-align: middle;\n}\n.Navigation_brand_2V6 {\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n.Navigation_brandTxt_3ep {\n  padding-top: 10px;\n  padding-left: 5px;\n}\n/* LINK STYLING */\n.Navigation_link_12k {\n  text-decoration: none;\n  font-size: 18px;\n}\n.Navigation_link_12k, .Navigation_link_12k:active, .Navigation_link_12k:visited{\n  color: rgba(255, 255, 255, .6);\n}\n.Navigation_link_12k:hover {\n  color: rgba(255, 255, 255, 1);\n}\n.Navigation_highlight_2cu {\n  padding: 10px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n.Navigation_highlight_2cu:hover {\n  background: rgba(0, 0, 0, .3);\n}\n", "", {"version":3,"sources":["/./src/components/Navigation/Navigation.scss"],"names":[],"mappings":"AAAA,qBAAqB;AACrB;EACE,kBAAkB;EAClB,qBAAqB;EACrB,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;CACpD;AAED;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AAED;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AAED;EACE,kBAAkB;EAClB,wBAAyB;EAAzB,oBAAyB;MAAzB,yBAAyB;EACzB,gBAAY;MAAZ,YAAY;CACb;AAED,mBAAmB;AACnB;EACE,uBAAuB;CACxB;AAED;EACE,eAAe,EAAE,oBAAoB;EACrC,sBAAsB;EACtB,gBAAgB;EAChB,iBAAiB;CAClB;AAED;EACE,kBAAkB;EAClB,kBAAkB;CACnB;AAED,kBAAkB;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;AAED;EAGE,+BAA+B;CAChC;AAED;EACE,8BAA8B;CAC/B;AAED;EACE,cAAc;EACd,mBAAmB;EACnB,8BAA8B;EAC9B,YAAY;CACb;AAED;EACE,8BAA8B;CAC/B","file":"Navigation.scss","sourcesContent":["/* GRID DEFINITION */\n.root {\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n}\n\n.homeNav {\n  padding-left: 5px;\n  grid-column: 1 / span 2;\n  grid-row: 1;\n}\n\n.findReview {\n  padding-top: 10px;\n  grid-column: 5 / span 4;\n  grid-row: 1;\n}\n\n.logInSignIn {\n  padding-top: 10px;\n  grid-column: 11 / span 2;\n  grid-row: 1;\n}\n\n/* BRAND STYLING */\na {\n  vertical-align: middle;\n}\n\n.brand {\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n\n.brandTxt {\n  padding-top: 10px;\n  padding-left: 5px;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.link,\n.link:active,\n.link:visited{\n  color: rgba(255, 255, 255, .6);\n}\n\n.link:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.highlight {\n  padding: 10px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n\n.highlight:hover {\n  background: rgba(0, 0, 0, .3);\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -4967,8 +4964,7 @@ module.exports =
   	"brand": "Navigation_brand_2V6",
   	"brandTxt": "Navigation_brandTxt_3ep",
   	"link": "Navigation_link_12k",
-  	"highlight": "Navigation_highlight_2cu",
-  	"spacer": "Navigation_spacer_2MV"
+  	"highlight": "Navigation_highlight_2cu"
   };
 
 /***/ }),
@@ -5013,12 +5009,13 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION */\n\n.find-artisan_root_a8o {\n}\n\n.find-artisan_container_3mQ{\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n}\n\nh1{\n  -ms-grid-column-span: 12;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 12;\n  -ms-grid-row: 1;\n      grid-row: 1;\n  height:100%;\n  text-align: center;\n  margin: 10px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2rem;\n}\n\n.find-artisan_btnBar_1TX {\n  -ms-grid-column-span: 8;\n  -ms-grid-column: col-start 3;\n      grid-column: col-start 3 / span 8;\n  grid-row: 2 / 3;\n  display: -ms-grid;\n  display: grid;\n  grid-gap: 10px;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  }\n\n.find-artisan_btn1_3ys{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 1;\n          grid-column: 1 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn2_1SK{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 3;\n          grid-column: 3 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn3_Brf{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 5;\n          grid-column: 5 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn4_Wj5{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 1;\n          grid-column: 1 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_btn5_3Cm{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 3;\n          grid-column: 3 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_btn6_1B5{\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 5;\n          grid-column: 5 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_bizCatTitle_3pP{\n  -ms-grid-column-span: 12;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 12;\n}\n\n.find-artisan_bizPanel_1_5{\n\n}\n\n/* STYLING */\n\n.find-artisan_container_3mQ {\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\nh2{\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  font-weight: normal;\n  font-size: 1.5em;\n}\n\n.find-artisan_title_27e{\n  padding: 15px;\n  text-align: center;\n}\n\nbutton{\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #fff; /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n\n}\n\nbutton:hover{\n    opacity: 0.8;\n}\n\n.find-artisan_bizCatTitle_3pP{\n\n  text-align: center;\n  color: #87CEFA;  /* Light Sky Blue */\n\n}\n\n.find-artisan_bizPanel_1_5{\n\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/find-artisan/find-artisan.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,qBAAqB;;AACrB;CACC;;AACD;EACE,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;CACpD;;AACD;EACE,yBAAyB;EAAzB,mBAAyB;MAAzB,yBAAyB;EACzB,gBAAY;MAAZ,YAAY;EACZ,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,eAAe,CAAC,gBAAgB;EAChC,oBAAoB;EACpB,gBAAgB;CACjB;;AACD;EACE,wBAAkC;EAAlC,6BAAkC;MAAlC,kCAAkC;EAClC,gBAAgB;EAChB,kBAAc;EAAd,cAAc;EACd,eAAe;EACf,8BAAmC;MAAnC,mCAAmC;GAClC;;AACC;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AAEL;EACE,yBAAyB;EAAzB,mBAAyB;MAAzB,yBAAyB;CAC1B;;AACD;;CAEC;;AACD,aAAa;;AACb;EACE,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AAED;EACE,yDAA+B;EAC/B,oBAAoB;EACpB,iBAAiB;CAClB;;AACD;EACE,cAAc;EACd,mBAAmB;CACpB;;AACD;EACE,YAAY;EACZ,0BAA0B,CAAC,gBAAgB;EAC3C,YAAY,CAAC,WAAW;EACxB,mBAAmB;EACnB,cAAc;EACd,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,kBAAkB;EAClB,gBAAgB;;CAEjB;;AACD;IACI,aAAa;CAChB;;AACD;;EAEE,mBAAmB;EACnB,eAAe,EAAE,oBAAoB;;CAEtC;;AACD;;CAEC","file":"find-artisan.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION */\n.root {\n}\n.container{\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n}\nh1{\n  grid-column: 1 / span 12;\n  grid-row: 1;\n  height:100%;\n  text-align: center;\n  margin: 10px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2rem;\n}\n.btnBar {\n  grid-column: col-start 3 / span 8;\n  grid-row: 2 / 3;\n  display: grid;\n  grid-gap: 10px;\n  grid-template-columns: 1fr 1fr 1fr;\n  }\n    .btn1{\n      grid-column: 1 / span 2;\n      grid-row: 1;\n    }\n    .btn2{\n      grid-column: 3 / span 2;\n      grid-row: 1;\n    }\n    .btn3{\n      grid-column: 5 / span 2;\n      grid-row: 1;\n    }\n    .btn4{\n      grid-column: 1 / span 2;\n      grid-row: 2;\n    }\n    .btn5{\n      grid-column: 3 / span 2;\n      grid-row: 2;\n    }\n    .btn6{\n      grid-column: 5 / span 2;\n      grid-row: 2;\n    }\n\n.bizCatTitle{\n  grid-column: 1 / span 12;\n}\n.bizPanel{\n\n}\n/* STYLING */\n.container {\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\nh2{\n  font-family: $font-family-base;\n  font-weight: normal;\n  font-size: 1.5em;\n}\n.title{\n  padding: 15px;\n  text-align: center;\n}\nbutton{\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #fff; /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n\n}\nbutton:hover{\n    opacity: 0.8;\n}\n.bizCatTitle{\n\n  text-align: center;\n  color: #87CEFA;  /* Light Sky Blue */\n\n}\n.bizPanel{\n\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION */\n\n.find-artisan_root_a8o {\n}\n\n.find-artisan_container_3mQ {\n  min-height: 50rem;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.find-artisan_title_27e {\n  padding: 15px;\n  text-align: center;\n}\n\nh1 {\n  -ms-grid-column-span: 12;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 12;\n  -ms-grid-row: 1;\n      grid-row: 1;\n  height:100%;\n  text-align: center;\n  margin: 10px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2rem;\n}\n\n.find-artisan_btnBar_1TX {\n  -ms-grid-column-span: 8;\n  -ms-grid-column: col-start 3;\n      grid-column: col-start 3 / span 8;\n  grid-row: 2 / 3;\n  display: -ms-grid;\n  display: grid;\n  grid-gap: 10px;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  }\n\n.find-artisan_btn1_3ys {\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 1;\n          grid-column: 1 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn2_1SK {\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 3;\n          grid-column: 3 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn3_Brf {\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 5;\n          grid-column: 5 / span 2;\n      -ms-grid-row: 1;\n          grid-row: 1;\n    }\n\n.find-artisan_btn4_Wj5 {\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 1;\n          grid-column: 1 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_btn5_3Cm {\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 3;\n          grid-column: 3 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_btn6_1B5 {\n      -ms-grid-column-span: 2;\n      -ms-grid-column: 5;\n          grid-column: 5 / span 2;\n      -ms-grid-row: 2;\n          grid-row: 2;\n    }\n\n.find-artisan_bizCatTitle_3pP {\n  -ms-grid-column-span: 12;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 12;\n}\n\n.find-artisan_bizPanel_1_5 {\n\n}\n\n/* STYLING */\n\nh2 {\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  font-weight: normal;\n  font-size: 1.5em;\n}\n\nbutton {\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #fff; /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n\n.find-artisan_bizCatTitle_3pP {\n\n  text-align: center;\n  color: #87CEFA;  /* Light Sky Blue */\n\n}\n\n.find-artisan_bizPanel_1_5 {\n\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/find-artisan/find-artisan.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,qBAAqB;;AACrB;CACC;;AAED;EACE,kBAAkB;EAClB,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;EACnD,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AAED;EACE,cAAc;EACd,mBAAmB;CACpB;;AAED;EACE,yBAAyB;EAAzB,mBAAyB;MAAzB,yBAAyB;EACzB,gBAAY;MAAZ,YAAY;EACZ,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,eAAe,CAAC,gBAAgB;EAChC,oBAAoB;EACpB,gBAAgB;CACjB;;AAED;EACE,wBAAkC;EAAlC,6BAAkC;MAAlC,kCAAkC;EAClC,gBAAgB;EAChB,kBAAc;EAAd,cAAc;EACd,eAAe;EACf,8BAAmC;MAAnC,mCAAmC;GAClC;;AACC;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AACD;MACE,wBAAwB;MAAxB,mBAAwB;UAAxB,wBAAwB;MACxB,gBAAY;UAAZ,YAAY;KACb;;AAEL;EACE,yBAAyB;EAAzB,mBAAyB;MAAzB,yBAAyB;CAC1B;;AAED;;CAEC;;AACD,aAAa;;AAEb;EACE,yDAA+B;EAC/B,oBAAoB;EACpB,iBAAiB;CAClB;;AAED;EACE,YAAY;EACZ,0BAA0B,CAAC,gBAAgB;EAC3C,YAAY,CAAC,WAAW;EACxB,mBAAmB;EACnB,cAAc;EACd,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,kBAAkB;EAClB,gBAAgB;;CAEjB;;AACD;IACI,aAAa;CAChB;;AACD;;EAEE,mBAAmB;EACnB,eAAe,EAAE,oBAAoB;;CAEtC;;AACD;;CAEC","file":"find-artisan.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION */\n.root {\n}\n\n.container {\n  min-height: 50rem;\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.title {\n  padding: 15px;\n  text-align: center;\n}\n\nh1 {\n  grid-column: 1 / span 12;\n  grid-row: 1;\n  height:100%;\n  text-align: center;\n  margin: 10px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2rem;\n}\n\n.btnBar {\n  grid-column: col-start 3 / span 8;\n  grid-row: 2 / 3;\n  display: grid;\n  grid-gap: 10px;\n  grid-template-columns: 1fr 1fr 1fr;\n  }\n    .btn1 {\n      grid-column: 1 / span 2;\n      grid-row: 1;\n    }\n    .btn2 {\n      grid-column: 3 / span 2;\n      grid-row: 1;\n    }\n    .btn3 {\n      grid-column: 5 / span 2;\n      grid-row: 1;\n    }\n    .btn4 {\n      grid-column: 1 / span 2;\n      grid-row: 2;\n    }\n    .btn5 {\n      grid-column: 3 / span 2;\n      grid-row: 2;\n    }\n    .btn6 {\n      grid-column: 5 / span 2;\n      grid-row: 2;\n    }\n\n.bizCatTitle {\n  grid-column: 1 / span 12;\n}\n\n.bizPanel {\n\n}\n/* STYLING */\n\nh2 {\n  font-family: $font-family-base;\n  font-weight: normal;\n  font-size: 1.5em;\n}\n\nbutton {\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #fff; /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n\n}\nbutton:hover {\n    opacity: 0.8;\n}\n.bizCatTitle {\n\n  text-align: center;\n  color: #87CEFA;  /* Light Sky Blue */\n\n}\n.bizPanel {\n\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
   	"root": "find-artisan_root_a8o",
   	"container": "find-artisan_container_3mQ",
+  	"title": "find-artisan_title_27e",
   	"btnBar": "find-artisan_btnBar_1TX",
   	"btn1": "find-artisan_btn1_3ys",
   	"btn2": "find-artisan_btn2_1SK",
@@ -5027,8 +5024,7 @@ module.exports =
   	"btn5": "find-artisan_btn5_3Cm",
   	"btn6": "find-artisan_btn6_1B5",
   	"bizCatTitle": "find-artisan_bizCatTitle_3pP",
-  	"bizPanel": "find-artisan_bizPanel_1_5",
-  	"title": "find-artisan_title_27e"
+  	"bizPanel": "find-artisan_bizPanel_1_5"
   };
 
 /***/ }),
@@ -5040,18 +5036,18 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Home_root_qf4 {\n\n}\n\n/* STYLING */\n\n.Home_container_2AB {\n  width: 100%;\n  height: 200px;\n  background-image: url(" + __webpack_require__(98) + ");\n  -webkit-background-size: cover;\n          background-size: cover;\n}\n\nh1 {\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.Home_banner_3pg {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.Home_bannerTitle_3Jg {\n  color: #FFF;\n\n}\n\n.Home_bannerDesc_xBe {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6)\n}\n\n.Home_link_RhC:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.Home_highlight_3Xr {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff\n}\n\n.Home_highlight_3Xr:hover {\n  background: darken($baseColor, 5%);\n}\n\n.Home_spacer_2ay {\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/home/Home.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;;CAEC;;AAED,aAAa;;AACb;EACE,YAAY;EACZ,cAAc;EACd,gDAA2C;EAC3C,+BAAuB;UAAvB,uBAAuB;CACxB;;AAED;EACE,yDAA+B;EAC/B,YAAY;EACZ,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB,CAAC,gBAAgB;CACtC;;AAED;EACE,YAAY;;CAEb;;AAED;EACE,+BAA+B;EAC/B,kBAAkB;CACnB;;AAED;IACI,aAAa;IACb,gBAAgB;CACnB;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;EAChB,8BAA+B;CAIhC;;AAHC;EACE,8BAA8B;CAC/B;;AAGH;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,WAAY;CAKb;;AAHC;EACE,mCAAmC;CACpC;;AAGH;EACE,+BAA+B;CAChC","file":"Home.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root {\n\n}\n\n/* STYLING */\n.container {\n  width: 100%;\n  height: 200px;\n  background-image: url(\"./theArtisan.jpeg\");\n  background-size: cover;\n}\n\nh1 {\n  font-family: $font-family-base;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.banner {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.bannerTitle {\n  color: #FFF;\n\n}\n\n.bannerDesc {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6);\n  &:hover {\n    color: rgba(255, 255, 255, 1);\n  }\n}\n\n.highlight {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n\n  &:hover{\n    background: darken($baseColor, 5%);\n  }\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Home_root_qf4 {\n  width:100%;\n}\n\n/* STYLING */\n\n.Home_container_2AB {\n  width:100%;\n  min-height: 50rem;\n  background-image: url(" + __webpack_require__(98) + ");\n  -webkit-background-size: contain;\n          background-size: contain;\n  background-repeat: no-repeat;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;\n      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;\n}\n\n.Home_findButton_3Ly{\n  -ms-grid-column-span:1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n\nh1 {\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.Home_banner_3pg {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.Home_bannerTitle_3Jg {\n  color: #FFF;\n\n}\n\n.Home_bannerDesc_xBe {\n  color: rgba(255, 255, 255, .25);\n  font-size: 1.25em;\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.Home_link_RhC, .Home_link_RhC:active, .Home_link_RhC:visited{\n  color: rgba(0, 0, 0, .5);\n}\n\n.Home_link_RhC:hover {\n  color: rgba(0, 0, 0, 1);\n}\n\n.Home_highlight_3Xr {\n  padding: 25px;\n  border-radius: 5px;\n  background: rgba(135, 206, 250, .7);\n  color: #fff;\n}\n\n.Home_highlight_3Xr:hover {\n  background: rgba(135, 206, 250, 1);\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/home/Home.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;EACE,WAAW;CACZ;;AAED,aAAa;;AACb;EACE,WAAW;EACX,kBAAkB;EAClB,gDAA2C;EAC3C,iCAAyB;UAAzB,yBAAyB;EACzB,6BAA6B;EAC7B,kBAAc;EAAd,cAAc;EACd,8BAAmC;MAAnC,mCAAmC;EACnC,+DAAoE;MAApE,oEAAoE;CACrE;;AAED;EACE,uBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAED;EACE,yDAA+B;EAC/B,YAAY;EACZ,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB,CAAC,gBAAgB;CACtC;;AAED;EACE,YAAY;;CAEb;;AAED;EACE,gCAAgC;EAChC,kBAAkB;CACnB;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;;AAED;EAGE,yBAAyB;CAC1B;;AAED;EACE,wBAAwB;CACzB;;AAED;EACE,cAAc;EACd,mBAAmB;EACnB,oCAAoC;EACpC,YAAY;CACb;;AAED;EACE,mCAAmC;CACpC","file":"Home.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root {\n  width:100%;\n}\n\n/* STYLING */\n.container {\n  width:100%;\n  min-height: 50rem;\n  background-image: url(\"./theArtisan.jpeg\");\n  background-size: contain;\n  background-repeat: no-repeat;\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;\n}\n\n.findButton{\n  grid-column: 2 / span 1;\n  grid-row: 1;\n}\n\nh1 {\n  font-family: $font-family-base;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.banner {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.bannerTitle {\n  color: #FFF;\n\n}\n\n.bannerDesc {\n  color: rgba(255, 255, 255, .25);\n  font-size: 1.25em;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.link,\n.link:active,\n.link:visited{\n  color: rgba(0, 0, 0, .5);\n}\n\n.link:hover {\n  color: rgba(0, 0, 0, 1);\n}\n\n.highlight {\n  padding: 25px;\n  border-radius: 5px;\n  background: rgba(135, 206, 250, .7);\n  color: #fff;\n}\n\n.highlight:hover {\n  background: rgba(135, 206, 250, 1);\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
   	"root": "Home_root_qf4",
   	"container": "Home_container_2AB",
+  	"findButton": "Home_findButton_3Ly",
   	"banner": "Home_banner_3pg",
   	"bannerTitle": "Home_bannerTitle_3Jg",
   	"bannerDesc": "Home_bannerDesc_xBe",
   	"link": "Home_link_RhC",
-  	"highlight": "Home_highlight_3Xr",
-  	"spacer": "Home_spacer_2ay"
+  	"highlight": "Home_highlight_3Xr"
   };
 
 /***/ }),
@@ -5063,7 +5059,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Login_root_1Yv{\n}\n\n.Login_container_dzJ{\n  min-height: 50rem; \n}\n\n.Login_title_2Pg{\n  padding: 15px;\n  text-align: center;\n}\n\n.Login_loginForm_QoK{\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  grid-gap: 5px;\n}\n\n.Login_usrname_3FC{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n\n.Login_usrnameBox_-MF{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 2;\n      grid-row: 2;\n  margin-bottom: 20px;\n}\n\n.Login_pssword_cb8{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 3;\n      grid-row: 3;\n}\n\n.Login_psswordBox_1sN{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 4;\n      grid-row: 4;\n  margin-bottom: 20px;\n}\n\n.Login_sbmit_1Eq{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 5;\n      grid-row: 5;\n}\n\n.Login_psw_Mpy{\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 6s;\n      grid-row: 6s;\n}\n\n/* LOGIN STYLING */\n\n.Login_container_dzJ{\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.Login_loginForm_QoK{\n\n}\n\nh1{\n  margin: 0px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2em;\n}\n\nlabel{\n  color: #484848; /* Grey */\n}\n\ninput{\n  padding: 10px;\n  font-size: .75em;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0.5px;\n}\n\nbutton{\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #FFF;  /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n\n.Login_psw_Mpy{\n  padding: 20px;\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/login/Login.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;CACC;;AACD;EACE,kBAAkB;CACnB;;AACD;EACE,cAAc;EACd,mBAAmB;CACpB;;AACD;EACE,kBAAc;EAAd,cAAc;EACd,8BAAmC;MAAnC,mCAAmC;EACnC,cAAc;CACf;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;EACZ,oBAAoB;CACrB;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;EACZ,oBAAoB;CACrB;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,iBAAa;MAAb,aAAa;CACd;;AACD,mBAAmB;;AACnB;EACE,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AACD;;CAEC;;AACD;EACE,YAAY;EACZ,eAAe,CAAC,gBAAgB;EAChC,oBAAoB;EACpB,eAAe;CAChB;;AACD;EACE,eAAe,CAAC,UAAU;CAC3B;;AACD;EACE,cAAc;EACd,iBAAiB;EACjB,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,oBAAoB;CACrB;;AACD;EACE,YAAY;EACZ,0BAA0B,CAAC,gBAAgB;EAC3C,YAAY,EAAE,WAAW;EACzB,mBAAmB;EACnB,cAAc;EACd,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,kBAAkB;EAClB,gBAAgB;CACjB;;AACD;IACI,aAAa;CAChB;;AACD;EACE,cAAc;EACd,mBAAmB;CACpB","file":"Login.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root{\n}\n.container{\n  min-height: 50rem; \n}\n.title{\n  padding: 15px;\n  text-align: center;\n}\n.loginForm{\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  grid-gap: 5px;\n}\n.usrname{\n  grid-column: 2 / span 1;\n  grid-row: 1;\n}\n.usrnameBox{\n  grid-column: 2 / span 1;\n  grid-row: 2;\n  margin-bottom: 20px;\n}\n.pssword{\n  grid-column: 2 / span 1;\n  grid-row: 3;\n}\n.psswordBox{\n  grid-column: 2 / span 1;\n  grid-row: 4;\n  margin-bottom: 20px;\n}\n.sbmit{\n  grid-column: 2 / span 1;\n  grid-row: 5;\n}\n.psw{\n  grid-column: 2 / span 1;\n  grid-row: 6s;\n}\n/* LOGIN STYLING */\n.container{\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n.loginForm{\n\n}\nh1{\n  margin: 0px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2em;\n}\nlabel{\n  color: #484848; /* Grey */\n}\ninput{\n  padding: 10px;\n  font-size: .75em;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0.5px;\n}\nbutton{\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #FFF;  /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n}\nbutton:hover {\n    opacity: 0.8;\n}\n.psw{\n  padding: 20px;\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* TOP - DOWN */\n\n.Login_root_1Yv {\n}\n\n.Login_container_dzJ {\n  min-height: 50rem;\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.Login_title_2Pg {\n  padding: 15px;\n  text-align: center;\n}\n\n.Login_loginForm_QoK {\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  grid-gap: 5px;\n}\n\n.Login_usrname_3FC {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n\n.Login_usrnameBox_-MF {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 2;\n      grid-row: 2;\n  margin-bottom: 20px;\n}\n\n.Login_pssword_cb8 {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 3;\n      grid-row: 3;\n}\n\n.Login_psswordBox_1sN {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 4;\n      grid-row: 4;\n  margin-bottom: 20px;\n}\n\n.Login_sbmit_1Eq {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 5;\n      grid-row: 5;\n}\n\n.Login_psw_Mpy {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 6s;\n      grid-row: 6s;\n}\n\n/* TEXT STYLING */\n\nh1 {\n  margin: 0px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2em;\n}\n\nlabel {\n  color: #484848; /* Grey */\n}\n\ninput {\n  padding: 10px;\n  font-size: .75em;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0.5px;\n}\n\n.Login_psw_Mpy {\n  padding: 20px;\n  text-align: center;\n}\n\n/* BUTTON STYLING */\n\nbutton {\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #FFF;  /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/login/Login.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,gBAAgB;;AAChB;CACC;;AAED;EACE,kBAAkB;EAClB,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AAED;EACE,cAAc;EACd,mBAAmB;CACpB;;AAED;EACE,kBAAc;EAAd,cAAc;EACd,8BAAmC;MAAnC,mCAAmC;EACnC,cAAc;CACf;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;EACZ,oBAAoB;CACrB;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;EACZ,oBAAoB;CACrB;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,iBAAa;MAAb,aAAa;CACd;;AAED,kBAAkB;;AAClB;EACE,YAAY;EACZ,eAAe,CAAC,gBAAgB;EAChC,oBAAoB;EACpB,eAAe;CAChB;;AAED;EACE,eAAe,CAAC,UAAU;CAC3B;;AAED;EACE,cAAc;EACd,iBAAiB;EACjB,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,oBAAoB;CACrB;;AAED;EACE,cAAc;EACd,mBAAmB;CACpB;;AAED,oBAAoB;;AACpB;EACE,YAAY;EACZ,0BAA0B,CAAC,gBAAgB;EAC3C,YAAY,EAAE,WAAW;EACzB,mBAAmB;EACnB,cAAc;EACd,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,kBAAkB;EAClB,gBAAgB;CACjB;;AAED;IACI,aAAa;CAChB","file":"Login.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* TOP - DOWN */\n.root {\n}\n\n.container {\n  min-height: 50rem;\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.title {\n  padding: 15px;\n  text-align: center;\n}\n\n.loginForm {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  grid-gap: 5px;\n}\n\n.usrname {\n  grid-column: 2 / span 1;\n  grid-row: 1;\n}\n\n.usrnameBox {\n  grid-column: 2 / span 1;\n  grid-row: 2;\n  margin-bottom: 20px;\n}\n\n.pssword {\n  grid-column: 2 / span 1;\n  grid-row: 3;\n}\n\n.psswordBox {\n  grid-column: 2 / span 1;\n  grid-row: 4;\n  margin-bottom: 20px;\n}\n\n.sbmit {\n  grid-column: 2 / span 1;\n  grid-row: 5;\n}\n\n.psw {\n  grid-column: 2 / span 1;\n  grid-row: 6s;\n}\n\n/* TEXT STYLING */\nh1 {\n  margin: 0px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2em;\n}\n\nlabel {\n  color: #484848; /* Grey */\n}\n\ninput {\n  padding: 10px;\n  font-size: .75em;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0.5px;\n}\n\n.psw {\n  padding: 20px;\n  text-align: center;\n}\n\n/* BUTTON STYLING */\nbutton {\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #FFF;  /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -5088,12 +5084,13 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * Notes\n */\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n.Register_root_154 {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Register_container_3Ea {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/routes/register/Register.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;GAEG;;ACFH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AD5BhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"Register.scss","sourcesContent":["/**\n * Notes\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * Notes\n */\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n.Register_root_154 {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Register_container_3Ea {\n  min-height: 50rem;\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.Register_title_2YM {\n  padding: 15px;\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/routes/register/Register.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;GAEG;;ACFH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AD5BhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,kBAAkB;EAClB,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AAED;EACE,cAAc;EACd,mBAAmB;CACpB","file":"Register.scss","sourcesContent":["/**\n * Notes\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  min-height: 50rem;\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.title {\n  padding: 15px;\n  text-align: center;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
   	"root": "Register_root_154",
-  	"container": "Register_container_3Ea"
+  	"container": "Register_container_3Ea",
+  	"title": "Register_title_2YM"
   };
 
 /***/ }),
@@ -5105,7 +5102,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * Notes\n */\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n.review-artisan_root_M9B {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.review-artisan_container_38x {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/routes/review-artisan/review-artisan.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;GAEG;;ACFH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AD5BhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"review-artisan.scss","sourcesContent":["/**\n * Notes\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/* Notes */\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n.review-artisan_root_M9B {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.review-artisan_container_38x {\n  min-height: 50rem;\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/./src/routes/review-artisan/review-artisan.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA,WAAW;;ACAX;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AD9BhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,kBAAkB;EAClB,eAAe;EACf,kBAAkB;EAClB,kBAA8B;CAC/B","file":"review-artisan.scss","sourcesContent":["/* Notes */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  min-height: 50rem;\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: $max-content-width;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -5579,7 +5576,7 @@ module.exports =
 /* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  var jade = __webpack_require__(21);
+  var jade = __webpack_require__(22);
   
   module.exports = function template(locals) {
   var jade_debug = [ new jade.DebugItem( 1, "/Users/nancyloyd-leffingwell/Desktop/KU_REPOS/Artisans-Relaunch/src/views/error.jade" ) ];
@@ -5867,7 +5864,7 @@ module.exports =
 /* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  var jade = __webpack_require__(21);
+  var jade = __webpack_require__(22);
   
   module.exports = function template(locals) {
   var jade_debug = [ new jade.DebugItem( 1, "/Users/nancyloyd-leffingwell/Desktop/KU_REPOS/Artisans-Relaunch/src/views/index.jade" ) ];
@@ -6420,7 +6417,7 @@ module.exports =
 /* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  module.exports = __webpack_require__.p + "b3171239c5034edb072c20023f14038b.jpeg";
+  module.exports = __webpack_require__.p + "f476ecda9fcfd646637e73775c95fa56.jpeg";
 
 /***/ }),
 /* 99 */

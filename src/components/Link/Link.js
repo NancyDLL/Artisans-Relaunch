@@ -1,6 +1,4 @@
-/**
- * Notes
- */
+/* links component */
 
 import React, { Component, PropTypes } from 'react';
 import Location from '../../core/Location';

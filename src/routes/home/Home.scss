@@ -2,15 +2,16 @@
 
 /* GRID DEFINITION x */
 .root {
-
+  width:100%;
 }
 
 /* STYLING */
 .container {
-  width: 100%;
-  height: 200px;
+  width:100%;
+  min-height: 50rem;
   background-image: url("./theArtisan.jpeg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -57,7 +58,7 @@ img {
   background: rgba(0, 0, 0, .5);
   color: #fff;
 
-  &:hover{
+  &:hover {
     background: darken($baseColor, 5%);
   }
 }
@@ -67,27 +68,32 @@ img {
 }
 
 /* LINK STYLING */
-.link{
+.link {
   text-decoration: none;
   font-size: 18px;
 }
+
 .link,
 .link:active,
-.link:visited{
+.link:visited {
   color: rgba(255, 255, 255, .6);
 }
-.link:hover{
+
+.link:hover {
   color: rgba(255, 255, 255, 1);
 }
-.highlight{
+
+.highlight {
   padding: 5px;
   border-radius: 3px;
   background: rgba(0, 0, 0, .5);
   color: #fff;
 }
-.highlight:hover{
+
+.highlight:hover {
   background: rgba(0, 0, 0, .3);
 }
-.spacer{
+
+.spacer {
   color: rgba(255, 255, 255, .3);
 }

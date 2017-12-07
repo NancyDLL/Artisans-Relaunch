@@ -1,65 +1,72 @@
 @import '../../components/variables.scss';
 
-/* GRID DEFINITION x */
-.root{
+/* TOP - DOWN */
+.root {
 }
-.container{
-  min-height: 50rem; 
-}
-.title{
-  padding: 15px;
-  text-align: center;
-}
-.loginForm{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5px;
-}
-.usrname{
-  grid-column: 2 / span 1;
-  grid-row: 1;
-}
-.usrnameBox{
-  grid-column: 2 / span 1;
-  grid-row: 2;
-  margin-bottom: 20px;
-}
-.pssword{
-  grid-column: 2 / span 1;
-  grid-row: 3;
-}
-.psswordBox{
-  grid-column: 2 / span 1;
-  grid-row: 4;
-  margin-bottom: 20px;
-}
-.sbmit{
-  grid-column: 2 / span 1;
-  grid-row: 5;
-}
-.psw{
-  grid-column: 2 / span 1;
-  grid-row: 6s;
-}
-/* LOGIN STYLING */
-.container{
+
+.container {
+  min-height: 50rem;
   background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.loginForm{
 
+.title {
+  padding: 15px;
+  text-align: center;
 }
-h1{
+
+.loginForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.usrname {
+  grid-column: 2 / span 1;
+  grid-row: 1;
+}
+
+.usrnameBox {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  margin-bottom: 20px;
+}
+
+.pssword {
+  grid-column: 2 / span 1;
+  grid-row: 3;
+}
+
+.psswordBox {
+  grid-column: 2 / span 1;
+  grid-row: 4;
+  margin-bottom: 20px;
+}
+
+.sbmit {
+  grid-column: 2 / span 1;
+  grid-row: 5;
+}
+
+.psw {
+  grid-column: 2 / span 1;
+  grid-row: 6s;
+}
+
+/* TEXT STYLING */
+h1 {
   margin: 0px;
   color: #954627; /* Warm Brown */
   font-weight: normal;
   font-size: 2em;
 }
-label{
+
+label {
   color: #484848; /* Grey */
 }
-input{
+
+input {
   padding: 10px;
   font-size: .75em;
   border-radius: 7px;
@@ -67,7 +74,14 @@ input{
   border-style: solid;
   border-width: 0.5px;
 }
-button{
+
+.psw {
+  padding: 20px;
+  text-align: center;
+}
+
+/* BUTTON STYLING */
+button {
   width: 100%;
   background-color: #954627; /* Warm Brown */
   color: #FFF;  /* White */
@@ -79,10 +93,7 @@ button{
   border-width: 0px;
   cursor: pointer;
 }
+
 button:hover {
     opacity: 0.8;
-}
-.psw{
-  padding: 20px;
-  text-align: center;
 }

@@ -65,3 +65,29 @@ img {
 .spacer {
   color: rgba(255, 255, 255, .3);
 }
+
+/* LINK STYLING */
+.link{
+  text-decoration: none;
+  font-size: 18px;
+}
+.link,
+.link:active,
+.link:visited{
+  color: rgba(255, 255, 255, .6);
+}
+.link:hover{
+  color: rgba(255, 255, 255, 1);
+}
+.highlight{
+  padding: 5px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+}
+.highlight:hover{
+  background: rgba(0, 0, 0, .3);
+}
+.spacer{
+  color: rgba(255, 255, 255, .3);
+}

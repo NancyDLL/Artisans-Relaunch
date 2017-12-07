@@ -3,16 +3,19 @@
 import React, { PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.scss';
+import Link from '../../components/Link';
 
 function Home({ news }) {
   return (
     <div className={s.root}>
       <div className={s.banner}>
-        <h1 className={s.bannerTitle}>Artisans x2</h1>
+        <h1 className={s.bannerTitle}>Artisans</h1>
         <p className={s.bannerDesc}>Facilitating a better contractor experience.</p>
       </div>
       <div className={s.container}>
-
+      <div className={s.findReview}>
+        <Link className={s.link} to="/find-artisan">Find an Artisan</Link>
+      </div>
       </div>
 
     </div>

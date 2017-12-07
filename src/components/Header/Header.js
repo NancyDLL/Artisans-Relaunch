@@ -1,4 +1,4 @@
-/* Component for top bar visuals */
+/* Component for top bar visuals x*/
 
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
@@ -11,7 +11,7 @@ function Header() {
     <div className={s.root}>
       <div className={s.container}>
         <Navigation className={s.nav} />
-        
+
       </div>
     </div>
   );

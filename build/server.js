@@ -110,7 +110,7 @@ module.exports =
   
   var _assets2 = _interopRequireDefault(_assets);
   
-  var _config = __webpack_require__(13);
+  var _config = __webpack_require__(14);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -542,63 +542,6 @@ module.exports =
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  /**
-   * React Starter Kit (https://www.reactstarterkit.com/)
-   *
-   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE.txt file in the root directory of this source tree.
-   */
-  
-  /* eslint-disable max-len */
-  /* jscs:disable maximumLineLength */
-  
-  var port = exports.port = process.env.PORT || 3000;
-  var host = exports.host = process.env.WEBSITE_HOSTNAME || 'localhost:' + port;
-  
-  var databaseUrl = exports.databaseUrl = process.env.DATABASE_URL || 'postgresql://demo:Lqk62xg6TBm5UhfR@demo.ctbl5itzitm4.us-east-1.rds.amazonaws.com:5432/membership01';
-  
-  var analytics = exports.analytics = {
-  
-    // https://analytics.google.com/
-    google: { trackingId: process.env.GOOGLE_TRACKING_ID || 'UA-XXXXX-X' }
-  
-  };
-  
-  var auth = exports.auth = {
-  
-    jwt: { secret: process.env.JWT_SECRET || 'React Starter Kit' },
-  
-    // https://developers.facebook.com/
-    facebook: {
-      id: process.env.FACEBOOK_APP_ID || '186244551745631',
-      secret: process.env.FACEBOOK_APP_SECRET || 'a970ae3240ab4b9b8aae0f9f0661c6fc'
-    },
-  
-    // https://cloud.google.com/console/project
-    google: {
-      id: process.env.GOOGLE_CLIENT_ID || '251410730550-ahcg0ou5mgfhl8hlui1urru7jn5s12km.apps.googleusercontent.com',
-      secret: process.env.GOOGLE_CLIENT_SECRET || 'Y8yR9yZAhm9jQ8FKAL8QIEcd'
-    },
-  
-    // https://apps.twitter.com/
-    twitter: {
-      key: process.env.TWITTER_CONSUMER_KEY || 'Ie20AZvLJI2lQD5Dsgxgjauns',
-      secret: process.env.TWITTER_CONSUMER_SECRET || 'KTZ6cxoKnEakQCeSpZlaUCJWGAlTEBJj0y2EMkUBujA7zWSvaQ'
-    }
-  
-  };
-
-/***/ }),
-/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -645,9 +588,7 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  /**
-   * Notes
-   */
+  /* links component */
   
   function isLeftClickEvent(event) {
     return event.button === 0;
@@ -721,6 +662,63 @@ module.exports =
   exports.default = Link;
 
 /***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  /**
+   * React Starter Kit (https://www.reactstarterkit.com/)
+   *
+   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE.txt file in the root directory of this source tree.
+   */
+  
+  /* eslint-disable max-len */
+  /* jscs:disable maximumLineLength */
+  
+  var port = exports.port = process.env.PORT || 3000;
+  var host = exports.host = process.env.WEBSITE_HOSTNAME || 'localhost:' + port;
+  
+  var databaseUrl = exports.databaseUrl = process.env.DATABASE_URL || 'postgresql://demo:Lqk62xg6TBm5UhfR@demo.ctbl5itzitm4.us-east-1.rds.amazonaws.com:5432/membership01';
+  
+  var analytics = exports.analytics = {
+  
+    // https://analytics.google.com/
+    google: { trackingId: process.env.GOOGLE_TRACKING_ID || 'UA-XXXXX-X' }
+  
+  };
+  
+  var auth = exports.auth = {
+  
+    jwt: { secret: process.env.JWT_SECRET || 'React Starter Kit' },
+  
+    // https://developers.facebook.com/
+    facebook: {
+      id: process.env.FACEBOOK_APP_ID || '186244551745631',
+      secret: process.env.FACEBOOK_APP_SECRET || 'a970ae3240ab4b9b8aae0f9f0661c6fc'
+    },
+  
+    // https://cloud.google.com/console/project
+    google: {
+      id: process.env.GOOGLE_CLIENT_ID || '251410730550-ahcg0ou5mgfhl8hlui1urru7jn5s12km.apps.googleusercontent.com',
+      secret: process.env.GOOGLE_CLIENT_SECRET || 'Y8yR9yZAhm9jQ8FKAL8QIEcd'
+    },
+  
+    // https://apps.twitter.com/
+    twitter: {
+      key: process.env.TWITTER_CONSUMER_KEY || 'Ie20AZvLJI2lQD5Dsgxgjauns',
+      secret: process.env.TWITTER_CONSUMER_SECRET || 'KTZ6cxoKnEakQCeSpZlaUCJWGAlTEBJj0y2EMkUBujA7zWSvaQ'
+    }
+  
+  };
+
+/***/ }),
 /* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -739,7 +737,7 @@ module.exports =
   
   var _nodeFetch2 = _interopRequireDefault(_nodeFetch);
   
-  var _config = __webpack_require__(13);
+  var _config = __webpack_require__(14);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -2005,7 +2003,7 @@ module.exports =
   
   var _Footer2 = _interopRequireDefault(_Footer);
   
-  var _Link = __webpack_require__(14);
+  var _Link = __webpack_require__(13);
   
   var _Link2 = _interopRequireDefault(_Link);
   
@@ -2074,7 +2072,7 @@ module.exports =
   
   var _Header2 = _interopRequireDefault(_Header);
   
-  var _Link = __webpack_require__(14);
+  var _Link = __webpack_require__(13);
   
   var _Link2 = _interopRequireDefault(_Link);
   
@@ -2094,7 +2092,7 @@ module.exports =
         _react2.default.createElement(_Navigation2.default, { className: _Header2.default.nav })
       )
     );
-  } /* Component for top bar visuals */
+  } /* Component for top bar visuals x*/
   
   exports.default = (0, _withStyles2.default)(Header, _Header2.default);
 
@@ -2124,7 +2122,7 @@ module.exports =
   
   var _Navigation2 = _interopRequireDefault(_Navigation);
   
-  var _Link = __webpack_require__(14);
+  var _Link = __webpack_require__(13);
   
   var _Link2 = _interopRequireDefault(_Link);
   
@@ -2152,25 +2150,6 @@ module.exports =
       ),
       _react2.default.createElement(
         'div',
-        { className: _Navigation2.default.findReview },
-        _react2.default.createElement(
-          _Link2.default,
-          { className: _Navigation2.default.link, to: '/find-artisan' },
-          'Find an Artisan'
-        ),
-        _react2.default.createElement(
-          'span',
-          { className: _Navigation2.default.spacer },
-          ' or '
-        ),
-        _react2.default.createElement(
-          _Link2.default,
-          { className: _Navigation2.default.link, to: '/review-artisan' },
-          'Review an Artisan'
-        )
-      ),
-      _react2.default.createElement(
-        'div',
         { className: _Navigation2.default.logInSignIn },
         _react2.default.createElement(
           _Link2.default,
@@ -2189,7 +2168,7 @@ module.exports =
         )
       )
     );
-  } /* x */
+  } /*  */
   
   Navigation.propTypes = {
     className: _react.PropTypes.string
@@ -2386,7 +2365,7 @@ module.exports =
   
   var _bluebird2 = _interopRequireDefault(_bluebird);
   
-  var _config = __webpack_require__(13);
+  var _config = __webpack_require__(14);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -2505,7 +2484,7 @@ module.exports =
   
   var _db2 = _interopRequireDefault(_db);
   
-  var _config = __webpack_require__(13);
+  var _config = __webpack_require__(14);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -3578,7 +3557,13 @@ module.exports =
   
   var _Home2 = _interopRequireDefault(_Home);
   
+  var _Link = __webpack_require__(13);
+  
+  var _Link2 = _interopRequireDefault(_Link);
+  
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  /* small change */
   
   function Home(_ref) {
     var news = _ref.news;
@@ -3592,7 +3577,7 @@ module.exports =
         _react2.default.createElement(
           'h1',
           { className: _Home2.default.bannerTitle },
-          'Artisans x2'
+          'Artisans'
         ),
         _react2.default.createElement(
           'p',
@@ -3600,9 +3585,21 @@ module.exports =
           'Facilitating a better contractor experience.'
         )
       ),
-      _react2.default.createElement('div', { className: _Home2.default.container })
+      _react2.default.createElement(
+        'div',
+        { className: _Home2.default.container },
+        _react2.default.createElement(
+          'div',
+          { className: _Home2.default.findReview },
+          _react2.default.createElement(
+            _Link2.default,
+            { className: _Home2.default.link, to: '/find-artisan' },
+            'Find an Artisan'
+          )
+        )
+      )
     );
-  } /* small change */
+  }
   
   Home.propTypes = {
     news: _react.PropTypes.arrayOf(_react.PropTypes.shape({
@@ -5040,7 +5037,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Home_root_qf4 {\n\n}\n\n/* STYLING */\n\n.Home_container_2AB {\n  width: 100%;\n  height: 200px;\n  background-image: url(" + __webpack_require__(98) + ");\n  -webkit-background-size: cover;\n          background-size: cover;\n}\n\nh1 {\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.Home_banner_3pg {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.Home_bannerTitle_3Jg {\n  color: #FFF;\n\n}\n\n.Home_bannerDesc_xBe {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6)\n}\n\n.Home_link_RhC:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.Home_highlight_3Xr {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff\n}\n\n.Home_highlight_3Xr:hover {\n  background: darken($baseColor, 5%);\n}\n\n.Home_spacer_2ay {\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/home/Home.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;;CAEC;;AAED,aAAa;;AACb;EACE,YAAY;EACZ,cAAc;EACd,gDAA2C;EAC3C,+BAAuB;UAAvB,uBAAuB;CACxB;;AAED;EACE,yDAA+B;EAC/B,YAAY;EACZ,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB,CAAC,gBAAgB;CACtC;;AAED;EACE,YAAY;;CAEb;;AAED;EACE,+BAA+B;EAC/B,kBAAkB;CACnB;;AAED;IACI,aAAa;IACb,gBAAgB;CACnB;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;EAChB,8BAA+B;CAIhC;;AAHC;EACE,8BAA8B;CAC/B;;AAGH;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,WAAY;CAKb;;AAHC;EACE,mCAAmC;CACpC;;AAGH;EACE,+BAA+B;CAChC","file":"Home.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root {\n\n}\n\n/* STYLING */\n.container {\n  width: 100%;\n  height: 200px;\n  background-image: url(\"./theArtisan.jpeg\");\n  background-size: cover;\n}\n\nh1 {\n  font-family: $font-family-base;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.banner {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.bannerTitle {\n  color: #FFF;\n\n}\n\n.bannerDesc {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6);\n  &:hover {\n    color: rgba(255, 255, 255, 1);\n  }\n}\n\n.highlight {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n\n  &:hover{\n    background: darken($baseColor, 5%);\n  }\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Home_root_qf4 {\n\n}\n\n/* STYLING */\n\n.Home_container_2AB {\n  width: 100%;\n  height: 200px;\n  background-image: url(" + __webpack_require__(98) + ");\n  -webkit-background-size: cover;\n          background-size: cover;\n}\n\nh1 {\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.Home_banner_3pg {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.Home_bannerTitle_3Jg {\n  color: #FFF;\n\n}\n\n.Home_bannerDesc_xBe {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6)\n}\n\n.Home_link_RhC:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.Home_highlight_3Xr {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff\n}\n\n.Home_highlight_3Xr:hover {\n  background: darken($baseColor, 5%);\n}\n\n.Home_spacer_2ay {\n  color: rgba(255, 255, 255, .3);\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC{\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.Home_link_RhC, .Home_link_RhC:active, .Home_link_RhC:visited{\n  color: rgba(255, 255, 255, .6);\n}\n\n.Home_link_RhC:hover{\n  color: rgba(255, 255, 255, 1);\n}\n\n.Home_highlight_3Xr{\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n\n.Home_highlight_3Xr:hover{\n  background: rgba(0, 0, 0, .3);\n}\n\n.Home_spacer_2ay{\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/home/Home.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;;CAEC;;AAED,aAAa;;AACb;EACE,YAAY;EACZ,cAAc;EACd,gDAA2C;EAC3C,+BAAuB;UAAvB,uBAAuB;CACxB;;AAED;EACE,yDAA+B;EAC/B,YAAY;EACZ,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB,CAAC,gBAAgB;CACtC;;AAED;EACE,YAAY;;CAEb;;AAED;EACE,+BAA+B;EAC/B,kBAAkB;CACnB;;AAED;IACI,aAAa;IACb,gBAAgB;CACnB;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;EAChB,8BAA+B;CAIhC;;AAHC;EACE,8BAA8B;CAC/B;;AAGH;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,WAAY;CAKb;;AAHC;EACE,mCAAmC;CACpC;;AAGH;EACE,+BAA+B;CAChC;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;;AACD;EAGE,+BAA+B;CAChC;;AACD;EACE,8BAA8B;CAC/B;;AACD;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,YAAY;CACb;;AACD;EACE,8BAA8B;CAC/B;;AACD;EACE,+BAA+B;CAChC","file":"Home.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root {\n\n}\n\n/* STYLING */\n.container {\n  width: 100%;\n  height: 200px;\n  background-image: url(\"./theArtisan.jpeg\");\n  background-size: cover;\n}\n\nh1 {\n  font-family: $font-family-base;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.banner {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.bannerTitle {\n  color: #FFF;\n\n}\n\n.bannerDesc {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6);\n  &:hover {\n    color: rgba(255, 255, 255, 1);\n  }\n}\n\n.highlight {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n\n  &:hover{\n    background: darken($baseColor, 5%);\n  }\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n\n/* LINK STYLING */\n.link{\n  text-decoration: none;\n  font-size: 18px;\n}\n.link,\n.link:active,\n.link:visited{\n  color: rgba(255, 255, 255, .6);\n}\n.link:hover{\n  color: rgba(255, 255, 255, 1);\n}\n.highlight{\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n.highlight:hover{\n  background: rgba(0, 0, 0, .3);\n}\n.spacer{\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {

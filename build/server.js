@@ -3846,7 +3846,7 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  function Register(_ref) {
+  function Login(_ref) {
     var title = _ref.title;
   
     return _react2.default.createElement(
@@ -3857,21 +3857,54 @@ module.exports =
         { className: _Register2.default.container },
         _react2.default.createElement(
           'h1',
-          null,
-          title
+          { className: _Register2.default.title },
+          'Welcome to Artisans!'
         ),
         _react2.default.createElement(
-          'p',
-          null,
-          '...'
+          'form',
+          { className: _Register2.default.loginForm },
+          _react2.default.createElement(
+            'label',
+            { className: _Register2.default.email },
+            'Email'
+          ),
+          _react2.default.createElement('input', { className: _Register2.default.emailBox, type: 'text', placeholder: 'Enter your email', name: 'email', required: true }),
+          _react2.default.createElement(
+            'label',
+            { className: _Register2.default.usrname },
+            'Username'
+          ),
+          _react2.default.createElement('input', { className: _Register2.default.usrnameBox, type: 'text', placeholder: 'Create your Username', name: 'username', required: true }),
+          _react2.default.createElement(
+            'label',
+            { className: _Register2.default.pssword },
+            'Password'
+          ),
+          _react2.default.createElement('input', { className: _Register2.default.psswordBox, type: 'password', placeholder: 'Create your Password', name: 'password', required: true }),
+          _react2.default.createElement(
+            'label',
+            { className: _Register2.default.repssword },
+            'Repeat Password'
+          ),
+          _react2.default.createElement('input', { className: _Register2.default.repsswordBox, type: 'password', placeholder: 'Repeat the Password', name: 'repassword', required: true }),
+          _react2.default.createElement(
+            'button',
+            { className: _Register2.default.cancel, type: 'cancel' },
+            'Cancel'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: _Register2.default.sbmit, type: 'submit' },
+            'Sign Up'
+          )
         )
       )
     );
-  } /* Notes */
+  } /* this is a change */
   
-  Register.propTypes = { title: _react.PropTypes.string.isRequired };
+  Login.propTypes = { title: _react.PropTypes.string.isRequired };
   
-  exports.default = (0, _withStyles2.default)(Register, _Register2.default);
+  exports.default = (0, _withStyles2.default)(Login, _Register2.default);
 
 /***/ }),
 /* 57 */
@@ -5084,13 +5117,22 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * Notes\n */\n\n/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n.Register_root_154 {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Register_container_3Ea {\n  min-height: 50rem;\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.Register_title_2YM {\n  padding: 15px;\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/routes/register/Register.scss","/./src/components/variables.scss"],"names":[],"mappings":"AAAA;;GAEG;;ACFH;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AD5BhF;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,kBAAkB;EAClB,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AAED;EACE,cAAc;EACd,mBAAmB;CACpB","file":"Register.scss","sourcesContent":["/**\n * Notes\n */\n\n@import '../../components/variables.scss';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  min-height: 50rem;\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.title {\n  padding: 15px;\n  text-align: center;\n}\n","/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* TOP - DOWN */\n\n.Register_root_154 {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Register_container_3Ea {\n  min-height: 50rem;\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.Register_title_2YM {\n  padding: 15px;\n  text-align: center;\n}\n\n.Register_loginForm_3KN {\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  grid-gap: 5px;\n}\n\n.Register_email_27f {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n\n.Register_usrname_2iV {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 2;\n      grid-row: 2;\n}\n\n.Register_usrnameBox_3_q {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 3;\n      grid-row: 3;\n  margin-bottom: 20px;\n}\n\n.Register_pssword_2pT {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 4;\n      grid-row: 4;\n}\n\n.Register_psswordBox_2Bw {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 5;\n      grid-row: 5;\n  margin-bottom: 20px;\n}\n\n.Register_repssword_241 {\n    -ms-grid-column-span: 1;\n    -ms-grid-column: 2;\n        grid-column: 2 / span 1;\n    -ms-grid-row: 6;\n        grid-row: 6;\n}\n\n.Register_repsswordBox_v7R {\n    -ms-grid-column-span: 1;\n    -ms-grid-column: 2;\n        grid-column: 2 / span 1;\n    -ms-grid-row: 7;\n        grid-row: 7;\n}\n\n.Register_repsswordBox_v7R {\n    -ms-grid-column-span: 1;\n    -ms-grid-column: 2;\n        grid-column: 2 / span 1;\n    -ms-grid-row: 8;\n        grid-row: 8;\n}\n\n.Register_sbmit_g4L {\n  -ms-grid-column-span: 1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 9;\n      grid-row: 9;\n}\n\n/* TEXT STYLING */\n\nh1 {\n  margin: 0px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2em;\n}\n\nlabel {\n  color: #484848; /* Grey */\n}\n\ninput {\n  padding: 10px;\n  font-size: .75em;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0.5px;\n}\n\n/* BUTTON STYLING */\n\nbutton {\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #FFF;  /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/register/Register.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,gBAAgB;;AAChB;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,kBAAkB;EAClB,kCAAkC,CAAC,+BAA+B;EAClE,kBAAkB;EAClB,qBAAqB;CACtB;;AAED;EACE,cAAc;EACd,mBAAmB;CACpB;;AAED;EACE,kBAAc;EAAd,cAAc;EACd,8BAAmC;MAAnC,mCAAmC;EACnC,cAAc;CACf;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;EACZ,oBAAoB;CACrB;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAED;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;EACZ,oBAAoB;CACrB;;AAED;IACI,wBAAwB;IAAxB,mBAAwB;QAAxB,wBAAwB;IACxB,gBAAY;QAAZ,YAAY;CACf;;AAED;IACI,wBAAwB;IAAxB,mBAAwB;QAAxB,wBAAwB;IACxB,gBAAY;QAAZ,YAAY;CACf;;AACD;IACI,wBAAwB;IAAxB,mBAAwB;QAAxB,wBAAwB;IACxB,gBAAY;QAAZ,YAAY;CACf;;AACD;EACE,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAGD,kBAAkB;;AAClB;EACE,YAAY;EACZ,eAAe,CAAC,gBAAgB;EAChC,oBAAoB;EACpB,eAAe;CAChB;;AAED;EACE,eAAe,CAAC,UAAU;CAC3B;;AAED;EACE,cAAc;EACd,iBAAiB;EACjB,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,oBAAoB;CACrB;;AAED,oBAAoB;;AACpB;EACE,YAAY;EACZ,0BAA0B,CAAC,gBAAgB;EAC3C,YAAY,EAAE,WAAW;EACzB,mBAAmB;EACnB,cAAc;EACd,mBAAmB;EACnB,sBAAsB,EAAE,gBAAgB;EACxC,oBAAoB;EACpB,kBAAkB;EAClB,gBAAgB;CACjB;;AAED;IACI,aAAa;CAChB","file":"Register.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* TOP - DOWN */\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  min-height: 50rem;\n  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.title {\n  padding: 15px;\n  text-align: center;\n}\n\n.loginForm {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  grid-gap: 5px;\n}\n\n.email {\n  grid-column: 2 / span 1;\n  grid-row: 1;\n}\n\n.usrname {\n  grid-column: 2 / span 1;\n  grid-row: 2;\n}\n\n.usrnameBox {\n  grid-column: 2 / span 1;\n  grid-row: 3;\n  margin-bottom: 20px;\n}\n\n.pssword {\n  grid-column: 2 / span 1;\n  grid-row: 4;\n}\n\n.psswordBox {\n  grid-column: 2 / span 1;\n  grid-row: 5;\n  margin-bottom: 20px;\n}\n\n.repssword {\n    grid-column: 2 / span 1;\n    grid-row: 6;\n}\n\n.repsswordBox {\n    grid-column: 2 / span 1;\n    grid-row: 7;\n}\n.repsswordBox {\n    grid-column: 2 / span 1;\n    grid-row: 8;\n}\n.sbmit {\n  grid-column: 2 / span 1;\n  grid-row: 9;\n}\n\n\n/* TEXT STYLING */\nh1 {\n  margin: 0px;\n  color: #954627; /* Warm Brown */\n  font-weight: normal;\n  font-size: 2em;\n}\n\nlabel {\n  color: #484848; /* Grey */\n}\n\ninput {\n  padding: 10px;\n  font-size: .75em;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0.5px;\n}\n\n/* BUTTON STYLING */\nbutton {\n  width: 100%;\n  background-color: #954627; /* Warm Brown */\n  color: #FFF;  /* White */\n  padding: 14px 20px;\n  margin: 8px 0;\n  border-radius: 7px;\n  border-color: #808080;  /* Light Grey */\n  border-style: solid;\n  border-width: 0px;\n  cursor: pointer;\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
   	"root": "Register_root_154",
   	"container": "Register_container_3Ea",
-  	"title": "Register_title_2YM"
+  	"title": "Register_title_2YM",
+  	"loginForm": "Register_loginForm_3KN",
+  	"email": "Register_email_27f",
+  	"usrname": "Register_usrname_2iV",
+  	"usrnameBox": "Register_usrnameBox_3_q",
+  	"pssword": "Register_pssword_2pT",
+  	"psswordBox": "Register_psswordBox_2Bw",
+  	"repssword": "Register_repssword_241",
+  	"repsswordBox": "Register_repsswordBox_v7R",
+  	"sbmit": "Register_sbmit_g4L"
   };
 
 /***/ }),

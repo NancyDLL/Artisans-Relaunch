@@ -29,44 +29,59 @@
   grid-row: 1;
 }
 
-.usrname {
+.emailBox {
   grid-column: 2 / span 1;
   grid-row: 2;
+  margin-bottom: 20px;
+}
+
+.usrname {
+  grid-column: 2 / span 1;
+  grid-row: 3;
 }
 
 .usrnameBox {
   grid-column: 2 / span 1;
-  grid-row: 3;
+  grid-row: 4;
   margin-bottom: 20px;
 }
 
 .pssword {
   grid-column: 2 / span 1;
-  grid-row: 4;
+  grid-row: 5;
 }
 
 .psswordBox {
   grid-column: 2 / span 1;
-  grid-row: 5;
+  grid-row: 6;
   margin-bottom: 20px;
 }
 
 .repssword {
     grid-column: 2 / span 1;
-    grid-row: 6;
+    grid-row: 7;
 }
 
 .repsswordBox {
     grid-column: 2 / span 1;
-    grid-row: 7;
-}
-.repsswordBox {
-    grid-column: 2 / span 1;
     grid-row: 8;
+    margin-bottom: 20px;
 }
-.sbmit {
+
+.btnContainer {
   grid-column: 2 / span 1;
   grid-row: 9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.cancel {
+    grid-column: 1 / span 1;
+}
+
+.sbmit {
+    grid-column: 2 / span 1;
 }
 
 

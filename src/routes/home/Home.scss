@@ -8,18 +8,13 @@
 /* STYLING */
 .container {
   width:100%;
-  min-height: 50rem;
+  height: 100%;
   background-image: url("./theArtisan.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.findButton{
-  grid-column: 2 / span 1;
-  grid-row: 1;
 }
 
 h1 {
@@ -37,37 +32,31 @@ h1 {
 
 .bannerTitle {
   color: #FFF;
-
 }
 
 .bannerDesc {
-  color: rgba(255, 255, 255, .25);
+  color: rgba(255, 255, 255, .75);
   font-size: 1.25em;
+}
+
+.findButton {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 10px;
+  background: rgba(135, 206, 250, .85);
+}
+
+.findButton:hover {
+  background: rgba(135, 206, 250, 1);
 }
 
 /* LINK STYLING */
 .link {
   text-decoration: none;
-  font-size: 18px;
-}
-
-.link,
-.link:active,
-.link:visited{
-  color: rgba(0, 0, 0, .5);
-}
-
-.link:hover {
+  font-size: 24px;
   color: rgba(0, 0, 0, 1);
-}
-
-.highlight {
-  padding: 25px;
-  border-radius: 5px;
-  background: rgba(135, 206, 250, .7);
-  color: #fff;
-}
-
-.highlight:hover {
-  background: rgba(135, 206, 250, 1);
 }

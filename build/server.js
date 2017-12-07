@@ -331,7 +331,7 @@ module.exports =
 
   'use strict';
   
-  var _assign = __webpack_require__(22);
+  var _assign = __webpack_require__(23);
   
   var _assign2 = _interopRequireDefault(_assign);
   
@@ -801,12 +801,18 @@ module.exports =
 
 /***/ }),
 /* 19 */
+/***/ (function(module, exports) {
+
+  module.exports = require("classnames");
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
   module.exports = { "default": __webpack_require__(116), __esModule: true };
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
   "use strict";
@@ -838,7 +844,7 @@ module.exports =
   }();
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1090,22 +1096,16 @@ module.exports =
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports) {
 
   module.exports = require("babel-runtime/core-js/object/assign");
 
 /***/ }),
-/* 23 */
-/***/ (function(module, exports) {
-
-  module.exports = require("babel-runtime/core-js/promise");
-
-/***/ }),
 /* 24 */
 /***/ (function(module, exports) {
 
-  module.exports = require("classnames");
+  module.exports = require("babel-runtime/core-js/promise");
 
 /***/ }),
 /* 25 */
@@ -1129,7 +1129,7 @@ module.exports =
     value: true
   });
   
-  var _create = __webpack_require__(19);
+  var _create = __webpack_require__(20);
   
   var _create2 = _interopRequireDefault(_create);
   
@@ -1185,7 +1185,7 @@ module.exports =
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(20);
+  var _createClass2 = __webpack_require__(21);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
@@ -1251,7 +1251,7 @@ module.exports =
   
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
   
-  var _create = __webpack_require__(19);
+  var _create = __webpack_require__(20);
   
   var _create2 = _interopRequireDefault(_create);
   
@@ -1259,7 +1259,7 @@ module.exports =
   
   var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
   
-  var _createClass2 = __webpack_require__(20);
+  var _createClass2 = __webpack_require__(21);
   
   var _createClass3 = _interopRequireDefault(_createClass2);
   
@@ -2110,7 +2110,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _classnames = __webpack_require__(24);
+  var _classnames = __webpack_require__(19);
   
   var _classnames2 = _interopRequireDefault(_classnames);
   
@@ -2280,7 +2280,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _classnames = __webpack_require__(24);
+  var _classnames = __webpack_require__(19);
   
   var _classnames2 = _interopRequireDefault(_classnames);
   
@@ -2678,7 +2678,7 @@ module.exports =
   
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
   
-  var _assign = __webpack_require__(22);
+  var _assign = __webpack_require__(23);
   
   var _assign2 = _interopRequireDefault(_assign);
   
@@ -3557,13 +3557,15 @@ module.exports =
   
   var _Home2 = _interopRequireDefault(_Home);
   
+  var _classnames = __webpack_require__(19);
+  
+  var _classnames2 = _interopRequireDefault(_classnames);
+  
   var _Link = __webpack_require__(13);
   
   var _Link2 = _interopRequireDefault(_Link);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  /* small change */
   
   function Home(_ref) {
     var news = _ref.news;
@@ -3590,16 +3592,16 @@ module.exports =
         { className: _Home2.default.container },
         _react2.default.createElement(
           'div',
-          { className: _Home2.default.findReview },
+          { className: _Home2.default.findButton },
           _react2.default.createElement(
             _Link2.default,
-            { className: _Home2.default.link, to: '/find-artisan' },
+            { className: (0, _classnames2.default)(_Home2.default.link, _Home2.default.highlight), to: '/find-artisan' },
             'Find an Artisan'
           )
         )
       )
     );
-  }
+  } /* small change */
   
   Home.propTypes = {
     news: _react.PropTypes.arrayOf(_react.PropTypes.shape({
@@ -4054,7 +4056,7 @@ module.exports =
   
   exports.__esModule = true;
   
-  var _promise = __webpack_require__(23);
+  var _promise = __webpack_require__(24);
   
   var _promise2 = _interopRequireDefault(_promise);
   
@@ -4190,7 +4192,7 @@ module.exports =
 
   /* WEBPACK VAR INJECTION */(function(module) {"use strict";
   
-  var _promise = __webpack_require__(23);
+  var _promise = __webpack_require__(24);
   
   var _promise2 = _interopRequireDefault(_promise);
   
@@ -4951,7 +4953,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/* GRID DEFINITION */\n.Navigation_root_2Gx {\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n}\n.Navigation_homeNav_1a8 {\n  padding-left: 5px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_findReview_L0- {\n  padding-top: 10px;\n  -ms-grid-column-span: 4;\n  -ms-grid-column: 5;\n      grid-column: 5 / span 4;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_logInSignIn_3Vv {\n  padding-top: 10px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 11;\n      grid-column: 11 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n/* BRAND STYLING */\na {\n  vertical-align: middle;\n}\n.Navigation_brand_2V6 {\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n.Navigation_brandTxt_3ep {\n  padding-top: 10px;\n  padding-left: 5px;\n}\n/* LINK STYLING */\n.Navigation_link_12k {\n  text-decoration: none;\n  font-size: 18px;\n}\n.Navigation_link_12k, .Navigation_link_12k:active, .Navigation_link_12k:visited{\n  color: rgba(255, 255, 255, .6);\n}\n.Navigation_link_12k:hover {\n  color: rgba(255, 255, 255, 1);\n}\n.Navigation_highlight_2cu {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n.Navigation_highlight_2cu:hover {\n  background: rgba(0, 0, 0, .3);\n}\n.Navigation_spacer_2MV {\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/Navigation/Navigation.scss"],"names":[],"mappings":"AAAA,qBAAqB;AACrB;EACE,kBAAkB;EAClB,qBAAqB;EACrB,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;CACpD;AAED;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AAED;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AAED;EACE,kBAAkB;EAClB,wBAAyB;EAAzB,oBAAyB;MAAzB,yBAAyB;EACzB,gBAAY;MAAZ,YAAY;CACb;AAED,mBAAmB;AACnB;EACE,uBAAuB;CACxB;AAED;EACE,eAAe,EAAE,oBAAoB;EACrC,sBAAsB;EACtB,gBAAgB;EAChB,iBAAiB;CAClB;AAED;EACE,kBAAkB;EAClB,kBAAkB;CACnB;AAED,kBAAkB;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;AAED;EAGE,+BAA+B;CAChC;AAED;EACE,8BAA8B;CAC/B;AAED;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,YAAY;CACb;AAED;EACE,8BAA8B;CAC/B;AAED;EACE,+BAA+B;CAChC","file":"Navigation.scss","sourcesContent":["/* GRID DEFINITION */\n.root {\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n}\n\n.homeNav {\n  padding-left: 5px;\n  grid-column: 1 / span 2;\n  grid-row: 1;\n}\n\n.findReview {\n  padding-top: 10px;\n  grid-column: 5 / span 4;\n  grid-row: 1;\n}\n\n.logInSignIn {\n  padding-top: 10px;\n  grid-column: 11 / span 2;\n  grid-row: 1;\n}\n\n/* BRAND STYLING */\na {\n  vertical-align: middle;\n}\n\n.brand {\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n\n.brandTxt {\n  padding-top: 10px;\n  padding-left: 5px;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.link,\n.link:active,\n.link:visited{\n  color: rgba(255, 255, 255, .6);\n}\n\n.link:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.highlight {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n\n.highlight:hover {\n  background: rgba(0, 0, 0, .3);\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/* GRID DEFINITION */\n.Navigation_root_2Gx {\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: ([col-start] 1fr)[12];\n      grid-template-columns: repeat(12, [col-start] 1fr);\n}\n.Navigation_homeNav_1a8 {\n  padding-left: 5px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 1;\n      grid-column: 1 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_findReview_L0- {\n  padding-top: 10px;\n  -ms-grid-column-span: 4;\n  -ms-grid-column: 5;\n      grid-column: 5 / span 4;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n.Navigation_logInSignIn_3Vv {\n  padding-top: 10px;\n  -ms-grid-column-span: 2;\n  -ms-grid-column: 11;\n      grid-column: 11 / span 2;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n/* BRAND STYLING */\na {\n  vertical-align: middle;\n}\n.Navigation_brand_2V6 {\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n.Navigation_brandTxt_3ep {\n  padding-top: 10px;\n  padding-left: 5px;\n}\n/* LINK STYLING */\n.Navigation_link_12k {\n  text-decoration: none;\n  font-size: 18px;\n}\n.Navigation_link_12k, .Navigation_link_12k:active, .Navigation_link_12k:visited{\n  color: rgba(255, 255, 255, .6);\n}\n.Navigation_link_12k:hover {\n  color: rgba(255, 255, 255, 1);\n}\n.Navigation_highlight_2cu {\n  padding: 10px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n.Navigation_highlight_2cu:hover {\n  background: rgba(0, 0, 0, .3);\n}\n", "", {"version":3,"sources":["/./src/components/Navigation/Navigation.scss"],"names":[],"mappings":"AAAA,qBAAqB;AACrB;EACE,kBAAkB;EAClB,qBAAqB;EACrB,kBAAc;EAAd,cAAc;EACd,wCAAmD;MAAnD,mDAAmD;CACpD;AAED;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AAED;EACE,kBAAkB;EAClB,wBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;AAED;EACE,kBAAkB;EAClB,wBAAyB;EAAzB,oBAAyB;MAAzB,yBAAyB;EACzB,gBAAY;MAAZ,YAAY;CACb;AAED,mBAAmB;AACnB;EACE,uBAAuB;CACxB;AAED;EACE,eAAe,EAAE,oBAAoB;EACrC,sBAAsB;EACtB,gBAAgB;EAChB,iBAAiB;CAClB;AAED;EACE,kBAAkB;EAClB,kBAAkB;CACnB;AAED,kBAAkB;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;AAED;EAGE,+BAA+B;CAChC;AAED;EACE,8BAA8B;CAC/B;AAED;EACE,cAAc;EACd,mBAAmB;EACnB,8BAA8B;EAC9B,YAAY;CACb;AAED;EACE,8BAA8B;CAC/B","file":"Navigation.scss","sourcesContent":["/* GRID DEFINITION */\n.root {\n  padding-top: 10px;\n  padding-bottom: 12px;\n  display: grid;\n  grid-template-columns: repeat(12, [col-start] 1fr);\n}\n\n.homeNav {\n  padding-left: 5px;\n  grid-column: 1 / span 2;\n  grid-row: 1;\n}\n\n.findReview {\n  padding-top: 10px;\n  grid-column: 5 / span 4;\n  grid-row: 1;\n}\n\n.logInSignIn {\n  padding-top: 10px;\n  grid-column: 11 / span 2;\n  grid-row: 1;\n}\n\n/* BRAND STYLING */\na {\n  vertical-align: middle;\n}\n\n.brand {\n  color: #87CEFA;  /* Light Sky Blue */\n  text-decoration: none;\n  font-size: 18px;\n  padding-top: 7px;\n}\n\n.brandTxt {\n  padding-top: 10px;\n  padding-left: 5px;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.link,\n.link:active,\n.link:visited{\n  color: rgba(255, 255, 255, .6);\n}\n\n.link:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.highlight {\n  padding: 10px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n\n.highlight:hover {\n  background: rgba(0, 0, 0, .3);\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -4962,8 +4964,7 @@ module.exports =
   	"brand": "Navigation_brand_2V6",
   	"brandTxt": "Navigation_brandTxt_3ep",
   	"link": "Navigation_link_12k",
-  	"highlight": "Navigation_highlight_2cu",
-  	"spacer": "Navigation_spacer_2MV"
+  	"highlight": "Navigation_highlight_2cu"
   };
 
 /***/ }),
@@ -5035,18 +5036,18 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Home_root_qf4 {\n  width:100%;\n}\n\n/* STYLING */\n\n.Home_container_2AB {\n  width:100%;\n  min-height: 50rem;\n  background-image: url(" + __webpack_require__(98) + ");\n  -webkit-background-size: contain;\n          background-size: contain;\n  background-repeat: no-repeat;\n}\n\nh1 {\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.Home_banner_3pg {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.Home_bannerTitle_3Jg {\n  color: #FFF;\n\n}\n\n.Home_bannerDesc_xBe {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6)\n}\n\n.Home_link_RhC:hover {\n  color:rgba(255, 255, 255, 1);\n}\n\n.Home_highlight_3Xr {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff\n}\n\n.Home_highlight_3Xr:hover {\n  background:darken($baseColor, 5%);\n}\n\n.Home_spacer_2ay {\n  color: rgba(255, 255, 255, .3);\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.Home_link_RhC, .Home_link_RhC:active, .Home_link_RhC:visited {\n  color: rgba(255, 255, 255, .6);\n}\n\n.Home_link_RhC:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.Home_highlight_3Xr {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n\n.Home_highlight_3Xr:hover {\n  background: rgba(0, 0, 0, .3);\n}\n\n.Home_spacer_2ay {\n  color: rgba(255, 255, 255, .3);\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/home/Home.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;EACE,WAAW;CACZ;;AAED,aAAa;;AACb;EACE,WAAW;EACX,kBAAkB;EAClB,gDAA2C;EAC3C,iCAAyB;UAAzB,yBAAyB;EACzB,6BAA6B;CAC9B;;AAED;EACE,yDAA+B;EAC/B,YAAY;EACZ,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB,CAAC,gBAAgB;CACtC;;AAED;EACE,YAAY;;CAEb;;AAED;EACE,+BAA+B;EAC/B,kBAAkB;CACnB;;AAED;IACI,aAAa;IACb,gBAAgB;CACnB;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;EAChB,8BAA+B;CAIhC;;AAHC;EACE,6BAA8B;CAC/B;;AAGH;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,WAAY;CAKb;;AAHC;EACE,kCAAmC;CACpC;;AAGH;EACE,+BAA+B;CAChC;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;;AAED;EAGE,+BAA+B;CAChC;;AAED;EACE,8BAA8B;CAC/B;;AAED;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,YAAY;CACb;;AAED;EACE,8BAA8B;CAC/B;;AAED;EACE,+BAA+B;CAChC","file":"Home.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root {\n  width:100%;\n}\n\n/* STYLING */\n.container {\n  width:100%;\n  min-height: 50rem;\n  background-image: url(\"./theArtisan.jpeg\");\n  background-size: contain;\n  background-repeat: no-repeat;\n}\n\nh1 {\n  font-family: $font-family-base;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.banner {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.bannerTitle {\n  color: #FFF;\n\n}\n\n.bannerDesc {\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n}\n\nimg {\n    height: auto;\n    max-width: 100%;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n  color: rgba(255, 255, 255, .6);\n  &:hover {\n    color: rgba(255, 255, 255, 1);\n  }\n}\n\n.highlight {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n\n  &:hover {\n    background: darken($baseColor, 5%);\n  }\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.link,\n.link:active,\n.link:visited {\n  color: rgba(255, 255, 255, .6);\n}\n\n.link:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.highlight {\n  padding: 5px;\n  border-radius: 3px;\n  background: rgba(0, 0, 0, .5);\n  color: #fff;\n}\n\n.highlight:hover {\n  background: rgba(0, 0, 0, .3);\n}\n\n.spacer {\n  color: rgba(255, 255, 255, .3);\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/*\n * Colors\n * ========================================================================== */\n\n/* #222 */\n\n/* #404040 */\n\n/* #555 */\n\n/* #777 */\n\n/* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n/*\n * Layout\n * ========================================================================== */\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n/* Extra small screen / phone */\n\n/* Small screen / tablet */\n\n/* Medium screen / desktop */\n\n/* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n/* GRID DEFINITION x */\n\n.Home_root_qf4 {\n  width:100%;\n}\n\n/* STYLING */\n\n.Home_container_2AB {\n  width:100%;\n  min-height: 50rem;\n  background-image: url(" + __webpack_require__(98) + ");\n  -webkit-background-size: contain;\n          background-size: contain;\n  background-repeat: no-repeat;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr;\n  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;\n      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;\n}\n\n.Home_findButton_3Ly{\n  -ms-grid-column-span:1;\n  -ms-grid-column: 2;\n      grid-column: 2 / span 1;\n  -ms-grid-row: 1;\n      grid-row: 1;\n}\n\nh1 {\n  font-family: 'Segoe UI','HelveticaNeue-Light',sans-serif;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.Home_banner_3pg {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.Home_bannerTitle_3Jg {\n  color: #FFF;\n\n}\n\n.Home_bannerDesc_xBe {\n  color: rgba(255, 255, 255, .25);\n  font-size: 1.25em;\n}\n\n/* LINK STYLING */\n\n.Home_link_RhC {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.Home_link_RhC, .Home_link_RhC:active, .Home_link_RhC:visited{\n  color: rgba(0, 0, 0, .5);\n}\n\n.Home_link_RhC:hover {\n  color: rgba(0, 0, 0, 1);\n}\n\n.Home_highlight_3Xr {\n  padding: 25px;\n  border-radius: 5px;\n  background: rgba(135, 206, 250, .7);\n  color: #fff;\n}\n\n.Home_highlight_3Xr:hover {\n  background: rgba(135, 206, 250, 1);\n}\n", "", {"version":3,"sources":["/./src/components/variables.scss","/./src/routes/home/Home.scss"],"names":[],"mappings":"AAAA;;gFAEgF;;AAGxB,UAAU;;AACV,aAAa;;AACb,UAAU;;AACV,UAAU;;AACV,UAAU;;AAElE;;gFAEgF;;AAIhF;;gFAEgF;;AAIhF;;gFAEgF;;AAEhD,gCAAgC;;AAChC,2BAA2B;;AAC3B,6BAA6B;;AAC7B,iCAAiC;;AAEjE;;gFAEgF;;AChChF,uBAAuB;;AACvB;EACE,WAAW;CACZ;;AAED,aAAa;;AACb;EACE,WAAW;EACX,kBAAkB;EAClB,gDAA2C;EAC3C,iCAAyB;UAAzB,yBAAyB;EACzB,6BAA6B;EAC7B,kBAAc;EAAd,cAAc;EACd,8BAAmC;MAAnC,mCAAmC;EACnC,+DAAoE;MAApE,oEAAoE;CACrE;;AAED;EACE,uBAAwB;EAAxB,mBAAwB;MAAxB,wBAAwB;EACxB,gBAAY;MAAZ,YAAY;CACb;;AAED;EACE,yDAA+B;EAC/B,YAAY;EACZ,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB,CAAC,gBAAgB;CACtC;;AAED;EACE,YAAY;;CAEb;;AAED;EACE,gCAAgC;EAChC,kBAAkB;CACnB;;AAED,kBAAkB;;AAClB;EACE,sBAAsB;EACtB,gBAAgB;CACjB;;AAED;EAGE,yBAAyB;CAC1B;;AAED;EACE,wBAAwB;CACzB;;AAED;EACE,cAAc;EACd,mBAAmB;EACnB,oCAAoC;EACpC,YAAY;CACb;;AAED;EACE,mCAAmC;CACpC","file":"Home.scss","sourcesContent":["/*\n * Colors\n * ========================================================================== */\n\n$white-base:            hsl(255, 255, 255);\n$gray-darker:           color(black lightness(+13.5%)); /* #222 */\n$gray-dark:             color(black lightness(+25%));   /* #404040 */\n$gray:                  color(black lightness(+33.5%)); /* #555 */\n$gray-light:            color(black lightness(+46.7%)); /* #777 */\n$gray-lighter:          color(black lightness(+93.5%)); /* #eee */\n\n/*\n * Typography\n * ========================================================================== */\n\n$font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n/*\n * Layout\n * ========================================================================== */\n\n$max-content-width:     1000px;\n\n/*\n * Media queries breakpoints\n * ========================================================================== */\n\n$screen-xs-min:         480px;  /* Extra small screen / phone */\n$screen-sm-min:         768px;  /* Small screen / tablet */\n$screen-md-min:         992px;  /* Medium screen / desktop */\n$screen-lg-min:         1200px; /* Large screen / wide desktop */\n\n/*\n * Animations\n * ========================================================================== */\n\n$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;\n","@import '../../components/variables.scss';\n\n/* GRID DEFINITION x */\n.root {\n  width:100%;\n}\n\n/* STYLING */\n.container {\n  width:100%;\n  min-height: 50rem;\n  background-image: url(\"./theArtisan.jpeg\");\n  background-size: contain;\n  background-repeat: no-repeat;\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;\n}\n\n.findButton{\n  grid-column: 2 / span 1;\n  grid-row: 1;\n}\n\nh1 {\n  font-family: $font-family-base;\n  margin: 0px;\n  font-weight: 100;\n  font-size: 4rem;\n}\n\n.banner {\n  padding: 30px 0px;\n  text-align: center;\n  background: #954627; /* Warm Brown */\n}\n\n.bannerTitle {\n  color: #FFF;\n\n}\n\n.bannerDesc {\n  color: rgba(255, 255, 255, .25);\n  font-size: 1.25em;\n}\n\n/* LINK STYLING */\n.link {\n  text-decoration: none;\n  font-size: 18px;\n}\n\n.link,\n.link:active,\n.link:visited{\n  color: rgba(0, 0, 0, .5);\n}\n\n.link:hover {\n  color: rgba(0, 0, 0, 1);\n}\n\n.highlight {\n  padding: 25px;\n  border-radius: 5px;\n  background: rgba(135, 206, 250, .7);\n  color: #fff;\n}\n\n.highlight:hover {\n  background: rgba(135, 206, 250, 1);\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
   	"root": "Home_root_qf4",
   	"container": "Home_container_2AB",
+  	"findButton": "Home_findButton_3Ly",
   	"banner": "Home_banner_3pg",
   	"bannerTitle": "Home_bannerTitle_3Jg",
   	"bannerDesc": "Home_bannerDesc_xBe",
   	"link": "Home_link_RhC",
-  	"highlight": "Home_highlight_3Xr",
-  	"spacer": "Home_spacer_2ay"
+  	"highlight": "Home_highlight_3Xr"
   };
 
 /***/ }),
@@ -5575,7 +5576,7 @@ module.exports =
 /* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  var jade = __webpack_require__(21);
+  var jade = __webpack_require__(22);
   
   module.exports = function template(locals) {
   var jade_debug = [ new jade.DebugItem( 1, "/Users/nancyloyd-leffingwell/Desktop/KU_REPOS/Artisans-Relaunch/src/views/error.jade" ) ];
@@ -5863,7 +5864,7 @@ module.exports =
 /* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
-  var jade = __webpack_require__(21);
+  var jade = __webpack_require__(22);
   
   module.exports = function template(locals) {
   var jade_debug = [ new jade.DebugItem( 1, "/Users/nancyloyd-leffingwell/Desktop/KU_REPOS/Artisans-Relaunch/src/views/index.jade" ) ];

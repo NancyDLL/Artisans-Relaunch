@@ -12,6 +12,14 @@
   background-image: url("./theArtisan.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.findButton{
+  grid-column: 2 / span 1;
+  grid-row: 1;
 }
 
 h1 {
@@ -33,38 +41,8 @@ h1 {
 }
 
 .bannerDesc {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .25);
   font-size: 1.25em;
-}
-
-img {
-    height: auto;
-    max-width: 100%;
-}
-
-/* LINK STYLING */
-.link {
-  text-decoration: none;
-  font-size: 18px;
-  color: rgba(255, 255, 255, .6);
-  &:hover {
-    color: rgba(255, 255, 255, 1);
-  }
-}
-
-.highlight {
-  padding: 5px;
-  border-radius: 3px;
-  background: rgba(0, 0, 0, .5);
-  color: #fff;
-
-  &:hover {
-    background: darken($baseColor, 5%);
-  }
-}
-
-.spacer {
-  color: rgba(255, 255, 255, .3);
 }
 
 /* LINK STYLING */
@@ -75,25 +53,21 @@ img {
 
 .link,
 .link:active,
-.link:visited {
-  color: rgba(255, 255, 255, .6);
+.link:visited{
+  color: rgba(0, 0, 0, .5);
 }
 
 .link:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 .highlight {
-  padding: 5px;
-  border-radius: 3px;
-  background: rgba(0, 0, 0, .5);
+  padding: 25px;
+  border-radius: 5px;
+  background: rgba(135, 206, 250, .7);
   color: #fff;
 }
 
 .highlight:hover {
-  background: rgba(0, 0, 0, .3);
-}
-
-.spacer {
-  color: rgba(255, 255, 255, .3);
+  background: rgba(135, 206, 250, 1);
 }

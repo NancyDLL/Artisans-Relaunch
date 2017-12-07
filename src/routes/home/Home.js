@@ -3,6 +3,7 @@
 import React, { PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.scss';
+import cx from 'classnames';
 import Link from '../../components/Link';
 
 function Home({ news }) {
@@ -13,11 +14,10 @@ function Home({ news }) {
         <p className={s.bannerDesc}>Facilitating a better contractor experience.</p>
       </div>
       <div className={s.container}>
-      <div className={s.findReview}>
-        <Link className={s.link} to="/find-artisan">Find an Artisan</Link>
+        <div className={s.findButton}>
+          <Link className={cx(s.link, s.highlight)} to="/find-artisan">Find an Artisan</Link>
+        </div>
       </div>
-      </div>
-
     </div>
   );
 }

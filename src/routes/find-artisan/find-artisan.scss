@@ -55,39 +55,67 @@
     }
 
 .bizCatTitle {
+  color: #481D0C;
   grid-column: 1 / span 6;
   grid-row: 3;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .bizPanel {
  grid-column: 2 / span 4;
  grid-row: 4;
- padding-top: 25px;
+ padding-top: 30px;
  display: grid; /* grid defined for biz */
  grid-template-columns: 1fr 1fr 1fr;
  grid-gap: 10px;
 }
 .biz1 {
   padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   grid-column: 1;
+  border-radius: 10px;
+  background: rgba(135, 206, 250, .85);
+  cursor: pointer;
+}
+
+.biz1:hover {
+  background: rgba(135, 206, 250, 1);
 }
 
 .biz2 {
   padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   grid-column: 2;
+  border-radius: 10px;
+  background: rgba(135, 206, 250, .85);
+  cursor: pointer;
+}
+
+.biz2:hover {
+  background: rgba(135, 206, 250, 1);
 }
 
 .biz3 {
   padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   grid-column: 3;
+  border-radius: 10px;
+  background: rgba(135, 206, 250, .85);
+  cursor: pointer;
+}
+
+.biz3:hover {
+  background: rgba(135, 206, 250, 1);
 }
 
 /* TEXT STYLING */
@@ -104,22 +132,27 @@ h1 {
 
 h2 {
   font-size: 1.75em;
+    color: #484848; /* Grey */
 }
 
 h3 {
   text-align: center;
   font-size: 1.5em;
+  color: #484848; /* Grey */
 }
 
 h4 {
   font-family: $font-family-serif;
   font-weight: normal;
   font-size: 1.25em;
+  color: #484848; /* Grey */
 }
 
 h5 {
  font-size: 0.75em;
  text-align: center;
+ padding-bottom: 20px;
+ color: #484848; /* Grey */
 }
 
 /* BUTTON STYLING */

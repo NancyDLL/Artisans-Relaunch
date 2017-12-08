@@ -2,15 +2,15 @@
 
 /* GRID DEFINITION x */
 .root {
-  width:100%;
+
 }
 
-/* STYLING */
+/* STYLING 100% 100% */
 .container {
   width:100%;
   height: 100%;
-  background-image: url("./theArtisan.jpeg");
-  background-size: cover;
+  background-image: url("./theArtisan3.png");
+  background-size: contain;
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -48,6 +48,7 @@ h1 {
   padding: 25px;
   border-radius: 10px;
   background: rgba(135, 206, 250, .85);
+  cursor: pointer;
 }
 
 .findButton:hover {

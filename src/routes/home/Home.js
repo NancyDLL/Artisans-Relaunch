@@ -1,4 +1,4 @@
-/* small change x */
+/* document.querySelector('.Home_link_RhC').click(); */
 
 import React, { PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';

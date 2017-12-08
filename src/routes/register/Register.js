@@ -11,7 +11,7 @@ function Login({ title }) {
         <h1 className={s.title}>Welcome to Artisans!</h1>
         <form className={s.loginForm}>
           <label className={s.email}>Email</label>
-          <input className={s.emailBox} type="text" placeholder="Enter your email" name="email" required />
+          <input className={s.emailBox} type="email" placeholder="Enter your email" name="email" required />
           <label className={s.usrname}>Username</label>
           <input className={s.usrnameBox} type="text" placeholder="Create your Username" name="username" required />
           <label className={s.pssword}>Password</label>

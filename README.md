@@ -29,4 +29,3 @@ KU Coding Bootcamp final project.
 1. Delphine Dara, SME Africa and Data
 1. Nan Loyd-Leffingwell, Front-End Development (Scaffolding, React, SASS) and documentation
 1. Joann Do, SEO and Google Analytics
-1. Michael Curnes, Passport.js
